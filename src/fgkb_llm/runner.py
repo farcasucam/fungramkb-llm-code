@@ -117,6 +117,17 @@ def write_manifest(cfg: dict, config_path: str, out_path: Path) -> Path:
     return path
 
 
+def make_encoder(cfg: dict):
+    """Dense retriever for R1/R2 when the config asks for one (``retriever: {kind: dense, model, device}``);
+    None = TF-IDF. Shared by the runner and scripts/rerun_truncated.py so both build the same contexts."""
+    rcfg = cfg.get("retriever") or {}
+    if rcfg.get("kind") != "dense":
+        return None
+    from .retrieval import DenseEncoder
+
+    return DenseEncoder(rcfg.get("model", "intfloat/multilingual-e5-base"), rcfg.get("device", "cpu"))
+
+
 def run(config_path: str, redo: list[str] | None = None) -> Path:
     cfg = yaml.safe_load(Path(config_path).read_text(encoding="utf-8"))
     if redo:
@@ -151,12 +162,7 @@ def run(config_path: str, redo: list[str] | None = None) -> Path:
         items = [i for i in items if (i.pair_id or i.id) in keep]
     from .conditions.prompts import ABLATIONS
 
-    encoder = None
-    rcfg = cfg.get("retriever") or {}
-    if rcfg.get("kind") == "dense":  # dense R1/R2 (sentence-transformers, CPU by default)
-        from .retrieval import DenseEncoder
-
-        encoder = DenseEncoder(rcfg.get("model", "intfloat/multilingual-e5-base"), rcfg.get("device", "cpu"))
+    encoder = make_encoder(cfg)
     ctx = ContextBuilder(kb, budget_tokens=int(cfg.get("budget_tokens", 1500)),
                          modules=dict(ABLATIONS[cfg.get("ablation", "+cognicon")]), encoder=encoder)
     g = cfg.get("gen", {})

@@ -91,3 +91,12 @@ def test_dense_retriever_with_fake_encoder(monkeypatch):
     assert calls[0][0].startswith("passage: ") and calls[1][0].startswith("query: ")
     Retriever(docs + [Doc("a bird can swim", "+BIRD_00")], encoder=enc)  # only the new document is embedded
     assert calls[2] == ["passage: a bird can swim"]
+
+
+def test_make_encoder_from_config():
+    from fgkb_llm.retrieval import DenseEncoder
+    from fgkb_llm.runner import make_encoder
+
+    assert make_encoder({}) is None
+    enc = make_encoder({"retriever": {"kind": "dense", "model": "intfloat/multilingual-e5-base"}})
+    assert isinstance(enc, DenseEncoder) and enc.e5

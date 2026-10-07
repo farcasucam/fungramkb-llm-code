@@ -21,6 +21,7 @@ from fgkb_llm.conditions.prompts import ABLATIONS, ContextBuilder
 from fgkb_llm.eval.parse import parse_answer
 from fgkb_llm.kb.loaders import load_json
 from fgkb_llm.llm.backends import GenConfig, make_backend
+from fgkb_llm.runner import make_encoder
 
 
 def _retry(fn, attempts: int = 8):
@@ -55,7 +56,7 @@ def main(argv=None):
     kb = load_json(cfg["kb"])
     items = {i.id: i for i in read_jsonl(cfg["benchmark"])}
     ctx = ContextBuilder(kb, budget_tokens=int(cfg.get("budget_tokens", 1500)),
-                         modules=dict(ABLATIONS[cfg.get("ablation", "+cognicon")]))
+                         modules=dict(ABLATIONS[cfg.get("ablation", "+cognicon")]), encoder=make_encoder(cfg))
     g = cfg.get("gen", {})
     backends = {}
     t0, done = time.time(), 0
