@@ -1,0 +1,2189 @@
+[
+ {
+  "id": "+ORGANISM_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "*(e1: +EXIST_00 (x1)Theme (f1: +LONG_00)Duration) +(e2: +BE_01 (x1)Theme (x2: +ALIVE_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A living thing."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "organism",
+   "es": "organismo"
+  }
+ },
+ {
+  "id": "+ANIMAL_00",
+  "parents": [
+   "+ORGANISM_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +ANIMAL_00)Theme (x2: +ORGANISM_00)Referent) *(e2: +MOVE_00 (x1)Agent (x1)Theme (x3)Location (x4)Origin (x5)Goal) +(e3: +INGEST_00 (x1)Agent (x6: +FOOD_00)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A living being that can move and eats food."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "animal",
+   "es": "animal"
+  }
+ },
+ {
+  "id": "+PLANT_00",
+  "parents": [
+   "+ORGANISM_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +PLANT_00)Theme (x2: +ORGANISM_00)Referent) +(e2: n +MOVE_00 (x1)Agent (x1)Theme (x3)Location (x4)Origin (x5)Goal) *(e3: +GROW_00 (x1)Theme (f1: +SOIL_00)Location)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A living thing that grows in the ground."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "plant",
+   "es": "planta"
+  }
+ },
+ {
+  "id": "+BACTERIA_00",
+  "parents": [
+   "+ORGANISM_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +BACTERIA_00)Theme (x2: +ORGANISM_00)Referent) +(e2: +BE_01 (x1)Theme (x3: +SMALL_00)Attribute) *(e3: +CAUSE_00 (x1)Theme (x4: +ILLNESS_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Very small organisms that can cause illness."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "bacteria",
+   "es": "bacteria"
+  }
+ },
+ {
+  "id": "+MAN_00",
+  "parents": [
+   "+HUMAN_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +MAN_00)Theme (x2: +HUMAN_00)Referent) +(e2: +BE_01 (x1)Theme (x3: +MALE_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "An adult male human."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "man",
+   "es": "hombre"
+  }
+ },
+ {
+  "id": "+CHILD_00",
+  "parents": [
+   "+HUMAN_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +CHILD_00)Theme (x2: +HUMAN_00)Referent) +(e2: +BE_01 (x1)Theme (x3: +YOUNG_00)Attribute) *(e3: +NEED_00 (x1)Theme (x4: +PROTECTION_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A young human who needs protection."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "child",
+   "es": "niño"
+  }
+ },
+ {
+  "id": "+CUSTOMER_00",
+  "parents": [
+   "+HUMAN_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +CUSTOMER_00)Theme (x2: +HUMAN_00)Referent) +(e2: +BUY_00 (x1)Agent (x3: +PRODUCT_00)Theme (x4)Origin (x1)Goal)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A person who buys products."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "customer",
+   "es": "cliente"
+  }
+ },
+ {
+  "id": "+ARMY_00",
+  "parents": [
+   "+GROUP_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +ARMY_00)Theme (x2: +GROUP_00)Referent) +(e2: +COMPRISE_00 (x1)Theme (x3: m +SOLDIER_00)Referent) *(e3: +DEFEND_00 (x1)Agent (x4: +COUNTRY_00)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A large organised group of soldiers that defends a country."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "army",
+   "es": "ejército"
+  }
+ },
+ {
+  "id": "+SOLDIER_00",
+  "parents": [
+   "+HUMAN_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +SOLDIER_00)Theme (x2: +HUMAN_00)Referent) *(e2: +USE_00 (x1)Theme (x3: +WEAPON_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A person who serves in an army."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "soldier",
+   "es": "soldado"
+  }
+ },
+ {
+  "id": "+GOVERNMENT_00",
+  "parents": [
+   "+GROUP_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +GOVERNMENT_00)Theme (x2: +GROUP_00)Referent) +(e2: +CONTROL_00 (x1)Theme (x3: +COUNTRY_00)Referent) +(e3: +CREATE_00 (x1)Theme (x4: m +LAW_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The group of people who control a country and make its laws."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "government",
+   "es": "gobierno"
+  }
+ },
+ {
+  "id": "+COUNTRY_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +COUNTRY_00)Theme (x2: +PLACE_00)Referent) +(e2: +HAVE_00 (x1)Theme (x3: +GOVERNMENT_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A place with its own government."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "country",
+   "es": "país"
+  }
+ },
+ {
+  "id": "+TOWN_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +TOWN_00)Theme (x2: +PLACE_00)Referent) +(e2: +COMPRISE_00 (x1)Theme (x3: m +BUILDING_00)Referent) *(e3: +LIVE_00 (x4: m +HUMAN_00)Theme (x1)Location)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A place with many buildings where people live."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "town",
+   "es": "pueblo"
+  }
+ },
+ {
+  "id": "+COUNTRYSIDE_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +COUNTRYSIDE_00)Theme (x2: +PLACE_00)Referent) *(e2: +COMPRISE_00 (x1)Theme (x3: m +PLANT_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Land outside towns, with many plants."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "countryside",
+   "es": "campo"
+  }
+ },
+ {
+  "id": "+COAST_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +COAST_00)Theme (x2: +PLACE_00)Referent) +(e2: +BE_02 (x1)Theme (x3: +SEA_00)Location (f1: +NEAR_00)Position)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Land next to the sea."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "coast",
+   "es": "costa"
+  }
+ },
+ {
+  "id": "+ROAD_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +ROAD_00)Theme (x2: +PLACE_00)Referent) *(e2: +MOVE_00 (x3: +VEHICLE_00)Agent (x3)Theme (x1)Location (x4)Origin (x5)Goal)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A way on which vehicles travel."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "road",
+   "es": "carretera"
+  }
+ },
+ {
+  "id": "+SKY_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +SKY_00)Theme (x2: +PLACE_00)Referent) +(e2: +BE_02 (x1)Theme (x3: +EARTH_00)Location (f1: +ABOVE_00)Position)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The space above the earth."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "sky",
+   "es": "cielo"
+  }
+ },
+ {
+  "id": "$FRONTIER_00",
+  "parents": [
+   "+PLACE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: $FRONTIER_00)Theme (x2: +PLACE_00)Referent) +(e2: +SEPARATE_00 (x1)Theme (x3: 2 +COUNTRY_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The line that separates two countries."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "frontier",
+   "es": "frontera"
+  }
+ },
+ {
+  "id": "+BUILDING_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +BUILDING_00)Theme (x2: +ARTEFACT_00)Referent) +(e2: +COMPRISE_00 (x1)Theme (x3: m +WALL_00)Referent) *(e3: +LIVE_00 (x4: +HUMAN_00)Theme (x1)Location)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A structure with walls where people live or work."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "building",
+   "es": "edificio"
+  }
+ },
+ {
+  "id": "+ARTEFACT_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +CREATE_00 (x2: +HUMAN_00)Theme (x1)Referent) *(e2: +USE_00 (x2)Theme (x1)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "An object made by humans."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "artefact",
+   "es": "artefacto"
+  }
+ },
+ {
+  "id": "+COMPUTER_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +COMPUTER_00)Theme (x2: +ARTEFACT_00)Referent) +(e2: +STORE_00 (x1)Agent (x3: +INFORMATION_00)Theme) *(e3: +USE_00 (x4: +HUMAN_00)Theme (x1)Referent (f1: +WORK_00)Purpose)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "An electronic machine that stores information."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "computer",
+   "es": "ordenador"
+  }
+ },
+ {
+  "id": "+BOTTLE_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +BOTTLE_00)Theme (x2: +ARTEFACT_00)Referent) *(e2: +CONTAIN_00 (x1)Theme (x3: +LIQUID_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A container for liquids."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "bottle",
+   "es": "botella"
+  }
+ },
+ {
+  "id": "+CLOTH_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +CLOTH_00)Theme (x2: +ARTEFACT_00)Referent) *(e2: +BURN_00 (x1)Theme (f1: +EASY_00)Manner)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Material made of woven fibres; it burns easily."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "cloth",
+   "es": "tela"
+  }
+ },
+ {
+  "id": "+WEAPON_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +WEAPON_00)Theme (x2: +ARTEFACT_00)Referent) +(e2: +USE_00 (x3: +HUMAN_00)Theme (x1)Referent (f1: (e3: +HURT_00 (x3)Agent (x4: +HUMAN_00)Theme))Purpose)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "An object used to hurt people."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "weapon",
+   "es": "arma"
+  }
+ },
+ {
+  "id": "+VEHICLE_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +VEHICLE_00)Theme (x2: +ARTEFACT_00)Referent) +(e2: +TRANSPORT_00 (x1)Agent (x3: +HUMAN_00 | +PRODUCT_00)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A machine that carries people or goods."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "vehicle",
+   "es": "vehículo"
+  }
+ },
+ {
+  "id": "+PRODUCT_00",
+  "parents": [
+   "+ARTEFACT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +PRODUCT_00)Theme (x2: +ARTEFACT_00)Referent) *(e2: +SELL_00 (x3: +HUMAN_00)Agent (x1)Theme (x3)Origin (x4: +CUSTOMER_00)Goal)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Something that is made to be sold."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "product",
+   "es": "producto"
+  }
+ },
+ {
+  "id": "+SUBSTANCE_CHEM_00",
+  "parents": [
+   "+SUBSTANCE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +SUBSTANCE_CHEM_00)Theme (x2: +SUBSTANCE_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "chemical",
+   "es": "sustancia química"
+  }
+ },
+ {
+  "id": "+LIQUID_00",
+  "parents": [
+   "+SUBSTANCE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +LIQUID_00)Theme (x2: +SUBSTANCE_00)Referent) *(e2: +FLOW_00 (x1)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A substance that flows."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "liquid",
+   "es": "líquido"
+  }
+ },
+ {
+  "id": "+ALCOHOL_00",
+  "parents": [
+   "+LIQUID_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +ALCOHOL_00)Theme (x2: +LIQUID_00)Referent) +(e2: +INGEST_00 (x3: +HUMAN_00)Agent (x1)Theme) *(e3: +CAUSE_00 (x1)Theme (x4: +DRUNK_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A liquid people drink that can make them drunk."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "alcohol",
+   "es": "alcohol"
+  }
+ },
+ {
+  "id": "+PETROL_00",
+  "parents": [
+   "+LIQUID_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +PETROL_00)Theme (x2: +LIQUID_00)Referent) +(e2: +BURN_00 (x1)Theme (f1: +EASY_00)Manner) *(e3: +USE_00 (x3: +VEHICLE_00)Theme (x1)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A liquid fuel for vehicles that burns easily."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "petrol",
+   "es": "gasolina"
+  }
+ },
+ {
+  "id": "+TOBACCO_00",
+  "parents": [
+   "+PLANT_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +TOBACCO_00)Theme (x2: +PLANT_00)Referent) *(e2: +SMOKE_01 (x3: +HUMAN_00)Agent (x1)Theme) *(e3: +CAUSE_00 (x1)Theme (x4: +ILLNESS_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A plant whose leaves people smoke."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "tobacco",
+   "es": "tabaco"
+  }
+ },
+ {
+  "id": "+METAL_00",
+  "parents": [
+   "+SUBSTANCE_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +METAL_00)Theme (x2: +SUBSTANCE_00)Referent) +(e2: +BE_01 (x1)Theme (x3: +HARD_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A hard substance such as iron."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "metal",
+   "es": "metal"
+  }
+ },
+ {
+  "id": "+BODY_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_02 (x1)Theme (x2: +ORGANISM_00)Location) +(e2: +COMPRISE_00 (x1)Theme (x3: m +ORGAN_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The physical structure of an organism."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "body",
+   "es": "cuerpo"
+  }
+ },
+ {
+  "id": "+HAND_00",
+  "parents": [
+   "+BODY_PART_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +HAND_00)Theme (x2: +BODY_PART_00)Referent) +(e2: +COMPRISE_00 (x1)Theme (x3: 5 +FINGER_00)Referent) *(e3: +HOLD_00 (x4: +HUMAN_00)Theme (x5)Referent (f1: x1)Instrument)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The part of the body at the end of the arm used to hold things."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "hand",
+   "es": "mano"
+  }
+ },
+ {
+  "id": "+NOSE_00",
+  "parents": [
+   "+BODY_PART_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +NOSE_00)Theme (x2: +BODY_PART_00)Referent) *(e2: +SMELL_00 (x3: +ANIMAL_00)Theme (x4)Referent (f1: x1)Means)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The part of the face used to smell."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "nose",
+   "es": "nariz"
+  }
+ },
+ {
+  "id": "+BODY_PART_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_02 (x1)Theme (x2: +BODY_00)Location (f1: +IN_00)Position)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "body part",
+   "es": "parte del cuerpo"
+  }
+ },
+ {
+  "id": "+ILLNESS_00",
+  "parents": [
+   "#PROCESS"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +AFFECT_00 (x1)Theme (x2: +ORGANISM_00)Referent) *(e2: +HURT_00 (x1)Agent (x2)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A state of the body in which an organism is not healthy."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "illness",
+   "es": "enfermedad"
+  }
+ },
+ {
+  "id": "+FIRE_01",
+  "parents": [
+   "#PROCESS"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BURN_00 (x1)Theme) *(e2: +DAMAGE_00 (x1)Agent (x2: +BUILDING_00 | +PLANT_00)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Burning that damages things."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "fire",
+   "es": "incendio"
+  }
+ },
+ {
+  "id": "+SOUND_00",
+  "parents": [
+   "#PROCESS"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +PERCEIVE_00 (x2: +ANIMAL_00)Theme (x1)Referent (f1: +EAR_00)Means)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Something that is heard."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "sound",
+   "es": "sonido"
+  }
+ },
+ {
+  "id": "+MARK_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_02 (x1)Theme (x2: +SURFACE_00)Location (f1: +ON_00)Position) *(e2: +SEE_00 (x3: +HUMAN_00)Theme (x1)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A visible sign on a surface."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "mark",
+   "es": "marca"
+  }
+ },
+ {
+  "id": "+OCCURRENCE_00",
+  "parents": [
+   "#PROCESS"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +HAPPEN_00 (x1)Theme)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Something that happens."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "event",
+   "es": "suceso"
+  }
+ },
+ {
+  "id": "+CORPUSCULAR_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_01 (x1)Theme (x2: +SMALL_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "particle",
+   "es": "partícula"
+  }
+ },
+ {
+  "id": "+LAW_00",
+  "parents": [
+   "#PROPOSITION"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +CREATE_00 (x2: +GOVERNMENT_00)Theme (x1)Referent) +(e2: +SAY_00 (x1)Theme (x3: (e3: obl +DO_00 (x4: +HUMAN_00)Theme (x5)Referent))Referent) *(e4: +PUNISH_00 (x2)Agent (x4)Theme (f1: (e5: n +DO_00 (x4)Theme (x5)Referent))Reason)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A rule made by a government that people must obey."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "law",
+   "es": "ley"
+  }
+ },
+ {
+  "id": "+CUSTOM_00",
+  "parents": [
+   "#PROPOSITION"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "*(e1: +DO_00 (x2: m +HUMAN_00)Theme (x1)Referent (f1: +AGAIN_00)Frequency)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Something people usually do."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "custom",
+   "es": "costumbre"
+  }
+ },
+ {
+  "id": "+PLAN_00",
+  "parents": [
+   "#PROPOSITION"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +THINK_00 (x2: +HUMAN_00)Theme (x1)Referent) *(e2: fut +DO_00 (x2)Theme (x1)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Something a person thinks about doing in the future."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "plan",
+   "es": "plan"
+  }
+ },
+ {
+  "id": "+THOUGHT_00",
+  "parents": [
+   "#PROPOSITION"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +THINK_00 (x2: +HUMAN_00)Theme (x1)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "thought",
+   "es": "pensamiento"
+  }
+ },
+ {
+  "id": "+QUESTION_00",
+  "parents": [
+   "#PROPOSITION"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +SAY_00 (x2: +HUMAN_00)Theme (x1)Referent (x3: +HUMAN_00)Goal (f1: (e2: +KNOW_00 (x2)Theme (x4: +INFORMATION_00)Referent))Purpose)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Something said to get information."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "question",
+   "es": "pregunta"
+  }
+ },
+ {
+  "id": "+TAX_00",
+  "parents": [
+   "#ABSTRACT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +PAY_00 (x2: +HUMAN_00 | +COMPANY_00)Agent (x3: +MONEY_00)Theme (x2)Origin (x4: +GOVERNMENT_00)Goal) +(e2: +BE_01 (x1)Theme (x5: +LEGAL_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Money that people must pay to the government."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "tax",
+   "es": "impuesto"
+  }
+ },
+ {
+  "id": "+MONEY_00",
+  "parents": [
+   "#SELF_CONNECTED_OBJECT"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +USE_00 (x2: +HUMAN_00)Theme (x1)Referent (f1: (e2: +BUY_00 (x2)Agent (x3: +PRODUCT_00)Theme))Purpose)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "What people use to buy things."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "money",
+   "es": "dinero"
+  }
+ },
+ {
+  "id": "+COMPANY_00",
+  "parents": [
+   "+GROUP_00"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_00 (x1: +COMPANY_00)Theme (x2: +GROUP_00)Referent) *(e2: +SELL_00 (x1)Agent (x3: +PRODUCT_00)Theme (x1)Origin (x4: +CUSTOMER_00)Goal)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "An organisation that sells products."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "company",
+   "es": "empresa"
+  }
+ },
+ {
+  "id": "+HATRED_00",
+  "parents": [
+   "#PSYCHOLOGICAL"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +FEEL_00 (x2)Agent (x3: +HUMAN_00)Theme (x1)Attribute) *(e2: +CAUSE_00 (x1)Theme (x4: +VIOLENCE_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "A strong feeling against someone that can cause violence."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "hatred",
+   "es": "odio"
+  }
+ },
+ {
+  "id": "+FEAR_00",
+  "parents": [
+   "#PSYCHOLOGICAL"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +FEEL_00 (x2)Agent (x3: +ANIMAL_00)Theme (x1)Attribute) *(e2: +ESCAPE_00 (x3)Agent (x3)Theme (x4)Origin (x5)Goal)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "The feeling caused by danger; it makes animals escape."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "fear",
+   "es": "miedo"
+  }
+ },
+ {
+  "id": "+STRENGTH_00",
+  "parents": [
+   "#ATTRIBUTE"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_01 (x2: +ORGANISM_00)Theme (x3: +STRONG_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "strength",
+   "es": "fuerza"
+  }
+ },
+ {
+  "id": "+SEX_00",
+  "parents": [
+   "#PROCESS"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +DO_00 (x2: 2 +HUMAN_00 | 2 +ANIMAL_00)Theme (x1)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "sex",
+   "es": "sexo"
+  }
+ },
+ {
+  "id": "+PERIOD_00",
+  "parents": [
+   "#TIME"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BE_01 (x1)Theme (x2: +LONG_01)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "period",
+   "es": "periodo"
+  }
+ },
+ {
+  "id": "+DAMAGE_01",
+  "parents": [
+   "#PROCESS"
+  ],
+  "semantic_type": "entity",
+  "meaning_postulate": "+(e1: +BECOME_00 (x2)Theme (x3: +BAD_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "damage",
+   "es": "daño"
+  }
+ },
+ {
+  "id": "+LEGAL_00",
+  "parents": [
+   "#SOCIAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "*(e1: +BE_01 (x2)Theme (x1)Attribute) +(e2: +ALLOW_00 (x3: +LAW_00)Theme (x2)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Allowed by the law."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "legal",
+   "es": "legal"
+  }
+ },
+ {
+  "id": "$LEGAL_N_00",
+  "parents": [
+   "+LEGAL_00"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: n +BE_01 (x2)Theme (x3: +LEGAL_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Not allowed by the law."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "illegal",
+   "es": "ilegal"
+  }
+ },
+ {
+  "id": "+SECRET_00",
+  "parents": [
+   "#SOCIAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: n +KNOW_00 (x2: m +HUMAN_00)Theme (x3)Referent)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Not known by most people."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "secret",
+   "es": "secreto"
+  }
+ },
+ {
+  "id": "+VIOLENT_00",
+  "parents": [
+   "#BEHAVIOURAL"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: +USE_00 (x2: +HUMAN_00)Theme (x3: +STRENGTH_00)Referent (f1: (e2: +HURT_00 (x2)Agent (x4: +ORGANISM_00)Theme))Purpose)",
+  "thematic_frame": null,
+  "glosses": {
+   "en": "Using force to hurt someone."
+  },
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "violent",
+   "es": "violento"
+  }
+ },
+ {
+  "id": "+SMALL_00",
+  "parents": [
+   "#PHYSICAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "*(e1: +BE_01 (x2)Theme (x1)Attribute) +(e2: +BE_01 (x2)Theme (x3: +SIZE_00)Referent) +(e3: n +BE_01 (x2)Theme (x4: +BIG_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "small",
+   "es": "pequeño"
+  }
+ },
+ {
+  "id": "+BIG_00",
+  "parents": [
+   "#PHYSICAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "*(e1: +BE_01 (x2)Theme (x1)Attribute) +(e2: +BE_01 (x2)Theme (x3: +SIZE_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "big",
+   "es": "grande"
+  }
+ },
+ {
+  "id": "+LONG_00",
+  "parents": [
+   "#PHYSICAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "*(e1: +BE_01 (x2)Theme (x1)Attribute) +(e2: +BE_01 (x2)Theme (x3: +LENGTH_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "long",
+   "es": "largo"
+  }
+ },
+ {
+  "id": "+LONG_01",
+  "parents": [
+   "#TEMPORAL"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "*(e1: +LAST_00 (x2: +OCCURRENCE_00)Theme (f1: m +TIME_00)Duration)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "long (time)",
+   "es": "largo (tiempo)"
+  }
+ },
+ {
+  "id": "+LITTLE_00",
+  "parents": [
+   "#QUANTITATIVE"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: +BE_01 (x2)Theme (x3: p +QUANTITY_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "little",
+   "es": "poco"
+  }
+ },
+ {
+  "id": "+STRONG_00",
+  "parents": [
+   "#PHYSICAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: +HAVE_00 (x2: +ORGANISM_00)Theme (x3: m +STRENGTH_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "strong",
+   "es": "fuerte"
+  }
+ },
+ {
+  "id": "+CALM_00",
+  "parents": [
+   "#PSYCHOLOGICAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: n +FEEL_00 (x2)Agent (x3: +HUMAN_00)Theme (x4: +FEAR_00 | +ANGRY_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "calm",
+   "es": "tranquilo"
+  }
+ },
+ {
+  "id": "+EASY_00",
+  "parents": [
+   "#PSYCHOLOGICAL_"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: n +NEED_00 (x2: +OCCURRENCE_00)Theme (x3: m +EFFORT_00)Referent)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "easy",
+   "es": "fácil"
+  }
+ },
+ {
+  "id": "+IN_00",
+  "parents": [
+   "#SPATIAL"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: +BE_02 (x2)Theme (x3)Location (f1: x1)Position)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "in",
+   "es": "dentro"
+  }
+ },
+ {
+  "id": "+ON_00",
+  "parents": [
+   "#SPATIAL"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: +BE_02 (x2)Theme (x3: +SURFACE_00)Location (f1: x1)Position)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "on",
+   "es": "encima"
+  }
+ },
+ {
+  "id": "+NEAR_00",
+  "parents": [
+   "#SPATIAL"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: n +BE_01 (x2)Theme (x3: +FAR_00)Attribute)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "near",
+   "es": "cerca"
+  }
+ },
+ {
+  "id": "+AGAIN_00",
+  "parents": [
+   "#TEMPORAL"
+  ],
+  "semantic_type": "quality",
+  "meaning_postulate": "+(e1: +HAPPEN_00 (x2: +OCCURRENCE_00)Theme (f1: 2 +TIME_00)Frequency)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "again",
+   "es": "otra vez"
+  }
+ },
+ {
+  "id": "+DO_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "do",
+   "es": "hacer"
+  }
+ },
+ {
+  "id": "+USE_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "use",
+   "es": "usar"
+  }
+ },
+ {
+  "id": "+ATTACK_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "attack",
+   "es": "atacar"
+  }
+ },
+ {
+  "id": "+CREATE_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "create",
+   "es": "crear"
+  }
+ },
+ {
+  "id": "+BURST_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "burst",
+   "es": "estallar"
+  }
+ },
+ {
+  "id": "+SHOOT_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "shoot",
+   "es": "disparar"
+  }
+ },
+ {
+  "id": "+STOP_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "stop",
+   "es": "detener"
+  }
+ },
+ {
+  "id": "+PROTECT_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "protect",
+   "es": "proteger"
+  }
+ },
+ {
+  "id": "+DEFEND_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "defend",
+   "es": "defender"
+  }
+ },
+ {
+  "id": "+CULTIVATE_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "cultivate",
+   "es": "cultivar"
+  }
+ },
+ {
+  "id": "+INCREASE_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "increase",
+   "es": "aumentar"
+  }
+ },
+ {
+  "id": "+CONTROL_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "control",
+   "es": "controlar"
+  }
+ },
+ {
+  "id": "+BUILD_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "build",
+   "es": "construir"
+  }
+ },
+ {
+  "id": "+HELP_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "help",
+   "es": "ayudar"
+  }
+ },
+ {
+  "id": "+HURT_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "hurt",
+   "es": "herir"
+  }
+ },
+ {
+  "id": "+INFECT_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "infect",
+   "es": "infectar"
+  }
+ },
+ {
+  "id": "+DAMAGE_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "damage",
+   "es": "dañar"
+  }
+ },
+ {
+  "id": "+KILL_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": "+(e1: +DO_00 (x1)Theme (x2)Referent (f1: (e2: +DIE_00 (x3: +ORGANISM_00)Theme))Result)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "kill",
+   "es": "matar"
+  }
+ },
+ {
+  "id": "+WORK_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "work",
+   "es": "trabajar"
+  }
+ },
+ {
+  "id": "+HOLD_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "hold",
+   "es": "sujetar"
+  }
+ },
+ {
+  "id": "+ABSORB_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "absorb",
+   "es": "absorber"
+  }
+ },
+ {
+  "id": "+SUCCEED_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "succeed",
+   "es": "lograr"
+  }
+ },
+ {
+  "id": "+THROW_00",
+  "parents": [
+   "#MATERIAL"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "throw",
+   "es": "lanzar"
+  }
+ },
+ {
+  "id": "+GIVE_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "give",
+   "es": "dar"
+  }
+ },
+ {
+  "id": "+TAKE_01",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "take",
+   "es": "tomar"
+  }
+ },
+ {
+  "id": "+SELL_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": "+(e1: +GIVE_00 (x1)Agent (x2)Theme (x3)Origin (x4)Goal (f1: (e2: +PAY_00 (x4)Agent (x5: +MONEY_00)Theme (x4)Origin (x1)Goal))Condition)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "sell",
+   "es": "vender"
+  }
+ },
+ {
+  "id": "+TAKE_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "take away",
+   "es": "llevarse"
+  }
+ },
+ {
+  "id": "+TRANSFER_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "transfer",
+   "es": "transferir"
+  }
+ },
+ {
+  "id": "+PAY_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "pay",
+   "es": "pagar"
+  }
+ },
+ {
+  "id": "+PUT_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "put",
+   "es": "poner"
+  }
+ },
+ {
+  "id": "+LEND_00",
+  "parents": [
+   "#TRANSFER"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": "+(e1: +GIVE_00 (x1)Agent (x2)Theme (x1)Origin (x3)Goal (f1: (e2: fut +GIVE_00 (x3)Agent (x2)Theme (x3)Origin (x1)Goal))Condition)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "lend",
+   "es": "prestar"
+  }
+ },
+ {
+  "id": "+LEAVE_00",
+  "parents": [
+   "#MOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "leave",
+   "es": "salir"
+  }
+ },
+ {
+  "id": "+ESCAPE_00",
+  "parents": [
+   "#MOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "escape",
+   "es": "escapar"
+  }
+ },
+ {
+  "id": "+ENTER_00",
+  "parents": [
+   "#MOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "enter",
+   "es": "entrar"
+  }
+ },
+ {
+  "id": "+TRAVEL_01",
+  "parents": [
+   "#MOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "travel",
+   "es": "viajar"
+  }
+ },
+ {
+  "id": "+MOVE_00",
+  "parents": [
+   "#MOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "move",
+   "es": "moverse"
+  }
+ },
+ {
+  "id": "+JOIN_00",
+  "parents": [
+   "#MOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "join",
+   "es": "unirse"
+  }
+ },
+ {
+  "id": "+SAY_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "say",
+   "es": "decir"
+  }
+ },
+ {
+  "id": "+COMMAND_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "order",
+   "es": "ordenar"
+  }
+ },
+ {
+  "id": "+THREATEN_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "threaten",
+   "es": "amenazar"
+  }
+ },
+ {
+  "id": "+SHOW_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "show",
+   "es": "mostrar"
+  }
+ },
+ {
+  "id": "+REQUEST_01",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "request",
+   "es": "solicitar"
+  }
+ },
+ {
+  "id": "+DEMONSTRATE_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "demonstrate",
+   "es": "manifestarse"
+  }
+ },
+ {
+  "id": "+DESCRIBE_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "describe",
+   "es": "describir"
+  }
+ },
+ {
+  "id": "+WRITE_00",
+  "parents": [
+   "#COMMUNICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "write",
+   "es": "escribir"
+  }
+ },
+ {
+  "id": "+THINK_00",
+  "parents": [
+   "#COGNITION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "think",
+   "es": "pensar"
+  }
+ },
+ {
+  "id": "+CHOOSE_00",
+  "parents": [
+   "#COGNITION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "choose",
+   "es": "elegir"
+  }
+ },
+ {
+  "id": "+KNOW_00",
+  "parents": [
+   "#COGNITION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "know",
+   "es": "saber"
+  }
+ },
+ {
+  "id": "+DECEIVE_00",
+  "parents": [
+   "#COGNITION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "deceive",
+   "es": "engañar"
+  }
+ },
+ {
+  "id": "+WATCH_00",
+  "parents": [
+   "#PERCEPTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "watch",
+   "es": "vigilar"
+  }
+ },
+ {
+  "id": "+EXAMINE_00",
+  "parents": [
+   "#PERCEPTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "examine",
+   "es": "examinar"
+  }
+ },
+ {
+  "id": "+LISTEN_00",
+  "parents": [
+   "#PERCEPTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "listen",
+   "es": "escuchar"
+  }
+ },
+ {
+  "id": "+PERCEIVE_00",
+  "parents": [
+   "#PERCEPTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "perceive",
+   "es": "percibir"
+  }
+ },
+ {
+  "id": "+FIND_00",
+  "parents": [
+   "#PERCEPTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "find",
+   "es": "encontrar"
+  }
+ },
+ {
+  "id": "+SEARCH_00",
+  "parents": [
+   "#PERCEPTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "search",
+   "es": "buscar"
+  }
+ },
+ {
+  "id": "+FEEL_00",
+  "parents": [
+   "#EMOTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "feel",
+   "es": "sentir"
+  }
+ },
+ {
+  "id": "+HAVE_00",
+  "parents": [
+   "#POSSESSION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "have",
+   "es": "tener"
+  }
+ },
+ {
+  "id": "+COMPRISE_00",
+  "parents": [
+   "#CONSTITUTION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "comprise",
+   "es": "constar de"
+  }
+ },
+ {
+  "id": "+EXIST_00",
+  "parents": [
+   "#EXISTENCE"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "exist",
+   "es": "existir"
+  }
+ },
+ {
+  "id": "+REST_00",
+  "parents": [
+   "#EXISTENCE"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "rest",
+   "es": "descansar"
+  }
+ },
+ {
+  "id": "+SLEEP_00",
+  "parents": [
+   "#EXISTENCE"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "sleep",
+   "es": "dormir"
+  }
+ },
+ {
+  "id": "+BE_01",
+  "parents": [
+   "#IDENTIFICATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "be",
+   "es": "ser"
+  }
+ },
+ {
+  "id": "+BE_02",
+  "parents": [
+   "#LOCATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "be located",
+   "es": "estar"
+  }
+ },
+ {
+  "id": "+HIDE_00",
+  "parents": [
+   "#LOCATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "hide",
+   "es": "esconder"
+  }
+ },
+ {
+  "id": "+SMOKE_01",
+  "parents": [
+   "#TRANSFORMATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "smoke",
+   "es": "fumar"
+  }
+ },
+ {
+  "id": "+INGEST_00",
+  "parents": [
+   "#TRANSFORMATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": null,
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "ingest",
+   "es": "ingerir"
+  }
+ },
+ {
+  "id": "+EAT_00",
+  "parents": [
+   "#TRANSFORMATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": "+(e1: +INGEST_00 (x1: +ANIMAL_00)Agent (x2: +FOOD_00)Theme)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "eat",
+   "es": "comer"
+  }
+ },
+ {
+  "id": "+PUNISH_00",
+  "parents": [
+   "#TRANSFORMATION"
+  ],
+  "semantic_type": "event",
+  "meaning_postulate": "+(e1: +DO_00 (x1: +HUMAN_00 | +GOVERNMENT_00)Theme (x2)Referent (f1: (e2: past +DO_00 (x3: +HUMAN_00)Theme (x4: +CRIME_00)Referent))Reason)",
+  "thematic_frame": null,
+  "glosses": {},
+  "provenance": "authored-2026-10-05",
+  "lemmas": {
+   "en": "punish",
+   "es": "castigar"
+  }
+ }
+]

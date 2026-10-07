@@ -1,0 +1,7 @@
+# Target item counts per task (EN+ES twins counted separately). Section 12 of the project script.
+per_task:
+  grounding: 600
+  entailment: 1200
+  multihop: 1200
+  procedural: 600
+  consistency: 600

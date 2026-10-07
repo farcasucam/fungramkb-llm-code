@@ -1,0 +1,15 @@
+{
+  "w2": 1758,
+  "w2_with_lexical_substitution": 172,
+  "w3": 1308,
+  "w3_subject_changed": 165,
+  "w3_groups_dropped": 225,
+  "w3_rejection_reasons": {
+    "focus concept not found by the linker": 77,
+    "number of sentences changed": 4,
+    "generic statement made existential": 127,
+    "negation changed": 38,
+    "last sentence is not a question": 5
+  },
+  "items_in_contrast_subset": 1758
+}

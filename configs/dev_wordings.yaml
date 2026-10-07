@@ -1,0 +1,17 @@
+# Robustness check of the frozen N1P on the PILOT DEV split (allowed before the preregistration: dev only).
+# Wordings of the pilot benchmark: python scripts/make_wordings.py --bench data/processed/fgkb_reason.jsonl \
+#   --out data/processed/fgkb_reason_pilot_wordings.jsonl --paraphrase-cache data/processed/w3_paraphrases_pilot.jsonl ...
+# W1 results for the same items are in results/pilot_spark_vllm.jsonl (G2) and results/dev_n1p.jsonl (N1P).
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason_pilot_wordings.jsonl   # already restricted to the contrast subset
+splits: [dev]
+tasks: [deep]
+budget_tokens: 1500
+conditions: [G2, N1P]
+constrained_decoding: true
+batch_size: 128
+models:
+  - {name: qwen2.5-7b-instruct-bf16, kind: openai, model: "Qwen/Qwen2.5-7B-Instruct", base_url: "http://192.168.1.112:8000/v1", concurrency: 64, grammar_field: json_schema}
+  - {name: llama3.1-8b-instruct-bf16, kind: openai, model: "meta-llama/Llama-3.1-8B-Instruct", base_url: "http://192.168.1.112:8001/v1", concurrency: 64, grammar_field: json_schema}
+gen: {max_tokens: 1024, temperature: 0.0, seed: 0}
+output: results/dev_wordings_v3.jsonl   # v3: W3 keeps voice/subject alternations (flagged), drops generic->existential; W2 with approved synonyms

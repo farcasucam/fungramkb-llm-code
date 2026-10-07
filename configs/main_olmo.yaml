@@ -1,0 +1,19 @@
+# DRAFT — preregistered main study (confirmatory). Do NOT run before the preregistration is filed
+# (docs/analysis_plan.md, git tag prereg-v1); conditions, models and the vLLM image are fixed there.
+# Benchmark: data/processed/fgkb_reason_main.jsonl (scripts/make_main_bench.py, seed 2027); test splits only,
+# contrast subset balanced over all splits; items repeating a pilot-dev item were moved to dev.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason_main.jsonl
+splits: [test_seen, test_unseen]
+contrast_over: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [B1, G1, G2, G3, G4, R1, N1R, N1P2]
+retriever: {kind: dense, model: "intfloat/multilingual-e5-base", device: cpu}   # R1 (dense; TF-IDF in the pilot)
+constrained_decoding: true
+batch_size: 128
+models:
+  - {name: olmo3-7b-instruct-bf16, kind: openai, model: "allenai/Olmo-3-7B-Instruct", base_url: "http://192.168.1.112:8002/v1", concurrency: 64, grammar_field: json_schema}
+gen: {max_tokens: 1024, temperature: 0.0, seed: 0}
+output: results/main.jsonl

@@ -1,0 +1,18 @@
+# Go/no-go pilot (29 Nov 2026): 2 open models x 6 conditions on the deep CONTRAST subset (EN+ES).
+# Primary analysis set and hypotheses are fixed in scripts/pilot_analysis.py (preregistered).
+# Model ids are the default choice; freeze exact revisions (commit hashes) before running.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [B1, G1, G2, G4, R1, N1]
+constrained_decoding: true
+n2_retries: 2
+batch_size: 64
+models:
+  - {name: qwen2.5-7b-instruct, kind: vllm, model: "Qwen/Qwen2.5-7B-Instruct"}
+  - {name: llama3.1-8b-instruct, kind: vllm, model: "meta-llama/Llama-3.1-8B-Instruct"}
+gen: {max_tokens: 384, temperature: 0.0, seed: 0}
+output: results/pilot.jsonl

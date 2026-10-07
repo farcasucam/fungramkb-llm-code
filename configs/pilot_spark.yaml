@@ -1,0 +1,20 @@
+# Go/no-go pilot on the NVIDIA DGX Spark (192.168.1.112) with Ollama, full-precision weights.
+# Run ON the Spark (base_url localhost) or from the PC (replace localhost by 192.168.1.112).
+# Before: OLLAMA_NUM_PARALLEL=8 on the Spark; ollama pull qwen2.5:7b-instruct-fp16 llama3.1:8b-instruct-fp16
+# N1 is constrained with a JSON schema (enums over the same candidate events, concepts and roles as the
+# GBNF grammar used with vLLM), which Ollama supports; the query is converted back to COREL.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [B1, G1, G2, G4, R1, N1]
+constrained_decoding: true
+n2_retries: 2
+batch_size: 64
+models:
+  - {name: qwen2.5-7b-instruct-fp16, kind: openai, model: "qwen2.5:7b-instruct-fp16", base_url: "http://localhost:11434/v1", concurrency: 8, grammar_field: json_schema}
+  - {name: llama3.1-8b-instruct-fp16, kind: openai, model: "llama3.1:8b-instruct-fp16", base_url: "http://localhost:11434/v1", concurrency: 8, grammar_field: json_schema}
+gen: {max_tokens: 384, temperature: 0.0, seed: 0}
+output: results/pilot_spark.jsonl

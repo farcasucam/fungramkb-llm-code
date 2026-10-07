@@ -1,0 +1,55 @@
+[project]
+name = "fgkb-llm"
+version = "0.1.0"
+description = "Injecting FunGramKB deep conceptual semantics into open LLMs: RAG, GraphRAG, LoRA and neuro-symbolic reasoning."
+readme = "README.md"
+requires-python = ">=3.11"
+license = { text = "Apache-2.0" }
+authors = [{ name = "Francisco J. Arcas Túnez" }]
+dependencies = [
+  "lark>=1.1",
+  "clingo>=5.6",
+  "networkx>=3.2",
+  "numpy>=1.26",
+  "scipy>=1.11",
+  "scikit-learn>=1.4",
+  "pyyaml>=6.0",
+]
+
+[project.optional-dependencies]
+# GPU / model stack: install on the experiment machine only.
+llm = [
+  "vllm>=0.6",
+  "transformers>=4.44",
+  "peft>=0.12",
+  "trl>=0.10",
+  "datasets>=2.20",
+  "accelerate>=0.33",
+  "bitsandbytes>=0.43",
+  "xgrammar>=0.1",
+  "sentence-transformers>=3.0",
+  "openai>=1.40",
+]
+remote = ["openai>=1.40"]  # client only: models served by Ollama or `vllm serve` on another box
+dense = ["sentence-transformers>=3.0"]  # dense R1/R2 on CPU (retriever: {kind: dense} in the config)
+controls = ["nltk>=3.8", "requests>=2.31"]
+analysis = ["pandas>=2.2", "matplotlib>=3.8", "statsmodels>=0.14"]
+dev = ["pytest>=8", "ruff>=0.5", "pre-commit>=3.7"]
+
+[project.scripts]
+fgkb = "fgkb_llm.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/fgkb_llm"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py311"

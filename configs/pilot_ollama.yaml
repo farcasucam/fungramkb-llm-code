@@ -1,0 +1,20 @@
+# Same pilot as configs/pilot.yaml, served by a local Ollama (OpenAI-compatible API, any OS).
+#   ollama pull qwen2.5:7b-instruct ; ollama pull llama3.1:8b-instruct-q8_0
+#   set OLLAMA_NUM_PARALLEL=4 before `ollama serve`
+# Ollama ignores grammar-constrained decoding, so N1 runs unconstrained (with validation).
+# Quantised models differ from the fp16 ones in configs/pilot.yaml: report them as such.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [B1, G1, G2, G4, R1, N1]
+constrained_decoding: false
+n2_retries: 2
+batch_size: 16
+models:
+  - {name: qwen2.5-7b-instruct-ollama, kind: openai, model: "qwen2.5:7b-instruct", base_url: "http://localhost:11434/v1", concurrency: 4}
+  - {name: llama3.1-8b-instruct-ollama, kind: openai, model: "llama3.1:8b-instruct-q8_0", base_url: "http://localhost:11434/v1", concurrency: 4}
+gen: {max_tokens: 384, temperature: 0.0, seed: 0}
+output: results/pilot_ollama.jsonl

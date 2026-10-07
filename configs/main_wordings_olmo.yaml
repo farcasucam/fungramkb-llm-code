@@ -1,0 +1,16 @@
+# DRAFT - prompt robustness: W2 (rule-based) and W3 (paraphrase) wordings of the main-study test items
+# (scripts/make_wordings.py). Do NOT run before the analysis plan is frozen (git tag prereg-v1). The W1 results are
+# those of configs/main_*.yaml; compare with scripts/wording_analysis.py.
+# Conditions: the subset fixed in docs/analysis_plan.md (section 6).
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason_main_wordings.jsonl   # already restricted to the contrast subset
+splits: [test_seen, test_unseen]
+tasks: [deep]
+budget_tokens: 1500
+conditions: [B1, G2, G3, N1P2]
+constrained_decoding: true
+batch_size: 128
+models:
+  - {name: olmo3-7b-instruct-bf16, kind: openai, model: "allenai/Olmo-3-7B-Instruct", base_url: "http://192.168.1.112:8002/v1", concurrency: 64, grammar_field: json_schema}
+gen: {max_tokens: 1024, temperature: 0.0, seed: 0}
+output: results/main_wordings.jsonl

@@ -1,0 +1,643 @@
+{
+ "concepts": [
+  {
+   "id": "+ABOVE_00",
+   "parents": [
+    "#SPATIAL"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "above",
+    "es": "encima"
+   }
+  },
+  {
+   "id": "+AFFECT_00",
+   "parents": [
+    "#MATERIAL"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "affect",
+    "es": "afectar"
+   }
+  },
+  {
+   "id": "+ALIVE_00",
+   "parents": [
+    "#PHYSICAL_"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "alive",
+    "es": "vivo"
+   }
+  },
+  {
+   "id": "+BURN_00",
+   "parents": [
+    "#TRANSFORMATION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "burn",
+    "es": "arder"
+   }
+  },
+  {
+   "id": "+BUY_00",
+   "parents": [
+    "#TRANSFER"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "buy",
+    "es": "comprar"
+   }
+  },
+  {
+   "id": "+CAUSE_00",
+   "parents": [
+    "#MATERIAL"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "cause",
+    "es": "causar"
+   }
+  },
+  {
+   "id": "+CONTAIN_00",
+   "parents": [
+    "#CONSTITUTION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "contain",
+    "es": "contener"
+   }
+  },
+  {
+   "id": "+DRUNK_00",
+   "parents": [
+    "#PHYSICAL_"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "drunk",
+    "es": "borracho"
+   }
+  },
+  {
+   "id": "+EARTH_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "earth",
+    "es": "tierra"
+   }
+  },
+  {
+   "id": "+EAR_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "ear",
+    "es": "oído"
+   }
+  },
+  {
+   "id": "+FINGER_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "finger",
+    "es": "dedo"
+   }
+  },
+  {
+   "id": "+FLOW_00",
+   "parents": [
+    "#MOTION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "flow",
+    "es": "fluir"
+   }
+  },
+  {
+   "id": "+FOOD_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "food",
+    "es": "comida"
+   }
+  },
+  {
+   "id": "+GROW_00",
+   "parents": [
+    "#TRANSFORMATION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "grow",
+    "es": "crecer"
+   }
+  },
+  {
+   "id": "+HAPPEN_00",
+   "parents": [
+    "#EXISTENCE"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "happen",
+    "es": "ocurrir"
+   }
+  },
+  {
+   "id": "+HARD_00",
+   "parents": [
+    "#PHYSICAL_"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "hard",
+    "es": "duro"
+   }
+  },
+  {
+   "id": "+LIVE_00",
+   "parents": [
+    "#LOCATION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "live",
+    "es": "vivir"
+   }
+  },
+  {
+   "id": "+MALE_00",
+   "parents": [
+    "#PHYSICAL_"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "male",
+    "es": "varón"
+   }
+  },
+  {
+   "id": "+NEED_00",
+   "parents": [
+    "#POSSESSION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "need",
+    "es": "necesitar"
+   }
+  },
+  {
+   "id": "+OBTAIN_00",
+   "parents": [
+    "#TRANSFER"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "obtain",
+    "es": "obtener"
+   }
+  },
+  {
+   "id": "+ORGAN_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "organ",
+    "es": "órgano"
+   }
+  },
+  {
+   "id": "+SEA_00",
+   "parents": [
+    "#REGION"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "sea",
+    "es": "mar"
+   }
+  },
+  {
+   "id": "+SEE_00",
+   "parents": [
+    "#PERCEPTION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "see",
+    "es": "ver"
+   }
+  },
+  {
+   "id": "+SEPARATE_00",
+   "parents": [
+    "#MATERIAL"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "separate",
+    "es": "separar"
+   }
+  },
+  {
+   "id": "+SOIL_00",
+   "parents": [
+    "#MATERIAL"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "soil",
+    "es": "suelo"
+   }
+  },
+  {
+   "id": "+STORE_00",
+   "parents": [
+    "#POSSESSION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "store",
+    "es": "almacenar"
+   }
+  },
+  {
+   "id": "+SURFACE_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "surface",
+    "es": "superficie"
+   }
+  },
+  {
+   "id": "+TRANSPORT_00",
+   "parents": [
+    "#TRANSFER"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "transport",
+    "es": "transportar"
+   }
+  },
+  {
+   "id": "+WALL_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "wall",
+    "es": "pared"
+   }
+  },
+  {
+   "id": "+YOUNG_00",
+   "parents": [
+    "#PHYSICAL_"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "young",
+    "es": "joven"
+   }
+  },
+  {
+   "id": "+STEAL_00",
+   "parents": [
+    "#TRANSFER"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "steal",
+    "es": "robar"
+   }
+  },
+  {
+   "id": "+DIE_00",
+   "parents": [
+    "#EXISTENCE"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "die",
+    "es": "morir"
+   }
+  },
+  {
+   "id": "+CRIME_00",
+   "parents": [
+    "#ABSTRACT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "crime",
+    "es": "delito"
+   }
+  },
+  {
+   "id": "+VIOLENCE_00",
+   "parents": [
+    "#ABSTRACT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "violence",
+    "es": "violencia"
+   }
+  },
+  {
+   "id": "+PROTECTION_00",
+   "parents": [
+    "#ABSTRACT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "protection",
+    "es": "protección"
+   }
+  },
+  {
+   "id": "+INFORMATION_00",
+   "parents": [
+    "#PROPOSITION"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {},
+   "provenance": "stub-lemma-only-2026-10-05",
+   "lemmas": {
+    "en": "information",
+    "es": "información"
+   }
+  }
+ ],
+ "lemmas": {
+  "$ALTERNATIVE_REMITTANCE_00": {
+   "es": "remesa alternativa"
+  },
+  "$CUCKOO_SMURFING_00": {
+   "es": "pitufeo cuco"
+  },
+  "$LAYERING_00": {
+   "es": "estratificación"
+  },
+  "$PHARMING_00": {
+   "es": "pharming"
+  },
+  "$PHISHING_00": {
+   "es": "phishing"
+  },
+  "$VISHING_00": {
+   "es": "vishing"
+  },
+  "+WEAPON_00": {
+   "es": "arma"
+  },
+  "$WATERBOARDING_00": {
+   "es": "ahogamiento simulado"
+  },
+  "+ACCESSORY_OFFENCE_00": {
+   "es": "delito accesorio"
+  },
+  "+ANTITRAFFICKING_00": {
+   "es": "lucha contra la trata"
+  },
+  "+ARTIFICIAL_AREA_00": {
+   "en": "artificial area",
+   "es": "área artificial"
+  },
+  "+ART_THEFT_00": {
+   "es": "robo de arte"
+  },
+  "+ART_TRAFFICKING_00": {
+   "es": "tráfico de arte"
+  },
+  "+BULK_CASH_SMUGGLING_00": {
+   "es": "contrabando de efectivo"
+  },
+  "+BUTTLEGGER_00": {
+   "en": "bootlegger",
+   "es": "contrabandista de alcohol"
+  },
+  "+CHILD_ABUSE_00": {
+   "es": "maltrato infantil"
+  },
+  "+CLANDESTINE_00": {
+   "en": "clandestine",
+   "es": "clandestino"
+  },
+  "+CONTROL_ORDER_00": {
+   "es": "orden de control"
+  },
+  "+CURTAIN_SLASHING_00": {
+   "es": "robo con corte de lona"
+  },
+  "+IDENTITY_THEFT_00": {
+   "es": "robo de identidad"
+  },
+  "+JEWELRY_THEFT_00": {
+   "es": "robo de joyas"
+  },
+  "+MARKET_MANIPULATION_00": {
+   "en": "market manipulation",
+   "es": "manipulación del mercado"
+  },
+  "+MOTOR_VEHICLE_THEFT_00": {
+   "es": "robo de vehículos"
+  },
+  "+ORIENTED_CLUSTER_00": {
+   "es": "grupo orientado"
+  },
+  "+OUTLAW_00": {
+   "en": "outlaw",
+   "es": "proscribir"
+  },
+  "+POINT_SHAVING_00": {
+   "es": "amaño de puntos"
+  },
+  "+PRESUMPTION_OF_INNOCENCE_00": {
+   "en": "presumption of innocence",
+   "es": "presunción de inocencia"
+  },
+  "+Q_FEVER_00": {
+   "es": "fiebre Q"
+  },
+  "+SCIENTER_00": {
+   "en": "scienter",
+   "es": "conocimiento doloso"
+  },
+  "+TARGETED_KILLING_00": {
+   "es": "asesinato selectivo"
+  }
+ }
+}

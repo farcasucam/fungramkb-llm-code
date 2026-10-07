@@ -1,0 +1,5778 @@
+[
+ {
+  "lemma": "consist",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+COMPRISE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consist.v.04"
+ },
+ {
+  "lemma": "componerse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMPRISE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consist.v.04"
+ },
+ {
+  "lemma": "consistir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMPRISE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consist.v.04"
+ },
+ {
+  "lemma": "constar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMPRISE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consist.v.04"
+ },
+ {
+  "lemma": "make",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DO_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:make.v.01"
+ },
+ {
+  "lemma": "actuar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DO_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:act.v.02"
+ },
+ {
+  "lemma": "comportar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DO_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:act.v.02"
+ },
+ {
+  "lemma": "comportarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DO_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:act.v.02"
+ },
+ {
+  "lemma": "comprtarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DO_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:act.v.02"
+ },
+ {
+  "lemma": "make",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CREATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:make.v.03"
+ },
+ {
+  "lemma": "causar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CREATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:make.v.03"
+ },
+ {
+  "lemma": "confeccionar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CREATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:make.v.03"
+ },
+ {
+  "lemma": "construir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CREATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:make.v.03"
+ },
+ {
+  "lemma": "criar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CREATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:make.v.03"
+ },
+ {
+  "lemma": "expender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SELL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sell.v.01"
+ },
+ {
+  "lemma": "utilize",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "utilise",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "apply",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "employ",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "aplicar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "aprovechar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "emplear",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "esgrimir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+USE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:use.v.01"
+ },
+ {
+  "lemma": "causar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:give.v.01"
+ },
+ {
+  "lemma": "dispensar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:give.v.01"
+ },
+ {
+  "lemma": "entregar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:give.v.01"
+ },
+ {
+  "lemma": "propinar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:give.v.01"
+ },
+ {
+  "lemma": "state",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.v.01"
+ },
+ {
+  "lemma": "tell",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.v.01"
+ },
+ {
+  "lemma": "afirmar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.v.01"
+ },
+ {
+  "lemma": "contar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.v.01"
+ },
+ {
+  "lemma": "declarar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.v.01"
+ },
+ {
+  "lemma": "manifestar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.v.01"
+ },
+ {
+  "lemma": "consume",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "take in",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "take",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "have",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "comer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "consumir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "tomar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INGEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consume.v.02"
+ },
+ {
+  "lemma": "happen",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "chance",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "bump",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "encounter",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "dar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "encontrarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "hallar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "tropezar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FIND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:find.v.01"
+ },
+ {
+  "lemma": "make",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CAUSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cause.v.01"
+ },
+ {
+  "lemma": "hacer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CAUSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cause.v.01"
+ },
+ {
+  "lemma": "ocasionar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CAUSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cause.v.01"
+ },
+ {
+  "lemma": "producir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CAUSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cause.v.01"
+ },
+ {
+  "lemma": "provocar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CAUSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cause.v.01"
+ },
+ {
+  "lemma": "assail",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ATTACK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:attack.v.01"
+ },
+ {
+  "lemma": "agredir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ATTACK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:attack.v.01"
+ },
+ {
+  "lemma": "asaltar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ATTACK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:attack.v.01"
+ },
+ {
+  "lemma": "have got",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:have.v.01"
+ },
+ {
+  "lemma": "hold",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:have.v.01"
+ },
+ {
+  "lemma": "detentar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:have.v.01"
+ },
+ {
+  "lemma": "ostentar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:have.v.01"
+ },
+ {
+  "lemma": "poseer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:have.v.01"
+ },
+ {
+  "lemma": "sustentar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:have.v.01"
+ },
+ {
+  "lemma": "apartar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TAKE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:remove.v.01"
+ },
+ {
+  "lemma": "copar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TAKE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:remove.v.01"
+ },
+ {
+  "lemma": "eliminar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TAKE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:remove.v.01"
+ },
+ {
+  "lemma": "extirpar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TAKE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:remove.v.01"
+ },
+ {
+  "lemma": "split",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BURST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burst.v.01"
+ },
+ {
+  "lemma": "break open",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BURST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burst.v.01"
+ },
+ {
+  "lemma": "desdoblar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burst.v.01"
+ },
+ {
+  "lemma": "explotar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burst.v.01"
+ },
+ {
+  "lemma": "rajarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burst.v.01"
+ },
+ {
+  "lemma": "reventar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burst.v.01"
+ },
+ {
+  "lemma": "experience",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+FEEL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:feel.v.01"
+ },
+ {
+  "lemma": "experimentar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FEEL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:feel.v.01"
+ },
+ {
+  "lemma": "sentirse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FEEL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:feel.v.04"
+ },
+ {
+  "lemma": "believe",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+THINK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:think.v.01"
+ },
+ {
+  "lemma": "consider",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+THINK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:think.v.01"
+ },
+ {
+  "lemma": "conceive",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+THINK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:think.v.01"
+ },
+ {
+  "lemma": "considerar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THINK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:think.v.01"
+ },
+ {
+  "lemma": "creer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THINK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:think.v.01"
+ },
+ {
+  "lemma": "opinar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THINK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:think.v.01"
+ },
+ {
+  "lemma": "ache",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ache.v.03"
+ },
+ {
+  "lemma": "smart",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ache.v.03"
+ },
+ {
+  "lemma": "doler",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ache.v.03"
+ },
+ {
+  "lemma": "escocer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ache.v.03"
+ },
+ {
+  "lemma": "lastimar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:injure.v.01"
+ },
+ {
+  "lemma": "lesionar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:injure.v.01"
+ },
+ {
+  "lemma": "go forth",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LEAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:leave.v.01"
+ },
+ {
+  "lemma": "go away",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LEAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:leave.v.01"
+ },
+ {
+  "lemma": "dejar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:leave.v.01"
+ },
+ {
+  "lemma": "irse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:leave.v.01"
+ },
+ {
+  "lemma": "marchar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:leave.v.01"
+ },
+ {
+  "lemma": "partir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEAVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:leave.v.01"
+ },
+ {
+  "lemma": "demo",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "exhibit",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "present",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "demonstrate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "demostrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "evidenciar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "exhibir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "manifestar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "incorporate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CONTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:incorporate.v.02"
+ },
+ {
+  "lemma": "comprise",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CONTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:incorporate.v.02"
+ },
+ {
+  "lemma": "incluir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:incorporate.v.02"
+ },
+ {
+  "lemma": "integrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:incorporate.v.02"
+ },
+ {
+  "lemma": "retener",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hold.v.36"
+ },
+ {
+  "lemma": "get away",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ESCAPE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:escape.v.01"
+ },
+ {
+  "lemma": "break loose",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ESCAPE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:escape.v.01"
+ },
+ {
+  "lemma": "desatarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ESCAPE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:escape.v.01"
+ },
+ {
+  "lemma": "escaparse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ESCAPE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:escape.v.01"
+ },
+ {
+  "lemma": "evadir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ESCAPE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:escape.v.01"
+ },
+ {
+  "lemma": "evadirse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ESCAPE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:escape.v.01"
+ },
+ {
+  "lemma": "conceal",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hide.v.01"
+ },
+ {
+  "lemma": "encubrir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hide.v.01"
+ },
+ {
+  "lemma": "ocultar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hide.v.01"
+ },
+ {
+  "lemma": "tapar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hide.v.01"
+ },
+ {
+  "lemma": "condenar al olvido",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:obscure.v.05"
+ },
+ {
+  "lemma": "cognize",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+KNOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:know.v.01"
+ },
+ {
+  "lemma": "cognise",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+KNOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:know.v.01"
+ },
+ {
+  "lemma": "comprender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KNOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:know.v.01"
+ },
+ {
+  "lemma": "conocer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KNOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:know.v.01"
+ },
+ {
+  "lemma": "entender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KNOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:know.v.01"
+ },
+ {
+  "lemma": "admitir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KNOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:acknowledge.v.06"
+ },
+ {
+  "lemma": "travel",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+MOVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:travel.v.01"
+ },
+ {
+  "lemma": "locomote",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+MOVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:travel.v.01"
+ },
+ {
+  "lemma": "acudir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MOVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:travel.v.01"
+ },
+ {
+  "lemma": "desplazarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MOVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:travel.v.01"
+ },
+ {
+  "lemma": "mover",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MOVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:travel.v.01"
+ },
+ {
+  "lemma": "viajar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MOVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:travel.v.01"
+ },
+ {
+  "lemma": "adquirir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+OBTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:obtain.v.01"
+ },
+ {
+  "lemma": "conseguir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+OBTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:obtain.v.01"
+ },
+ {
+  "lemma": "lograr",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+OBTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:obtain.v.01"
+ },
+ {
+  "lemma": "encontrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+OBTAIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:receive.v.02"
+ },
+ {
+  "lemma": "abonar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pay.v.01"
+ },
+ {
+  "lemma": "cancelar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pay.v.01"
+ },
+ {
+  "lemma": "retribuir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pay.v.01"
+ },
+ {
+  "lemma": "avalar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PAY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:underwrite.v.01"
+ },
+ {
+  "lemma": "amparar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROTECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:protect.v.01"
+ },
+ {
+  "lemma": "defender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROTECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:protect.v.01"
+ },
+ {
+  "lemma": "guarecer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROTECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:protect.v.01"
+ },
+ {
+  "lemma": "preservar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROTECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:protect.v.01"
+ },
+ {
+  "lemma": "construct",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BUILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:construct.v.01"
+ },
+ {
+  "lemma": "make",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BUILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:construct.v.01"
+ },
+ {
+  "lemma": "articular",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BUILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:construct.v.01"
+ },
+ {
+  "lemma": "confeccionar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BUILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:construct.v.01"
+ },
+ {
+  "lemma": "crear",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BUILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:construct.v.01"
+ },
+ {
+  "lemma": "edificar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BUILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:construct.v.01"
+ },
+ {
+  "lemma": "change over",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CHANGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convert.v.01"
+ },
+ {
+  "lemma": "mudar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHANGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:change.v.01"
+ },
+ {
+  "lemma": "retocar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHANGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:change.v.01"
+ },
+ {
+  "lemma": "transformar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHANGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:change.v.01"
+ },
+ {
+  "lemma": "sufrir un cambio",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHANGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:change.v.02"
+ },
+ {
+  "lemma": "tell",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "enjoin",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "say",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "decir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "declarar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "encargar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "imponer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+COMMAND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "command",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CONTROL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:control.v.01"
+ },
+ {
+  "lemma": "comandar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTROL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:control.v.01"
+ },
+ {
+  "lemma": "dominar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTROL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:control.v.01"
+ },
+ {
+  "lemma": "mandar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTROL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:control.v.01"
+ },
+ {
+  "lemma": "domar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CONTROL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:break_in.v.06"
+ },
+ {
+  "lemma": "adquirir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CULTIVATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grow.v.08"
+ },
+ {
+  "lemma": "crecer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CULTIVATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grow.v.08"
+ },
+ {
+  "lemma": "desarrollar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CULTIVATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grow.v.08"
+ },
+ {
+  "lemma": "elaborar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CULTIVATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grow.v.08"
+ },
+ {
+  "lemma": "support",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DEFEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:defend.v.01"
+ },
+ {
+  "lemma": "fend for",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DEFEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:defend.v.01"
+ },
+ {
+  "lemma": "apoyar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DEFEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:defend.v.01"
+ },
+ {
+  "lemma": "respaldar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DEFEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:defend.v.01"
+ },
+ {
+  "lemma": "show",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "demo",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "exhibit",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "present",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "demostrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "evidenciar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "exhibir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "manifestar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DEMONSTRATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:show.v.01"
+ },
+ {
+  "lemma": "depict",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DESCRIBE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:describe.v.01"
+ },
+ {
+  "lemma": "draw",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+DESCRIBE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:describe.v.01"
+ },
+ {
+  "lemma": "bosquejar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DESCRIBE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:describe.v.01"
+ },
+ {
+  "lemma": "retratar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DESCRIBE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:describe.v.01"
+ },
+ {
+  "lemma": "denominar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DESCRIBE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:identify.v.05"
+ },
+ {
+  "lemma": "descubrir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DESCRIBE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:identify.v.05"
+ },
+ {
+  "lemma": "comerse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+EAT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:eat.v.01"
+ },
+ {
+  "lemma": "consumir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+EAT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:eat.v.01"
+ },
+ {
+  "lemma": "jamar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+EAT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:eat.v.01"
+ },
+ {
+  "lemma": "jamarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+EAT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:eat.v.01"
+ },
+ {
+  "lemma": "defalcate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+EMBEZZLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:embezzle.v.01"
+ },
+ {
+  "lemma": "peculate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+EMBEZZLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:embezzle.v.01"
+ },
+ {
+  "lemma": "misappropriate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+EMBEZZLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:embezzle.v.01"
+ },
+ {
+  "lemma": "malversate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+EMBEZZLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:embezzle.v.01"
+ },
+ {
+  "lemma": "flux",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+FLOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:flow.v.01"
+ },
+ {
+  "lemma": "correr",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FLOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:flow.v.01"
+ },
+ {
+  "lemma": "fluctuar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FLOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:flow.v.01"
+ },
+ {
+  "lemma": "manar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+FLOW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:flow.v.01"
+ },
+ {
+  "lemma": "assist",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HELP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:help.v.01"
+ },
+ {
+  "lemma": "aid",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+HELP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:help.v.01"
+ },
+ {
+  "lemma": "asistir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HELP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:help.v.01"
+ },
+ {
+  "lemma": "auxiliar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HELP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:help.v.01"
+ },
+ {
+  "lemma": "auxilio",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HELP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:help.v.02"
+ },
+ {
+  "lemma": "ayuda",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+HELP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:help.v.02"
+ },
+ {
+  "lemma": "crecer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INCREASE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:increase.v.01"
+ },
+ {
+  "lemma": "elevar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INCREASE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:increase.v.01"
+ },
+ {
+  "lemma": "incrementar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INCREASE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:increase.v.01"
+ },
+ {
+  "lemma": "subir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INCREASE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:increase.v.01"
+ },
+ {
+  "lemma": "populate",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "dwell",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "inhabit",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "habitar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "morar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "ocupar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "poblar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:populate.v.01"
+ },
+ {
+  "lemma": "interrumpir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MOLEST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:interrupt.v.02"
+ },
+ {
+  "lemma": "set",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "place",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "pose",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "position",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "colocar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "dejar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "depositar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "posar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:put.v.01"
+ },
+ {
+  "lemma": "seek",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SEARCH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:search.v.01"
+ },
+ {
+  "lemma": "look for",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SEARCH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:search.v.01"
+ },
+ {
+  "lemma": "explorar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEARCH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:search.v.01"
+ },
+ {
+  "lemma": "procurar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEARCH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:search.v.01"
+ },
+ {
+  "lemma": "registrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEARCH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:search.v.01"
+ },
+ {
+  "lemma": "averiguar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEARCH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:research.v.02"
+ },
+ {
+  "lemma": "hit",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SHOOT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:shoot.v.01"
+ },
+ {
+  "lemma": "pip",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SHOOT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:shoot.v.01"
+ },
+ {
+  "lemma": "acertar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOOT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:shoot.v.01"
+ },
+ {
+  "lemma": "derribar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOOT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:shoot.v.01"
+ },
+ {
+  "lemma": "pegar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SHOOT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:shoot.v.01"
+ },
+ {
+  "lemma": "whiff",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SNIFF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sniff.v.01"
+ },
+ {
+  "lemma": "oliscar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SNIFF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sniff.v.01"
+ },
+ {
+  "lemma": "olisquear",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SNIFF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sniff.v.01"
+ },
+ {
+  "lemma": "bufar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SNIFF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:snort.v.01"
+ },
+ {
+  "lemma": "olfatear",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SNIFF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sniff.v.02"
+ },
+ {
+  "lemma": "arrojar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:throw.v.01"
+ },
+ {
+  "lemma": "tirar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:throw.v.01"
+ },
+ {
+  "lemma": "expeler",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:spew.v.02"
+ },
+ {
+  "lemma": "expulsar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+THROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:spew.v.02"
+ },
+ {
+  "lemma": "reassign",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+TRANSFER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:transfer.v.01"
+ },
+ {
+  "lemma": "cambiar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TRANSFER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:switch.v.04"
+ },
+ {
+  "lemma": "intercambiar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TRANSFER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:switch.v.04"
+ },
+ {
+  "lemma": "relevar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TRANSFER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:switch.v.04"
+ },
+ {
+  "lemma": "compose",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+WRITE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:write.v.01"
+ },
+ {
+  "lemma": "pen",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+WRITE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:write.v.01"
+ },
+ {
+  "lemma": "indite",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+WRITE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:write.v.01"
+ },
+ {
+  "lemma": "componer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+WRITE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:write.v.01"
+ },
+ {
+  "lemma": "integrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+WRITE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:write.v.01"
+ },
+ {
+  "lemma": "redactar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+WRITE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:write.v.01"
+ },
+ {
+  "lemma": "manifestar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "$DECLARE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:declare.v.01"
+ },
+ {
+  "lemma": "revelar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "$DECLARE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:declare.v.01"
+ },
+ {
+  "lemma": "decir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "$DECLARE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "encargar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "$DECLARE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:order.v.01"
+ },
+ {
+  "lemma": "impact",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "bear upon",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "bear on",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "touch on",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "conmover",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "impactar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "repercutir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "tocar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+AFFECT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:affect.v.01"
+ },
+ {
+  "lemma": "fire",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BURN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burn.v.01"
+ },
+ {
+  "lemma": "burn down",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BURN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burn.v.01"
+ },
+ {
+  "lemma": "incendiar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burn.v.01"
+ },
+ {
+  "lemma": "quemar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burn.v.01"
+ },
+ {
+  "lemma": "quemarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burn.v.01"
+ },
+ {
+  "lemma": "consumirse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BURN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:burn.v.03"
+ },
+ {
+  "lemma": "purchase",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+BUY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:buy.v.01"
+ },
+ {
+  "lemma": "adquirir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BUY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:buy.v.01"
+ },
+ {
+  "lemma": "mercar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+BUY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:buy.v.01"
+ },
+ {
+  "lemma": "take",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "select",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "pick out",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "coger",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "decantar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "escoger",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "optar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+CHOOSE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:choose.v.01"
+ },
+ {
+  "lemma": "romper",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DAMAGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.v.01"
+ },
+ {
+  "lemma": "lastimar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DAMAGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:harm.v.01"
+ },
+ {
+  "lemma": "perjudicar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DAMAGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:harm.v.01"
+ },
+ {
+  "lemma": "hacer daño",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+DAMAGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hurt.v.02"
+ },
+ {
+  "lemma": "come in",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:enter.v.01"
+ },
+ {
+  "lemma": "get into",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:enter.v.01"
+ },
+ {
+  "lemma": "get in",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:enter.v.01"
+ },
+ {
+  "lemma": "go into",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:enter.v.01"
+ },
+ {
+  "lemma": "ingresar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:enter.v.01"
+ },
+ {
+  "lemma": "moverse adentro",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:enter.v.01"
+ },
+ {
+  "lemma": "consignar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:record.v.01"
+ },
+ {
+  "lemma": "hacer constar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+ENTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:record.v.01"
+ },
+ {
+  "lemma": "turn",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+GROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:turn.v.07"
+ },
+ {
+  "lemma": "tornar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:turn.v.07"
+ },
+ {
+  "lemma": "volverse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:turn.v.07"
+ },
+ {
+  "lemma": "adquirir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grow.v.08"
+ },
+ {
+  "lemma": "cultivar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+GROW_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grow.v.08"
+ },
+ {
+  "lemma": "look into",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+INVESTIGATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:investigate.v.01"
+ },
+ {
+  "lemma": "analizar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INVESTIGATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:investigate.v.01"
+ },
+ {
+  "lemma": "examinar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INVESTIGATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:investigate.v.01"
+ },
+ {
+  "lemma": "explorar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INVESTIGATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:investigate.v.01"
+ },
+ {
+  "lemma": "indagar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+INVESTIGATE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:investigate.v.01"
+ },
+ {
+  "lemma": "fall in",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+JOIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:join.v.01"
+ },
+ {
+  "lemma": "get together",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+JOIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:join.v.01"
+ },
+ {
+  "lemma": "incorporarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+JOIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:join.v.01"
+ },
+ {
+  "lemma": "ingresar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+JOIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:join.v.01"
+ },
+ {
+  "lemma": "adherirse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+JOIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:unify.v.01"
+ },
+ {
+  "lemma": "asociarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+JOIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:unify.v.01"
+ },
+ {
+  "lemma": "abatir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KILL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:kill.v.01"
+ },
+ {
+  "lemma": "acabar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KILL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:kill.v.01"
+ },
+ {
+  "lemma": "asesinar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+KILL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:kill.v.01"
+ },
+ {
+  "lemma": "impart",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "bestow",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "contribute",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "add",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "aportar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "conceder",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "contribuir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "otorgar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LEND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lend.v.01"
+ },
+ {
+  "lemma": "atender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+LISTEN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:listen.v.01"
+ },
+ {
+  "lemma": "slay",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "hit",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "dispatch",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "bump off",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "borrar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "cargarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "despachar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "echarse",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+MURDER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:murder.v.01"
+ },
+ {
+  "lemma": "comprehend",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PERCEIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:perceive.v.01"
+ },
+ {
+  "lemma": "apreciar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PERCEIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:perceive.v.01"
+ },
+ {
+  "lemma": "comprender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PERCEIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:perceive.v.01"
+ },
+ {
+  "lemma": "entender",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PERCEIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:perceive.v.01"
+ },
+ {
+  "lemma": "sentir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PERCEIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:perceive.v.01"
+ },
+ {
+  "lemma": "enjuiciar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROSECUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:prosecute.v.01"
+ },
+ {
+  "lemma": "alisar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROSECUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:process.v.01"
+ },
+ {
+  "lemma": "tratar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PROSECUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:process.v.01"
+ },
+ {
+  "lemma": "penalize",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PUNISH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:punish.v.01"
+ },
+ {
+  "lemma": "penalise",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+PUNISH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:punish.v.01"
+ },
+ {
+  "lemma": "penalizar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUNISH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:punish.v.01"
+ },
+ {
+  "lemma": "punir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUNISH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:punish.v.01"
+ },
+ {
+  "lemma": "atemperar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUNISH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:chasten.v.02"
+ },
+ {
+  "lemma": "corregir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+PUNISH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:chasten.v.02"
+ },
+ {
+  "lemma": "reposar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+REST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:rest.v.01"
+ },
+ {
+  "lemma": "dormir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+REST_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:rest.v.05"
+ },
+ {
+  "lemma": "contemplar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:see.v.01"
+ },
+ {
+  "lemma": "mirar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:see.v.01"
+ },
+ {
+  "lemma": "observar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:see.v.01"
+ },
+ {
+  "lemma": "percibir",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:see.v.01"
+ },
+ {
+  "lemma": "impound",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "attach",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "sequester",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "seize",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "apoderar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "capturar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "embargar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "incautar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SEIZE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:impound.v.01"
+ },
+ {
+  "lemma": "kip",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sleep.v.01"
+ },
+ {
+  "lemma": "slumber",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sleep.v.01"
+ },
+ {
+  "lemma": "log z's",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sleep.v.01"
+ },
+ {
+  "lemma": "catch some z's",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sleep.v.01"
+ },
+ {
+  "lemma": "dormitar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sleep.v.01"
+ },
+ {
+  "lemma": "descansar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:rest.v.05"
+ },
+ {
+  "lemma": "reposar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+SLEEP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:rest.v.05"
+ },
+ {
+  "lemma": "hive away",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+STORE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:store.v.01"
+ },
+ {
+  "lemma": "lay in",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+STORE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:store.v.01"
+ },
+ {
+  "lemma": "put in",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+STORE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:store.v.01"
+ },
+ {
+  "lemma": "salt away",
+  "lang": "en",
+  "pos": "v",
+  "concept": "+STORE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:store.v.01"
+ },
+ {
+  "lemma": "acumular",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+STORE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:store.v.01"
+ },
+ {
+  "lemma": "atesorar",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+STORE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:store.v.01"
+ },
+ {
+  "lemma": "transponer",
+  "lang": "es",
+  "pos": "v",
+  "concept": "+TRANSPORT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:transpose.v.07"
+ },
+ {
+  "lemma": "live",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ALIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alive.a.01"
+ },
+ {
+  "lemma": "liveborn",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ALIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:liveborn.s.01"
+ },
+ {
+  "lemma": "viable",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ALIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:viable.s.02"
+ },
+ {
+  "lemma": "vital",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ALIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:vital.s.04"
+ },
+ {
+  "lemma": "viable",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+ALIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:viable.s.02"
+ },
+ {
+  "lemma": "vital",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+ALIVE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:vital.s.04"
+ },
+ {
+  "lemma": "convulsive",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convulsive.s.02"
+ },
+ {
+  "lemma": "ruffianly",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ruffianly.s.01"
+ },
+ {
+  "lemma": "tough",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ruffianly.s.01"
+ },
+ {
+  "lemma": "ferocious",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ferocious.s.01"
+ },
+ {
+  "lemma": "convulsivo",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convulsive.s.02"
+ },
+ {
+  "lemma": "alborotador",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ruffianly.s.01"
+ },
+ {
+  "lemma": "bravo",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ferocious.s.01"
+ },
+ {
+  "lemma": "brutal",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+VIOLENT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ferocious.s.01"
+ },
+ {
+  "lemma": "little",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:small.a.01"
+ },
+ {
+  "lemma": "smaller",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smaller.s.01"
+ },
+ {
+  "lemma": "littler",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smaller.s.01"
+ },
+ {
+  "lemma": "gnomish",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gnomish.s.01"
+ },
+ {
+  "lemma": "menudo",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:small.a.01"
+ },
+ {
+  "lemma": "menor",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smaller.s.01"
+ },
+ {
+  "lemma": "micro",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+SMALL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:micro.s.01"
+ },
+ {
+  "lemma": "large",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+BIG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:large.a.01"
+ },
+ {
+  "lemma": "cosmic",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+BIG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cosmic.s.01"
+ },
+ {
+  "lemma": "gran",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+BIG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:large.a.01"
+ },
+ {
+  "lemma": "a gran escala",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+BIG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:large-scale.s.01"
+ },
+ {
+  "lemma": "extensísimo",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+BIG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:large-scale.s.01"
+ },
+ {
+  "lemma": "extenso",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+BIG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:large-scale.s.01"
+ },
+ {
+  "lemma": "ratified",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ratified.s.01"
+ },
+ {
+  "lemma": "sanctioned",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ratified.s.01"
+ },
+ {
+  "lemma": "statutory",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:statutory.s.01"
+ },
+ {
+  "lemma": "sub judice",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sub_judice.s.01"
+ },
+ {
+  "lemma": "ratificado",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ratified.s.01"
+ },
+ {
+  "lemma": "sancionado",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ratified.s.01"
+ },
+ {
+  "lemma": "estatutario",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:statutory.s.01"
+ },
+ {
+  "lemma": "sub iúdice",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+LEGAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sub_judice.s.01"
+ },
+ {
+  "lemma": "elementary",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:elementary.s.01"
+ },
+ {
+  "lemma": "simple",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:elementary.s.01"
+ },
+ {
+  "lemma": "uncomplicated",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:elementary.s.01"
+ },
+ {
+  "lemma": "unproblematic",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:elementary.s.01"
+ },
+ {
+  "lemma": "elemental",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:elementary.s.01"
+ },
+ {
+  "lemma": "simple",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:elementary.s.01"
+ },
+ {
+  "lemma": "llano",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smooth.s.03"
+ },
+ {
+  "lemma": "casual",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+EASY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:casual.s.09"
+ },
+ {
+  "lemma": "concealed",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+SECRET_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:concealed.a.02"
+ },
+ {
+  "lemma": "confidencial",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+SECRET_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:classified.a.02"
+ },
+ {
+  "lemma": "oculto",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+SECRET_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:concealed.a.02"
+ },
+ {
+  "lemma": "physical",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:physical.s.03"
+ },
+ {
+  "lemma": "vigorous",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:vigorous.s.01"
+ },
+ {
+  "lemma": "alert",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alert.s.01"
+ },
+ {
+  "lemma": "brisk",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alert.s.01"
+ },
+ {
+  "lemma": "enérgico",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:energetic.a.01"
+ },
+ {
+  "lemma": "físico",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:physical.s.03"
+ },
+ {
+  "lemma": "vehemente",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:vigorous.s.01"
+ },
+ {
+  "lemma": "vivaz",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+ENERGETIC_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alert.s.01"
+ },
+ {
+  "lemma": "unagitated",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:calm.s.01"
+ },
+ {
+  "lemma": "serene",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:calm.s.01"
+ },
+ {
+  "lemma": "tranquil",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:calm.s.01"
+ },
+ {
+  "lemma": "composed",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:composed.a.01"
+ },
+ {
+  "lemma": "calmado",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:calm.s.01"
+ },
+ {
+  "lemma": "sereno",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:calm.s.01"
+ },
+ {
+  "lemma": "sosegado",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:calm.s.01"
+ },
+ {
+  "lemma": "serena",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+CALM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:composed.a.01"
+ },
+ {
+  "lemma": "intoxicated",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:intoxicated.a.01"
+ },
+ {
+  "lemma": "inebriated",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:intoxicated.a.01"
+ },
+ {
+  "lemma": "besotted",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:besotted.s.01"
+ },
+ {
+  "lemma": "blind drunk",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:besotted.s.01"
+ },
+ {
+  "lemma": "bebido",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:intoxicated.a.01"
+ },
+ {
+  "lemma": "ebrio",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:intoxicated.a.01"
+ },
+ {
+  "lemma": "achispado",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:besotted.s.01"
+ },
+ {
+  "lemma": "ajumado",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+DRUNK_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:besotted.s.01"
+ },
+ {
+  "lemma": "longstanding",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:longstanding.s.01"
+ },
+ {
+  "lemma": "nightlong",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:nightlong.s.01"
+ },
+ {
+  "lemma": "overnight",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:nightlong.s.01"
+ },
+ {
+  "lemma": "yearlong",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+LONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:yearlong.s.01"
+ },
+ {
+  "lemma": "extenso",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+LONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:long.a.01"
+ },
+ {
+  "lemma": "anual",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+LONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:yearlong.s.01"
+ },
+ {
+  "lemma": "priapic",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+MALE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:priapic.s.01"
+ },
+ {
+  "lemma": "antheral",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+MALE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:antheral.s.01"
+ },
+ {
+  "lemma": "staminate",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+MALE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:antheral.s.01"
+ },
+ {
+  "lemma": "macho",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+MALE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:male.a.01"
+ },
+ {
+  "lemma": "masculino",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+MALE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:male.a.01"
+ },
+ {
+  "lemma": "beardown",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+STRONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:beardown.s.01"
+ },
+ {
+  "lemma": "virile",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+STRONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:virile.s.01"
+ },
+ {
+  "lemma": "bullnecked",
+  "lang": "en",
+  "pos": "adj",
+  "concept": "+STRONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bullnecked.s.01"
+ },
+ {
+  "lemma": "duro",
+  "lang": "es",
+  "pos": "adj",
+  "concept": "+STRONG_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hard.a.08"
+ },
+ {
+  "lemma": "homo",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "man",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "someone",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:person.n.01"
+ },
+ {
+  "lemma": "somebody",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:person.n.01"
+ },
+ {
+  "lemma": "hombre",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "homo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "humana",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "humanidad",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+HUMAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "justice",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+JUDGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:judge.n.01"
+ },
+ {
+  "lemma": "legal expert",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+JUDGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:jurist.n.01"
+ },
+ {
+  "lemma": "árbitro",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+JUDGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:judge.n.01"
+ },
+ {
+  "lemma": "jueza",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+JUDGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:judge.n.01"
+ },
+ {
+  "lemma": "togado",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+JUDGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:judge.n.01"
+ },
+ {
+  "lemma": "experto legal",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+JUDGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:jurist.n.01"
+ },
+ {
+  "lemma": "offense",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:crime.n.01"
+ },
+ {
+  "lemma": "criminal offense",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:crime.n.01"
+ },
+ {
+  "lemma": "criminal offence",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:crime.n.01"
+ },
+ {
+  "lemma": "offensive",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:offense.n.05"
+ },
+ {
+  "lemma": "crimen",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:crime.n.01"
+ },
+ {
+  "lemma": "delitos",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:crime.n.01"
+ },
+ {
+  "lemma": "impago",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:delinquency.n.01"
+ },
+ {
+  "lemma": "morosidad",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIME_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:delinquency.n.01"
+ },
+ {
+  "lemma": "land",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.n.04"
+ },
+ {
+  "lemma": "commonwealth",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.n.04"
+ },
+ {
+  "lemma": "res publica",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.n.04"
+ },
+ {
+  "lemma": "body politic",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.n.04"
+ },
+ {
+  "lemma": "república",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.n.04"
+ },
+ {
+  "lemma": "res publica",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:state.n.04"
+ },
+ {
+  "lemma": "madre patria",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fatherland.n.01"
+ },
+ {
+  "lemma": "país de origen",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COUNTRY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fatherland.n.01"
+ },
+ {
+  "lemma": "con",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "inmate",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "yard bird",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "yardbird",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "condenada",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "convicta",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "presidario",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "presidiaria",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CRIMINAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:convict.n.01"
+ },
+ {
+  "lemma": "info",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+INFORMATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:information.n.01"
+ },
+ {
+  "lemma": "data",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+INFORMATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:data.n.01"
+ },
+ {
+  "lemma": "datos",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+INFORMATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:data.n.01"
+ },
+ {
+  "lemma": "info",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+INFORMATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:information.n.01"
+ },
+ {
+  "lemma": "unwellness",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:illness.n.01"
+ },
+ {
+  "lemma": "malady",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:illness.n.01"
+ },
+ {
+  "lemma": "sickness",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:illness.n.01"
+ },
+ {
+  "lemma": "afección",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:illness.n.01"
+ },
+ {
+  "lemma": "mal",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:illness.n.01"
+ },
+ {
+  "lemma": "patología",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:illness.n.01"
+ },
+ {
+  "lemma": "achaque",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ILLNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ailment.n.01"
+ },
+ {
+  "lemma": "client",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CUSTOMER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:customer.n.01"
+ },
+ {
+  "lemma": "edifice",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BUILDING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:building.n.01"
+ },
+ {
+  "lemma": "casa",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BUILDING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:building.n.01"
+ },
+ {
+  "lemma": "construcción",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BUILDING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:building.n.01"
+ },
+ {
+  "lemma": "edificación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BUILDING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:building.n.01"
+ },
+ {
+  "lemma": "edificios",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BUILDING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:building.n.01"
+ },
+ {
+  "lemma": "alcoholic drink",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ALCOHOL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alcohol.n.01"
+ },
+ {
+  "lemma": "alcoholic beverage",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ALCOHOL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alcohol.n.01"
+ },
+ {
+  "lemma": "intoxicant",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ALCOHOL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alcohol.n.01"
+ },
+ {
+  "lemma": "inebriant",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ALCOHOL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alcohol.n.01"
+ },
+ {
+  "lemma": "bebida alcohólica",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ALCOHOL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:alcohol.n.01"
+ },
+ {
+  "lemma": "explosivo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BOMB_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bomb.n.01"
+ },
+ {
+  "lemma": "test",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+TRIAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:test.n.05"
+ },
+ {
+  "lemma": "run",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+TRIAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:test.n.05"
+ },
+ {
+  "lemma": "ensayo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TRIAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:test.n.05"
+ },
+ {
+  "lemma": "prueba",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TRIAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:test.n.05"
+ },
+ {
+  "lemma": "test",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TRIAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:test.n.05"
+ },
+ {
+  "lemma": "evaluación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TRIAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:judgment.n.02"
+ },
+ {
+  "lemma": "auto",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+VEHICLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:car.n.01"
+ },
+ {
+  "lemma": "automóvil",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+VEHICLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:car.n.01"
+ },
+ {
+  "lemma": "carro",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+VEHICLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:car.n.01"
+ },
+ {
+  "lemma": "coche",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+VEHICLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:car.n.01"
+ },
+ {
+  "lemma": "loner",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$LONE_WOLF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:loner.n.01"
+ },
+ {
+  "lemma": "lone hand",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$LONE_WOLF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:loner.n.01"
+ },
+ {
+  "lemma": "solitario",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$LONE_WOLF_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:loner.n.01"
+ },
+ {
+  "lemma": "assassinator",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:assassin.n.01"
+ },
+ {
+  "lemma": "bravo",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:assassin.n.01"
+ },
+ {
+  "lemma": "gunslinger",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gunman.n.01"
+ },
+ {
+  "lemma": "hired gun",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gunman.n.01"
+ },
+ {
+  "lemma": "asesina",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:assassin.n.01"
+ },
+ {
+  "lemma": "asesino a sueldo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:assassin.n.01"
+ },
+ {
+  "lemma": "assassinator",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:assassin.n.01"
+ },
+ {
+  "lemma": "bravo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ASSASSIN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:assassin.n.01"
+ },
+ {
+  "lemma": "organic structure",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BODY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:body.n.01"
+ },
+ {
+  "lemma": "physical structure",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BODY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:body.n.01"
+ },
+ {
+  "lemma": "estructura física",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BODY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:body.n.01"
+ },
+ {
+  "lemma": "estructura orgánica",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BODY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:body.n.01"
+ },
+ {
+  "lemma": "carrocería",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BODY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bodywork.n.01"
+ },
+ {
+  "lemma": "exterior",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BODY_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bodywork.n.01"
+ },
+ {
+  "lemma": "harm",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+DAMAGE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.n.01"
+ },
+ {
+  "lemma": "impairment",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+DAMAGE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.n.01"
+ },
+ {
+  "lemma": "deterioro",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+DAMAGE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.n.01"
+ },
+ {
+  "lemma": "perjuicio",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+DAMAGE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.n.01"
+ },
+ {
+  "lemma": "destrozo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+DAMAGE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.n.03"
+ },
+ {
+  "lemma": "mal",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+DAMAGE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:damage.n.03"
+ },
+ {
+  "lemma": "merchandise",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+PRODUCT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:merchandise.n.01"
+ },
+ {
+  "lemma": "ware",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+PRODUCT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:merchandise.n.01"
+ },
+ {
+  "lemma": "artículo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PRODUCT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:merchandise.n.01"
+ },
+ {
+  "lemma": "género",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PRODUCT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:merchandise.n.01"
+ },
+ {
+  "lemma": "mercadería",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PRODUCT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:merchandise.n.01"
+ },
+ {
+  "lemma": "mercancía",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PRODUCT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:merchandise.n.01"
+ },
+ {
+  "lemma": "asilado",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+REFUGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:refugee.n.01"
+ },
+ {
+  "lemma": "refugiada",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+REFUGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:refugee.n.01"
+ },
+ {
+  "lemma": "refugiado",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+REFUGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:refugee.n.01"
+ },
+ {
+  "lemma": "refugiados",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+REFUGE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:refugee.n.01"
+ },
+ {
+  "lemma": "maltreater",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ABUSER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:abuser.n.01"
+ },
+ {
+  "lemma": "abusón",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ABUSER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:abuser.n.01"
+ },
+ {
+  "lemma": "violador",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ABUSER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:abuser.n.01"
+ },
+ {
+  "lemma": "kid",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "youngster",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "minor",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "shaver",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "alevín",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "chango",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "chaval",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "chico",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CHILD_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:child.n.01"
+ },
+ {
+  "lemma": "adult male",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+MAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:man.n.01"
+ },
+ {
+  "lemma": "hombre adulto",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+MAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:man.n.01"
+ },
+ {
+  "lemma": "varón",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+MAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:man.n.01"
+ },
+ {
+  "lemma": "homo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+MAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "humana",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+MAN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:homo.n.02"
+ },
+ {
+  "lemma": "minah",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+MINE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:myna.n.01"
+ },
+ {
+  "lemma": "myna",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+MINE_01",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:myna.n.01"
+ },
+ {
+  "lemma": "weapon system",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+WEAPON_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:weapon.n.01"
+ },
+ {
+  "lemma": "brazo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+WEAPON_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:arm.n.01"
+ },
+ {
+  "lemma": "armamento",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+WEAPON_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:armament.n.01"
+ },
+ {
+  "lemma": "hemp",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cannabis.n.01"
+ },
+ {
+  "lemma": "pot",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pot.n.09"
+ },
+ {
+  "lemma": "grass",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pot.n.09"
+ },
+ {
+  "lemma": "green goddess",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pot.n.09"
+ },
+ {
+  "lemma": "cáñamo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:cannabis.n.01"
+ },
+ {
+  "lemma": "chaquetón",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pot.n.09"
+ },
+ {
+  "lemma": "chocolate",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pot.n.09"
+ },
+ {
+  "lemma": "costo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$CANNABIS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:pot.n.09"
+ },
+ {
+  "lemma": "frasco",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BOTTLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bottle.n.01"
+ },
+ {
+  "lemma": "computing machine",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "computing device",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "data processor",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "electronic computer",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "calculador",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "calculadora",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "computador",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "computadora",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COMPUTER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:computer.n.01"
+ },
+ {
+  "lemma": "arena",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COUNTRYSIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:arena.n.04"
+ },
+ {
+  "lemma": "palestra",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COUNTRYSIDE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:arena.n.04"
+ },
+ {
+  "lemma": "being",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANISM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:organism.n.01"
+ },
+ {
+  "lemma": "criatura",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANISM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:organism.n.01"
+ },
+ {
+  "lemma": "organismos",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANISM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:organism.n.01"
+ },
+ {
+  "lemma": "ser",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANISM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:organism.n.01"
+ },
+ {
+  "lemma": "ser vivo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANISM_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:organism.n.01"
+ },
+ {
+  "lemma": "organisation",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANIZATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:organization.n.01"
+ },
+ {
+  "lemma": "squad",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANIZATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:team.n.01"
+ },
+ {
+  "lemma": "cuadrilla",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:team.n.01"
+ },
+ {
+  "lemma": "escuadrón",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:team.n.01"
+ },
+ {
+  "lemma": "aparato",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:apparatus.n.01"
+ },
+ {
+  "lemma": "dispositivo",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZATION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:apparatus.n.01"
+ },
+ {
+  "lemma": "joseph hooker",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hooker.n.01"
+ },
+ {
+  "lemma": "fighting joe hooker",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hooker.n.01"
+ },
+ {
+  "lemma": "cocotte",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:prostitute.n.01"
+ },
+ {
+  "lemma": "harlot",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:prostitute.n.01"
+ },
+ {
+  "lemma": "joseph hooker",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:hooker.n.01"
+ },
+ {
+  "lemma": "alcahueta",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:prostitute.n.01"
+ },
+ {
+  "lemma": "golfa",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:prostitute.n.01"
+ },
+ {
+  "lemma": "meretriz",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+PROSTITUTE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:prostitute.n.01"
+ },
+ {
+  "lemma": "interrogation",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+QUESTIONING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:interrogation.n.03"
+ },
+ {
+  "lemma": "examination",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+QUESTIONING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:interrogation.n.03"
+ },
+ {
+  "lemma": "inquiring",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+QUESTIONING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:questioning.n.01"
+ },
+ {
+  "lemma": "preguntas",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+QUESTIONING_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:questioning.n.01"
+ },
+ {
+  "lemma": "ciudad",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TOWN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:town.n.01"
+ },
+ {
+  "lemma": "población",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TOWN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:town.n.01"
+ },
+ {
+  "lemma": "villa",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TOWN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:town.n.01"
+ },
+ {
+  "lemma": "gente",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+TOWN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:people.n.01"
+ },
+ {
+  "lemma": "arma de fuego",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+GUN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gun.n.01"
+ },
+ {
+  "lemma": "cañón",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+GUN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gun.n.01"
+ },
+ {
+  "lemma": "escopeta",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+GUN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gun.n.01"
+ },
+ {
+  "lemma": "obús",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+GUN_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gun.n.01"
+ },
+ {
+  "lemma": "gasoline bomb",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+MOLOTOV_COCKTAIL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:molotov_cocktail.n.01"
+ },
+ {
+  "lemma": "baccy",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+TOBACCO_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:tobacco.n.01"
+ },
+ {
+  "lemma": "wmd",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+WEAPON_OF_MASS_DESTRUCTION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:weapon_of_mass_destruction.n.01"
+ },
+ {
+  "lemma": "w.m.d.",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+WEAPON_OF_MASS_DESTRUCTION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:weapon_of_mass_destruction.n.01"
+ },
+ {
+  "lemma": "splenic fever",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ANTHRAX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:anthrax.n.01"
+ },
+ {
+  "lemma": "carbunco",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ANTHRAX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:anthrax.n.01"
+ },
+ {
+  "lemma": "fabric",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "material",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "textile",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "género",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "material",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "paño",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "tejido",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CLOTH_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:fabric.n.01"
+ },
+ {
+  "lemma": "tribunal",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:court.n.01"
+ },
+ {
+  "lemma": "judicature",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+COURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:court.n.01"
+ },
+ {
+  "lemma": "corte",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:court.n.01"
+ },
+ {
+  "lemma": "sala",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:court.n.02"
+ },
+ {
+  "lemma": "sala de justicia",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:court.n.02"
+ },
+ {
+  "lemma": "consulta",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+COURT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:consultation.n.01"
+ },
+ {
+  "lemma": "metallic element",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+METAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:metallic_element.n.01"
+ },
+ {
+  "lemma": "elemento metálico",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+METAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:metallic_element.n.01"
+ },
+ {
+  "lemma": "metales",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+METAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:metallic_element.n.01"
+ },
+ {
+  "lemma": "instrumentos de metal",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+METAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:brass.n.02"
+ },
+ {
+  "lemma": "metal viento",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+METAL_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:brass.n.02"
+ },
+ {
+  "lemma": "fusil",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+RIFLE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:rifle.n.01"
+ },
+ {
+  "lemma": "sexual activity",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+SEX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sexual_activity.n.01"
+ },
+ {
+  "lemma": "sexual practice",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+SEX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sexual_activity.n.01"
+ },
+ {
+  "lemma": "sex activity",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+SEX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sexual_activity.n.01"
+ },
+ {
+  "lemma": "relación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SEX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sexual_activity.n.01"
+ },
+ {
+  "lemma": "relaciones sexuales",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SEX_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sexual_activity.n.01"
+ },
+ {
+  "lemma": "son",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SOUND_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:sound.n.01"
+ },
+ {
+  "lemma": "witnesser",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+WITNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:witness.n.01"
+ },
+ {
+  "lemma": "informant",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+WITNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:witness.n.01"
+ },
+ {
+  "lemma": "informante",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+WITNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:witness.n.01"
+ },
+ {
+  "lemma": "posta",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+WITNESS_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:baton.n.05"
+ },
+ {
+  "lemma": "pep pill",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:amphetamine.n.01"
+ },
+ {
+  "lemma": "upper",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:amphetamine.n.01"
+ },
+ {
+  "lemma": "speed",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:amphetamine.n.01"
+ },
+ {
+  "lemma": "grouch",
+  "lang": "en",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grouch.n.01"
+ },
+ {
+  "lemma": "anfeta",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:amphetamine.n.01"
+ },
+ {
+  "lemma": "cascarrabias",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grouch.n.01"
+ },
+ {
+  "lemma": "gruñón",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grouch.n.01"
+ },
+ {
+  "lemma": "polvorilla",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$AMPHETAMINE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:grouch.n.01"
+ },
+ {
+  "lemma": "afirmación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$DECLARE_D_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:declaration.n.01"
+ },
+ {
+  "lemma": "manifestación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$DECLARE_D_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:declaration.n.01"
+ },
+ {
+  "lemma": "resolución",
+  "lang": "es",
+  "pos": "n",
+  "concept": "$DECLARE_D_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:resolution.n.01"
+ },
+ {
+  "lemma": "ammo",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+AMMUNITION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ammunition.n.01"
+ },
+ {
+  "lemma": "municiones",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+AMMUNITION_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:ammunition.n.01"
+ },
+ {
+  "lemma": "brigand",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BANDIT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bandit.n.01"
+ },
+ {
+  "lemma": "mobster",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BANDIT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gangster.n.01"
+ },
+ {
+  "lemma": "atracador",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BANDIT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bandit.n.01"
+ },
+ {
+  "lemma": "bandolera",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BANDIT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bandit.n.01"
+ },
+ {
+  "lemma": "bandolero",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BANDIT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bandit.n.01"
+ },
+ {
+  "lemma": "forajido",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BANDIT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:bandit.n.01"
+ },
+ {
+  "lemma": "suicidio",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BOMBER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:suicide.n.02"
+ },
+ {
+  "lemma": "customs duty",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BORDER_CROSSING_POINT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:customs.n.01"
+ },
+ {
+  "lemma": "custom",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BORDER_CROSSING_POINT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:customs.n.01"
+ },
+ {
+  "lemma": "impost",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+BORDER_CROSSING_POINT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:customs.n.01"
+ },
+ {
+  "lemma": "derecho de aduana",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+BORDER_CROSSING_POINT_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:customs.n.01"
+ },
+ {
+  "lemma": "capturer",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+CAPTOR_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:captor.n.01"
+ },
+ {
+  "lemma": "captora",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+CAPTOR_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:captor.n.01"
+ },
+ {
+  "lemma": "abogada",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+LAWYER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lawyer.n.01"
+ },
+ {
+  "lemma": "defensor",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+LAWYER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lawyer.n.01"
+ },
+ {
+  "lemma": "jurista",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+LAWYER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lawyer.n.01"
+ },
+ {
+  "lemma": "letrada",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+LAWYER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:lawyer.n.01"
+ },
+ {
+  "lemma": "atestación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORAL_EVIDENCE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:testimony.n.01"
+ },
+ {
+  "lemma": "atestiguamiento",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORAL_EVIDENCE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:testimony.n.01"
+ },
+ {
+  "lemma": "testificación",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORAL_EVIDENCE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:testimony.n.01"
+ },
+ {
+  "lemma": "testimonio",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORAL_EVIDENCE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:testimony.n.01"
+ },
+ {
+  "lemma": "pack",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gang.n.01"
+ },
+ {
+  "lemma": "maffia",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:mafia.n.01"
+ },
+ {
+  "lemma": "cosa nostra",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:mafia.n.01"
+ },
+ {
+  "lemma": "rabble",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:mob.n.01"
+ },
+ {
+  "lemma": "banda",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gang.n.01"
+ },
+ {
+  "lemma": "pandilla",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:gang.n.01"
+ },
+ {
+  "lemma": "cosa nostra",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:mafia.n.01"
+ },
+ {
+  "lemma": "mafia",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+ORGANIZED_CRIME_GROUP_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:mafia.n.01"
+ },
+ {
+  "lemma": "law",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+POLICE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:police.n.01"
+ },
+ {
+  "lemma": "agentes",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+POLICE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:police.n.01"
+ },
+ {
+  "lemma": "fuerzas del orden",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+POLICE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:police.n.01"
+ },
+ {
+  "lemma": "fuerzas policiales",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+POLICE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:police.n.01"
+ },
+ {
+  "lemma": "guardia",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+POLICE_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:police.n.01"
+ },
+ {
+  "lemma": "runner",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "contrabandist",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "moon curser",
+  "lang": "en",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "matutero",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "metedor",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "pasador",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "traficante",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SMUGGLER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:smuggler.n.01"
+ },
+ {
+  "lemma": "avión kamikaze",
+  "lang": "es",
+  "pos": "n",
+  "concept": "+SUICIDE_BOMBER_00",
+  "provenance": "lexicon-expansion-2026-10-07",
+  "source": "wordnet:kamikaze.n.01"
+ }
+]

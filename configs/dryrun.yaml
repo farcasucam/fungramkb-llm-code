@@ -1,0 +1,10 @@
+# End-to-end check on the toy KB with the mock backend (no GPU). Numbers are meaningless.
+kb: tests/fixtures/toy_kb.json
+benchmark: results/toy_bench.jsonl
+splits: [test_seen, test_unseen]
+budget_tokens: 400
+conditions: [B0, B1, R1, R2, G1, G2, G4, N1, N2]
+models:
+  - {name: mock, kind: mock}
+gen: {max_tokens: 64, temperature: 0.0, seed: 0}
+output: results/dryrun.jsonl

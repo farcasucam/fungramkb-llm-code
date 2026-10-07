@@ -1,0 +1,56 @@
+// COREL meaning-postulate grammar (subset), after Arcas Túnez (2008), section 3.1.7.2.
+//
+//   +(e1: +BE_00 (x1: +BIRD_00)Theme (x2: +VERTEBRATE_00)Referent)
+//   *(e2: +COMPRISE_00 (x1)Theme (x3: m +FEATHER_00 & 2 +LEG_00 & 2 +WING_00)Referent)
+//   *((e3: +COMPRISE_00 (x1)Theme (x4: 2 +LEG_00)Referent) (e4: +BE_01 (x4)Theme (x5: +LONG_00)Attribute))
+//   +(e9: n +FLY_00 (x1)Agent (x1)Theme (x10)Origin (x11)Goal)
+//
+// Covered: reasoning operators (+ strict, * defeasible), linked predications,
+// predication operators (aspect, tense, modality, polarity), arguments (x) and
+// satellites (f), selection preferences with quantifiers and the connectors & | ^,
+// predications as fillers of satellites/arguments, connectors between participants.
+// Also covered after the real export (P03): coreferent variables as fillers ((f3: x1)Scene),
+// negated selection preferences ((f1: n +PERMISSION_00)Manner) and parenthesised groups of
+// linked predications as satellite fillers. Not covered: the lambda connector.
+
+?start: postulate
+
+postulate: item+
+
+item: REASON_OP predication                -> free_item
+    | REASON_OP "(" predication+ ")"        -> linked_item
+
+predication: "(" EVAR ":" pred_op* concept participants? ")"
+
+pred_op: ASPECT | TENSE | MODALITY | POLARITY
+
+participants: participant (CONNECTOR? participant)*
+
+participant: "(" PVAR (":" filler)? ")" ROLE
+
+?filler: sel_expr
+       | predication (CONNECTOR? predication)*  -> pred_filler
+       | "(" predication+ ")"                   -> pred_filler
+
+?sel_expr: sel_term (CONNECTOR sel_term)*  -> sel_group
+
+?sel_term: POLARITY? QUANT? concept         -> sel_concept
+         | PVAR                                -> sel_var
+         | "(" sel_expr ")"
+
+concept: CONCEPT
+
+REASON_OP: "+" | "*"
+EVAR: /e\d+/
+PVAR: /[xf]\d+/
+ASPECT.2: "ing" | "pro" | "egr"
+TENSE.2: "rpast" | "past" | "npast" | "pres" | "nfut" | "fut" | "rfut"
+MODALITY.2: "cert" | "prob" | "pos" | "obl" | "adv" | "perm"
+POLARITY.2: "n"
+QUANT.2: /\d+/ | "m" | "s" | "p" | "i"
+CONNECTOR: "&" | "|" | "^"
+CONCEPT.3: /[#+$][A-Z][A-Z0-9_]*/ | /[A-Z][A-Z0-9_]*(?![a-z])/
+ROLE: /[A-Z][a-z]+/
+
+%import common.WS
+%ignore WS

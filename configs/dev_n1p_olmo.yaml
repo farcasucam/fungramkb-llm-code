@@ -1,0 +1,17 @@
+# Parser development (7 Oct 2026): N1P on the DEV split only (153 contrast items per model).
+# Test splits are not run until the parser is frozen. Olmo 3 on port 8002 (scripts/spark_olmo_up.sh).
+# Compare with N1/N1R/G2 from the pilot file: scripts/dev_parser_report.py
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [dev]
+contrast_over: [test_seen, test_unseen, dev]   # same dev items as the pilot analysis set
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [N1P]
+constrained_decoding: true
+batch_size: 128
+models:
+  - {name: olmo3-7b-instruct-bf16, kind: openai, model: "allenai/Olmo-3-7B-Instruct", base_url: "http://192.168.1.112:8002/v1", concurrency: 64, grammar_field: json_schema}
+gen: {max_tokens: 1024, temperature: 0.0, seed: 0}
+output: results/dev_n1p.jsonl

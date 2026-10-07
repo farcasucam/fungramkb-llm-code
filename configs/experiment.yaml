@@ -1,0 +1,17 @@
+# Main experiment (paper 1). Fill model ids when versions are frozen (week 1).
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen]
+budget_tokens: 1500
+conditions: [B0, B1, R1, R2, G1, G2, G3, G4, N1, N2, F1, F2]
+constrained_decoding: true
+n2_retries: 2
+batch_size: 64
+models:
+  # base models: run B*, R*, G*, N*
+  - {name: model-a-8b,  kind: vllm, model: "<hf-id-model-a-8b>"}
+  - {name: model-b-14b, kind: vllm, model: "<hf-id-model-b-14b>"}
+  # LoRA adapters: run F1, F2 (one entry per seed)
+  - {name: model-a-8b-lora-s0, kind: vllm, model: "<hf-id-model-a-8b>", lora_path: checkpoints/model-a-8b/seed0/adapter}
+gen: {max_tokens: 384, temperature: 0.0, seed: 0}
+output: results/main.jsonl

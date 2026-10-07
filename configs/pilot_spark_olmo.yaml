@@ -1,0 +1,19 @@
+# Pilot, third model family (7 Oct 2026): Olmo 3 7B Instruct (open weights and open training data),
+# served by vLLM on the DGX Spark, port 8002 (scripts/spark_olmo_up.sh). Same items, conditions,
+# decoding and output file as the Qwen/Llama pilot, so one analysis covers the three models.
+# max_tokens is 1024 from the start (the protocol value after the truncation fix); run
+# scripts/rerun_truncated.py afterwards anyway for the rare unparsable answers.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [B1, G1, G2, G3, G4, R1, N1, N1R]
+constrained_decoding: true
+n2_retries: 2
+batch_size: 128
+models:
+  - {name: olmo3-7b-instruct-bf16, kind: openai, model: "allenai/Olmo-3-7B-Instruct", base_url: "http://192.168.1.112:8002/v1", concurrency: 64, grammar_field: json_schema}
+gen: {max_tokens: 1024, temperature: 0.0, seed: 0}
+output: results/pilot_spark_vllm.jsonl

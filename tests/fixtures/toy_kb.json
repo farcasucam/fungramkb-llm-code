@@ -1,0 +1,1238 @@
+{
+ "version": "toy-0.1",
+ "concepts": [
+  {
+   "id": "#ENTITY",
+   "parents": [],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#PHYSICAL",
+   "parents": [
+    "#ENTITY"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#OBJECT",
+   "parents": [
+    "#PHYSICAL"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#SELF_CONNECTED_OBJECT",
+   "parents": [
+    "#OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#GROUP",
+   "parents": [
+    "#ENTITY"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#EVENT",
+   "parents": [],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#MOTION",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#STATIVE",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "#QUALITY",
+   "parents": [],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+ANIMAL_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "*(e1: +MOVE_00 (x1)Agent (x1)Theme) +(e2: +EAT_00 (x1)Agent (x2: +FOOD_00)Theme)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+VERTEBRATE_00",
+   "parents": [
+    "+ANIMAL_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +COMPRISE_00 (x1)Theme (x2: +BONE_00)Referent)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BIRD_00",
+   "parents": [
+    "+VERTEBRATE_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +BE_00 (x1: +BIRD_00)Theme (x2: +VERTEBRATE_00)Referent) *(e2: +COMPRISE_00 (x1)Theme (x3: m +FEATHER_00 & 2 +LEG_00 & 2 +WING_00)Referent) *(e3: +FLY_00 (x1)Agent (x1)Theme (x4)Origin (x5)Goal)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "$OSTRICH_00",
+   "parents": [
+    "+BIRD_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +BE_00 (x1: $OSTRICH_00)Theme (x2: +BIRD_00)Referent) *(e2: +BE_01 (x1)Theme (x3: +BIG_00)Attribute) *((e3: +COMPRISE_00 (x1)Theme (x4: 2 +LEG_00 & 1 +NECK_00)Referent) (e4: +BE_01 (x4)Theme (x5: +LONG_00)Attribute)) +(e9: n +FLY_00 (x1)Agent (x1)Theme (x10)Origin (x11)Goal) *(e10: +RUN_00 (x1)Agent (x1)Theme (f1: +FAST_00)Speed)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "$PENGUIN_00",
+   "parents": [
+    "+BIRD_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: n +FLY_00 (x1)Agent (x1)Theme) *(e2: +SWIM_00 (x1)Agent (x1)Theme)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "$SPARROW_00",
+   "parents": [
+    "+BIRD_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "*(e1: +BE_01 (x1)Theme (x2: +SMALL_00)Attribute)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+MAMMAL_00",
+   "parents": [
+    "+VERTEBRATE_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +COMPRISE_00 (x1)Theme (x2: +HAIR_00)Referent)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+DOG_00",
+   "parents": [
+    "+MAMMAL_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "*(e1: +COMPRISE_00 (x1)Theme (x2: 4 +LEG_00)Referent) *(e2: +BARK_00 (x1)Agent)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+HUMAN_00",
+   "parents": [
+    "+MAMMAL_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +THINK_00 (x1)Agent (x1)Theme) *(e2: +SPEAK_00 (x1)Agent)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "$BAT_00",
+   "parents": [
+    "+MAMMAL_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "*(e1: +FLY_00 (x1)Agent (x1)Theme)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+FEATHER_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+LEG_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+WING_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+NECK_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BONE_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+HAIR_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+FOOD_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BREAD_00",
+   "parents": [
+    "+FOOD_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+STONE_00",
+   "parents": [
+    "#SELF_CONNECTED_OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +BE_01 (x1)Theme (x2: +HARD_00)Attribute)",
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+MONEY_00",
+   "parents": [
+    "#OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+RIVER_00",
+   "parents": [
+    "#PHYSICAL"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+RESTAURANT_00",
+   "parents": [
+    "#OBJECT"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+ORGANIZATION_00",
+   "parents": [
+    "#GROUP"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+LAND_00",
+   "parents": [
+    "#PHYSICAL"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BANK_00",
+   "parents": [
+    "+ORGANIZATION_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "*(e1: +LEND_00 (x1)Agent (x2: +MONEY_00)Theme (x3: +HUMAN_00)Goal)",
+   "thematic_frame": null,
+   "glosses": {
+    "en": "financial institution",
+    "es": "entidad financiera"
+   }
+  },
+  {
+   "id": "+BANK_01",
+   "parents": [
+    "+LAND_00"
+   ],
+   "semantic_type": "entity",
+   "meaning_postulate": "+(e1: +BE_02 (x1)Theme (x2: +RIVER_00)Location)",
+   "thematic_frame": null,
+   "glosses": {
+    "en": "land beside a river",
+    "es": "orilla de un río"
+   }
+  },
+  {
+   "id": "+BE_00",
+   "parents": [
+    "#STATIVE"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BE_01",
+   "parents": [
+    "#STATIVE"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BE_02",
+   "parents": [
+    "#STATIVE"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+COMPRISE_00",
+   "parents": [
+    "#STATIVE"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+MOVE_00",
+   "parents": [
+    "#MOTION"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +MOVE_00 (x1)Agent (x2)Theme)",
+   "glosses": {}
+  },
+  {
+   "id": "+FLY_00",
+   "parents": [
+    "+MOVE_00"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +FLY_00 (x1: +ANIMAL_00)Agent (x2)Theme)",
+   "glosses": {}
+  },
+  {
+   "id": "+RUN_00",
+   "parents": [
+    "+MOVE_00"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +RUN_00 (x1: +ANIMAL_00)Agent (x2)Theme)",
+   "glosses": {}
+  },
+  {
+   "id": "+SWIM_00",
+   "parents": [
+    "+MOVE_00"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +SWIM_00 (x1: +ANIMAL_00)Agent (x2)Theme)",
+   "glosses": {}
+  },
+  {
+   "id": "+EAT_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +EAT_00 (x1: +ANIMAL_00)Agent (x2: +FOOD_00)Theme)",
+   "glosses": {}
+  },
+  {
+   "id": "+THINK_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +THINK_00 (x1: +HUMAN_00)Agent (x2)Theme)",
+   "glosses": {}
+  },
+  {
+   "id": "+SPEAK_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +SPEAK_00 (x1: +HUMAN_00)Agent)",
+   "glosses": {}
+  },
+  {
+   "id": "+BARK_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +BARK_00 (x1: +DOG_00)Agent)",
+   "glosses": {}
+  },
+  {
+   "id": "+LEND_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": "(e1: +LEND_00 (x1: +HUMAN_00 | +ORGANIZATION_00)Agent (x2)Theme (x3: +HUMAN_00)Goal)",
+   "glosses": {}
+  },
+  {
+   "id": "+ENTER_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+SIT_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+ORDER_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+PAY_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+LEAVE_00",
+   "parents": [
+    "#EVENT"
+   ],
+   "semantic_type": "event",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+BIG_00",
+   "parents": [
+    "#QUALITY"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+SMALL_00",
+   "parents": [
+    "#QUALITY"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+LONG_00",
+   "parents": [
+    "#QUALITY"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+FAST_00",
+   "parents": [
+    "#QUALITY"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  },
+  {
+   "id": "+HARD_00",
+   "parents": [
+    "#QUALITY"
+   ],
+   "semantic_type": "quality",
+   "meaning_postulate": null,
+   "thematic_frame": null,
+   "glosses": {}
+  }
+ ],
+ "lexicon": [
+  {
+   "lemma": "animal",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+ANIMAL_00"
+  },
+  {
+   "lemma": "animal",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+ANIMAL_00"
+  },
+  {
+   "lemma": "vertebrate",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+VERTEBRATE_00"
+  },
+  {
+   "lemma": "vertebrado",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+VERTEBRATE_00"
+  },
+  {
+   "lemma": "bird",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+BIRD_00"
+  },
+  {
+   "lemma": "pájaro",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+BIRD_00"
+  },
+  {
+   "lemma": "ostrich",
+   "lang": "en",
+   "pos": "n",
+   "concept": "$OSTRICH_00"
+  },
+  {
+   "lemma": "avestruz",
+   "lang": "es",
+   "pos": "n",
+   "concept": "$OSTRICH_00"
+  },
+  {
+   "lemma": "penguin",
+   "lang": "en",
+   "pos": "n",
+   "concept": "$PENGUIN_00"
+  },
+  {
+   "lemma": "pingüino",
+   "lang": "es",
+   "pos": "n",
+   "concept": "$PENGUIN_00"
+  },
+  {
+   "lemma": "sparrow",
+   "lang": "en",
+   "pos": "n",
+   "concept": "$SPARROW_00"
+  },
+  {
+   "lemma": "gorrión",
+   "lang": "es",
+   "pos": "n",
+   "concept": "$SPARROW_00"
+  },
+  {
+   "lemma": "mammal",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+MAMMAL_00"
+  },
+  {
+   "lemma": "mamífero",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+MAMMAL_00"
+  },
+  {
+   "lemma": "dog",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+DOG_00"
+  },
+  {
+   "lemma": "perro",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+DOG_00"
+  },
+  {
+   "lemma": "human",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+HUMAN_00"
+  },
+  {
+   "lemma": "humano",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+HUMAN_00"
+  },
+  {
+   "lemma": "bat",
+   "lang": "en",
+   "pos": "n",
+   "concept": "$BAT_00"
+  },
+  {
+   "lemma": "murciélago",
+   "lang": "es",
+   "pos": "n",
+   "concept": "$BAT_00"
+  },
+  {
+   "lemma": "feather",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+FEATHER_00"
+  },
+  {
+   "lemma": "pluma",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+FEATHER_00"
+  },
+  {
+   "lemma": "leg",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+LEG_00"
+  },
+  {
+   "lemma": "pata",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+LEG_00"
+  },
+  {
+   "lemma": "wing",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+WING_00"
+  },
+  {
+   "lemma": "ala",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+WING_00"
+  },
+  {
+   "lemma": "neck",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+NECK_00"
+  },
+  {
+   "lemma": "cuello",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+NECK_00"
+  },
+  {
+   "lemma": "bone",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+BONE_00"
+  },
+  {
+   "lemma": "hueso",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+BONE_00"
+  },
+  {
+   "lemma": "hair",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+HAIR_00"
+  },
+  {
+   "lemma": "pelo",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+HAIR_00"
+  },
+  {
+   "lemma": "food",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+FOOD_00"
+  },
+  {
+   "lemma": "comida",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+FOOD_00"
+  },
+  {
+   "lemma": "bread",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+BREAD_00"
+  },
+  {
+   "lemma": "pan",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+BREAD_00"
+  },
+  {
+   "lemma": "stone",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+STONE_00"
+  },
+  {
+   "lemma": "piedra",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+STONE_00"
+  },
+  {
+   "lemma": "money",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+MONEY_00"
+  },
+  {
+   "lemma": "dinero",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+MONEY_00"
+  },
+  {
+   "lemma": "river",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+RIVER_00"
+  },
+  {
+   "lemma": "río",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+RIVER_00"
+  },
+  {
+   "lemma": "restaurant",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+RESTAURANT_00"
+  },
+  {
+   "lemma": "restaurante",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+RESTAURANT_00"
+  },
+  {
+   "lemma": "organisation",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+ORGANIZATION_00"
+  },
+  {
+   "lemma": "organización",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+ORGANIZATION_00"
+  },
+  {
+   "lemma": "land",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+LAND_00"
+  },
+  {
+   "lemma": "tierra",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+LAND_00"
+  },
+  {
+   "lemma": "bank",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+BANK_00"
+  },
+  {
+   "lemma": "banco",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+BANK_00"
+  },
+  {
+   "lemma": "bank",
+   "lang": "en",
+   "pos": "n",
+   "concept": "+BANK_01"
+  },
+  {
+   "lemma": "orilla",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+BANK_01"
+  },
+  {
+   "lemma": "be",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+BE_01"
+  },
+  {
+   "lemma": "ser",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+BE_01"
+  },
+  {
+   "lemma": "be located",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+BE_02"
+  },
+  {
+   "lemma": "estar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+BE_02"
+  },
+  {
+   "lemma": "have",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+COMPRISE_00"
+  },
+  {
+   "lemma": "tener",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+COMPRISE_00"
+  },
+  {
+   "lemma": "move",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+MOVE_00"
+  },
+  {
+   "lemma": "moverse",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+MOVE_00"
+  },
+  {
+   "lemma": "fly",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+FLY_00"
+  },
+  {
+   "lemma": "volar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+FLY_00"
+  },
+  {
+   "lemma": "run",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+RUN_00"
+  },
+  {
+   "lemma": "correr",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+RUN_00"
+  },
+  {
+   "lemma": "swim",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+SWIM_00"
+  },
+  {
+   "lemma": "nadar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+SWIM_00"
+  },
+  {
+   "lemma": "eat",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+EAT_00"
+  },
+  {
+   "lemma": "comer",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+EAT_00"
+  },
+  {
+   "lemma": "think",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+THINK_00"
+  },
+  {
+   "lemma": "pensar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+THINK_00"
+  },
+  {
+   "lemma": "speak",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+SPEAK_00"
+  },
+  {
+   "lemma": "hablar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+SPEAK_00"
+  },
+  {
+   "lemma": "bark",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+BARK_00"
+  },
+  {
+   "lemma": "ladrar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+BARK_00"
+  },
+  {
+   "lemma": "lend",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+LEND_00"
+  },
+  {
+   "lemma": "prestar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+LEND_00"
+  },
+  {
+   "lemma": "enter",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+ENTER_00"
+  },
+  {
+   "lemma": "entrar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+ENTER_00"
+  },
+  {
+   "lemma": "sit down",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+SIT_00"
+  },
+  {
+   "lemma": "sentarse",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+SIT_00"
+  },
+  {
+   "lemma": "order",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+ORDER_00"
+  },
+  {
+   "lemma": "pedir",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+ORDER_00"
+  },
+  {
+   "lemma": "pay",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+PAY_00"
+  },
+  {
+   "lemma": "pagar",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+PAY_00"
+  },
+  {
+   "lemma": "leave",
+   "lang": "en",
+   "pos": "v",
+   "concept": "+LEAVE_00"
+  },
+  {
+   "lemma": "salir",
+   "lang": "es",
+   "pos": "v",
+   "concept": "+LEAVE_00"
+  },
+  {
+   "lemma": "big",
+   "lang": "en",
+   "pos": "adj",
+   "concept": "+BIG_00"
+  },
+  {
+   "lemma": "grande",
+   "lang": "es",
+   "pos": "adj",
+   "concept": "+BIG_00"
+  },
+  {
+   "lemma": "small",
+   "lang": "en",
+   "pos": "adj",
+   "concept": "+SMALL_00"
+  },
+  {
+   "lemma": "pequeño",
+   "lang": "es",
+   "pos": "adj",
+   "concept": "+SMALL_00"
+  },
+  {
+   "lemma": "long",
+   "lang": "en",
+   "pos": "adj",
+   "concept": "+LONG_00"
+  },
+  {
+   "lemma": "largo",
+   "lang": "es",
+   "pos": "adj",
+   "concept": "+LONG_00"
+  },
+  {
+   "lemma": "fast",
+   "lang": "en",
+   "pos": "adj",
+   "concept": "+FAST_00"
+  },
+  {
+   "lemma": "rápido",
+   "lang": "es",
+   "pos": "adj",
+   "concept": "+FAST_00"
+  },
+  {
+   "lemma": "hard",
+   "lang": "en",
+   "pos": "adj",
+   "concept": "+HARD_00"
+  },
+  {
+   "lemma": "duro",
+   "lang": "es",
+   "pos": "adj",
+   "concept": "+HARD_00"
+  },
+  {
+   "lemma": "banco",
+   "lang": "es",
+   "pos": "n",
+   "concept": "+BANK_01"
+  }
+ ],
+ "scripts": [
+  {
+   "id": "EAT_IN_RESTAURANT",
+   "name": {
+    "en": "eating in a restaurant",
+    "es": "comer en un restaurante"
+   },
+   "participants": [
+    "+HUMAN_00",
+    "+RESTAURANT_00",
+    "+FOOD_00",
+    "+MONEY_00"
+   ],
+   "steps": [
+    {
+     "order": 1,
+     "predication": "(e1: +ENTER_00 (x1: +HUMAN_00)Agent)",
+     "label": {
+      "en": "enter the restaurant",
+      "es": "entrar en el restaurante"
+     }
+    },
+    {
+     "order": 2,
+     "predication": "(e2: +SIT_00 (x1: +HUMAN_00)Agent)",
+     "label": {
+      "en": "sit down at a table",
+      "es": "sentarse a una mesa"
+     }
+    },
+    {
+     "order": 3,
+     "predication": "(e3: +ORDER_00 (x1: +HUMAN_00)Agent)",
+     "label": {
+      "en": "order the food",
+      "es": "pedir la comida"
+     }
+    },
+    {
+     "order": 4,
+     "predication": "(e4: +EAT_00 (x1: +HUMAN_00)Agent)",
+     "label": {
+      "en": "eat the food",
+      "es": "comer la comida"
+     }
+    },
+    {
+     "order": 5,
+     "predication": "(e5: +PAY_00 (x1: +HUMAN_00)Agent)",
+     "label": {
+      "en": "pay the bill",
+      "es": "pagar la cuenta"
+     }
+    },
+    {
+     "order": 6,
+     "predication": "(e6: +LEAVE_00 (x1: +HUMAN_00)Agent)",
+     "label": {
+      "en": "leave the restaurant",
+      "es": "salir del restaurante"
+     }
+    }
+   ],
+   "preconditions": [
+    "+MONEY_00"
+   ]
+  }
+ ],
+ "instances": []
+}

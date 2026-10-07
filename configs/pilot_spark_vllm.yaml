@@ -1,0 +1,17 @@
+# Same pilot with `vllm serve` on the Spark (bf16 weights, grammar-constrained N1 as preregistered).
+# One model per server: start the server for model 1, run, stop; then model 2 (see scripts/spark_pilot.sh).
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+budget_tokens: 1500
+conditions: [B1, G1, G2, G4, R1, N1]
+constrained_decoding: true
+n2_retries: 2
+batch_size: 64
+models:
+  - {name: qwen2.5-7b-instruct, kind: openai, model: "Qwen/Qwen2.5-7B-Instruct", base_url: "http://localhost:8000/v1", concurrency: 32, grammar_field: json_schema}
+  - {name: llama3.1-8b-instruct, kind: openai, model: "meta-llama/Llama-3.1-8B-Instruct", base_url: "http://localhost:8001/v1", concurrency: 32, grammar_field: json_schema}
+gen: {max_tokens: 384, temperature: 0.0, seed: 0}
+output: results/pilot_spark_vllm.jsonl

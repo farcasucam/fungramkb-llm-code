@@ -1,0 +1,21 @@
+concept	lang	lemma_used	proposed_alternative	all_lemmas	n_items	approved_alternative (leave empty to reject)
++HUMAN_00	en	human	soul	human | human being | individual | mortal | person | soul	130	human	
++HUMAN_00	es	humano	persona	humano | persona	130	persona
++JUDGE_00	es	juez	magistrado	juez | magistrado	43	magistrado
++CRIMINAL_00	es	condenado	delincuente	condenado | convicto | criminal | culpable | delincuente | infractor | maleante | malhechor | ofensor | perpetrador | presidiario | preso | reo | transgresor	35	delincuente
++COUNTRY_00	en	country	nation	country | homeland | nation | state	31	nation
++COUNTRY_00	es	estado	nación	estado | nación | país | patria	31	nación
++CRIME_00	en	crime	offence	crime | criminal wrong | delinquency | offence	28	offence
++CRIME_00	es	delito	ofensa	delito | ilegalidad | infracción | ofensa	28	delito	
++CRIMINAL_00	en	convict	offender	convict | criminal | culprit | delinquent | guilty | lawbreaker | offender | perpetrator	28	offender
++INFORMATION_00	en	data	information	data | information	24	information
++INFORMATION_00	es	dato	información	dato | información	24	información
+$CANNABIS_00	en	cannabis	hashish	cannabis | dope | hashish | marijuana	20	cannabis
+$CANNABIS_00	es	cannabis	marihuana	cannabis | hachís | maria | marihuana	20	cannabis
++POLICE_00	en	constabulary	police	constabulary | police | police force	17	police
++POLICE_00	es	cuerpo policial	policía	cuerpo policial | policía	17	policía
++ASSAULT_00	en	aggression	attack	aggression | assault | attack	14	aggression	
++TRIAL_00	es	juicio	proceso	juicio | proceso	12	proceso
++ASSASSIN_00	en	assassin	slayer	assassin | gunman | homicide | killer | murderer | slayer | triggerman	11	assassin	
++BANDIT_00	es	bandido	gánster	bandido | gánster	11	bandido	
++PENALTY_00	es	castigo	multa	castigo | multa | pena | sanción	11	sanción

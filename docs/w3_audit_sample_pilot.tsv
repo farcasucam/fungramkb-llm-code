@@ -1,0 +1,99 @@
+id	lang	block	original	paraphrase	same_meaning (1/0)	comment
+ablation-000372-en	en	ablation	Is it true that a counterfeiter is alive?	Does a counterfeiter exist?		
+ablation-000160-en	en	ablation	Is it true that an assassin is found?	Does an assassin exist?		
+ablation-000444-en	en	ablation	Is it true that an embassy is small?	It could be accurate that an embassy isn't large?		
+ablation-000786-en	en	ablation	Is it true that a point shaving is violent?	Does a point shaving involve violence?		
+ablation-000032-en	en	ablation	Is it true that ecstasy is ingested?	Does ecstasy get taken in?		
+ablation-000062-en	en	ablation	Is it true that acid is ingested?	Does acid get consumed?		
+ablation-001018-en	en	ablation	Is it true that a tipping-off offence is violent?	Is a tipping-off offence considered violent?		
+ablation-000775-es	es	ablation	¿Es cierto que un demandante está vivo?	¿Resulta verídico que un demandante conserve la vida?		
+ablation-000067-es	es	ablation	¿Es cierto que un pharming es violento?	¿Acaso un pharming resulta violento?		
+ablation-000443-es	es	ablation	¿Es cierto que un espionaje económico es violento?	¿Resulta veraz que el espionaje económico implica violencia?		
+ablation-000845-es	es	ablation	¿Es cierto que un bandolerismo es violento?	¿Resulta verídico que el bandolerismo implique violencia?		
+ablation-000053-es	es	ablation	¿Es cierto que una estratificación es violenta?	¿Resulta verídico que una estratificación implique violencia?		
+ablation-000671-es	es	ablation	¿Es cierto que una bomba molotov es pequeña?	¿Tiene razón quien afirma que el tamaño de una bomba molotov es reducido?		
+ablation-000237-es	es	ablation	¿Es cierto que un botulismo está vivo?	¿Acaso el botulismo es un organismo vivo?		
+counterfactual-003232-en	en	counterfactual	In this scenario, bacteria does not cause an illness. Is it true that a botulism deals with an illness?	In this situation, bacteria are not responsible for a sickness. Does botulism involve an illness?		
+counterfactual-003240-en	en	counterfactual	In this scenario, a product is not sold to a customer. Is it true that a cargo is created by a human?	In this situation, a customer does not receive a product. Does a human generate a cargo?		
+counterfactual-003412-en	en	counterfactual	In this scenario, an artefact is not created by a human. Is it true that a bomb bursts?	In this situation, a human does not make the artefact. Does the bomb explode?		
+counterfactual-003410-en	en	counterfactual	In this scenario, an artefact is not created by a human. Is it true that a bomb is created by a human?	In this situation, a human does not make an artefact. Was it made by a human that a bomb is created?		
+counterfactual-003236-en	en	counterfactual	In this scenario, bacteria does not cause an illness. Is it true that a pathogen deals with an illness?	In this situation, bacteria are not responsible for disease. Does a pathogen handle an illness?		
+counterfactual-003318-en	en	counterfactual	In this scenario, a thought is not thought by a human. Is it true that a personal data is known?	In this situation, a human does not produce the thought. Does it follow that someone’s personal data is recognized?		
+counterfactual-003606-en	en	counterfactual	In this scenario, a terrorist does not attack in a violent way. Is it true that a bomber is found?	A terrorist does not launch a violent assault during this situation. Are we correct in saying a bomber is discovered?		
+counterfactual-003583-es	es	counterfactual	En este escenario, un cuarto no está en un edificio. ¿Es cierto que una corte penal es creada por un humano?	En esta situación, un cuarto no se encuentra dentro de un edificio. ¿Acaso una corte penal ha sido establecida por un ser humano?		
+counterfactual-003521-es	es	counterfactual	En este escenario, un área artificial no es creada por un humano. ¿Es cierto que una audiencia está en un edificio?	En este contexto, ningún humano genera un área artificial. ¿Acaso una audiencia se encuentra dentro de un edificio?		
+counterfactual-003251-es	es	counterfactual	En este escenario, una partícula no es pequeña. ¿Es cierto que una bomba es pequeña?	En este caso, una partícula no resulta diminuta. ¿Acaso una bomba es pequeña?		
+counterfactual-003595-es	es	counterfactual	En este escenario, un arma de destrucción masiva no daña muchos humanos. ¿Es cierto que un gas sarin es creado por un humano?	En esta situación, un arma de destrucción masiva no perjudica a numerosos humanos. ¿Se fabrica un gas sarin por un ser humano?		
+counterfactual-003315-es	es	counterfactual	En este escenario, un pensamiento no es pensado por un humano. ¿Es cierto que un dato es sabido?	En esta situación, ningún pensamiento humano es concebido. ¿Resulta verídico que un dato sea conocido?		
+counterfactual-003405-es	es	counterfactual	En este escenario, un agente de la autoridad no castiga un delito. ¿Es cierto que un agente provocador está vivo?	Un agente de la autoridad no sanciona un delito en esta situación. ¿Resulta verdadero que un agente provocador se encuentra con vida?		
+counterfactual-003603-es	es	counterfactual	En este escenario, un terrorista no ataca de forma violenta. ¿Es cierto que un asesino comercia con un delito?	En esta situación, ningún terrorista actúa con violencia. ¿Acaso un asesino negocia un crimen?		
+deep_real-000680-en	en	deep_real	Is it true that morphine is ingested?	Does morphine get taken in?		
+deep_real-000696-en	en	deep_real	Is it true that an oral evidence has a data?	Does an oral evidence contain data?		
+deep_real-000454-en	en	deep_real	Is it true that evidence is thought by many humans?	Do numerous people believe that evidence exists?		
+deep_real-000046-en	en	deep_real	Is it true that ketamine is ingested?	Does ketamine get taken in?		
+deep_real-000244-en	en	deep_real	Is it true that a botulism is small?	Is a botulism tiny?		
+deep_real-000032-en	en	deep_real	Is it true that ecstasy is ingested?	Does ecstasy get taken in by swallowing?		
+deep_real-000666-en	en	deep_real	Is it true that a molester is alive?	Does a molester exist?		
+deep_real-000115-es	es	deep_real	¿Es cierto que una munición es pequeña?	¿Resulta verídico que el tamaño de una munición sea reducido?		
+deep_real-000347-es	es	deep_real	¿Es cierto que un ordenador es pequeño?	¿Resulta verídico que un ordenador tenga tamaño reducido?		
+deep_real-000569-es	es	deep_real	¿Es cierto que un encarcelamiento es dado por un juez?	¿Un juez es quien concede un encarcelamiento?		
+deep_real-000153-es	es	deep_real	¿Es cierto que un tráfico de arte es violento?	¿Resulta verídico que el tráfico de arte implique violencia?		
+deep_real-000799-es	es	deep_real	¿Es cierto que una prevaricación es violenta?	¿Resulta verídico que una prevaricación implique violencia?		
+deep_real-000093-es	es	deep_real	¿Es cierto que un vishing es violento?	¿Acaso un vishing resulta violento?		
+deep_real-000851-es	es	deep_real	¿Es cierto que un chantajista está vivo?	¿Resulta verídico que un chantajista conserve la vida?		
+exceptions-003066-en	en	exceptions	A sonlal is a kind of company. A sonlal does not sell a product. A blisvor is a kind of sonlal. A blisvor sells a product. Is it true that a sonlal sells a product?	A sonlal represents a type of company. No product is sold by a sonlal. Among sonlals, a blisvor exists. A blisvor, however, does sell a product. Can it be said that a sonlal sells a product?		
+exceptions-003134-en	en	exceptions	A frurlu is a kind of product. A frurlu is not sold from a human. A zusmor is a kind of frurlu. A zusmor is sold from a human. Is it true that a frurlu is sold from a human?	A frurlu belongs to the category of products. No human sells a frurlu. Some frurlus are called zusmors. Humans do sell a zusmor. Are frurlus sold by humans?		
+exceptions-003200-en	en	exceptions	A trutzor is a kind of gun. A trutzor is not metal. A plirkal is a kind of trutzor. A plirkal is metal. Is it true that a plirkal is metal?	A trutzor belongs to the category of guns. Metal is not what a trutzor consists of. Some trutzors include plirkals. However, a plirkal is made of metal. Is a plirkal indeed metal?		
+exceptions-003166-en	en	exceptions	A tamtal is a kind of alcohol. A tamtal does not cause a drunk. A dratvol is a kind of tamtal. A dratvol causes a drunk. Is it true that a tamtal causes a drunk?	A tamtal belongs to the category of alcohol. Drinking a tamtal will not result in intoxication. Some tamtals are classified as dratvols. Consuming a dratvol leads to drunkenness. Does a tamtal ever cause a drunk?		
+exceptions-003030-en	en	exceptions	A trerker is a kind of liquid. A trerker does not flow. A manvar is a kind of trerker. A manvar flows. Is it true that a trerker flows?	A trerker belongs to the category of liquids. Flowing is not something a trerker does. Among trerkers, a manvar can be found. However, a manvar does flow. Does a trerker flow?		
+exceptions-003008-en	en	exceptions	A brulzi is a kind of terrorist. A brulzi does not attack in a violent way. A tremmi is a kind of brulzi. A tremmi attacks in a violent way. Is it true that a brulzi attacks in a violent way?	A brulzi belongs to the category of terrorists. Violence is not how a brulzi carries out attacks. Tremmis are a type of brulzi. Tremmis, however, do engage in violent attacks. Does a brulzi attack in a violent manner?		
+exceptions-003140-en	en	exceptions	A liszon is a kind of building. A human does not live in a liszon. A tremkun is a kind of liszon. A human lives in a tremkun. Is it true that a human lives in a tremkun?	A liszon belongs to the category of buildings. Humans do not inhabit a liszon. A tremkun falls under the classification of a liszon. Humans reside in a tremkun. Does a human live in a tremkun?		
+exceptions-003129-es	es	exceptions	Un litzor es un tipo de dato. Un litzor no es sabido. Un fresmar es un tipo de litzor. Un fresmar es sabido. ¿Es cierto que un fresmar es sabido?	Un litzor pertenece a la categoría de datos. No se conoce lo que es un litzor. Un fresmar se clasifica como litzor. Un fresmar sí es sabido. ¿Resulta verdadero que un fresmar es sabido?		
+exceptions-003145-es	es	exceptions	Un kamko es un tipo de cuarto. Un kamko no está en un edificio. Un narzol es un tipo de kamko. Un narzol está en un edificio. ¿Es cierto que un narzol está en un edificio?	Un kamko constituye un espacio. No se ubica un kamko dentro de un edificio. Un narzol representa un kamko. Un narzol se encuentra en un edificio. ¿Resulta verídico que un narzol se localiza en un edificio?		
+exceptions-003031-es	es	exceptions	Un trerker es un tipo de líquido. Un trerker no fluye. Un manvar es un tipo de trerker. Un manvar fluye. ¿Es cierto que un trerker fluye?	Un trerker pertenece a la categoría de líquidos. No es capaz de fluir. Los manvares son una variedad de trerker. Sin embargo, un manvar sí fluye. ¿Acaso un trerker puede fluir?		
+exceptions-003077-es	es	exceptions	Un plunkon es un tipo de cannabis. Un plunkon no es vendido por un humano. Un sonsel es un tipo de plunkon. Un sonsel es vendido por un humano. ¿Es cierto que un sonsel es vendido por un humano?	Un plunkon pertenece a la categoría del cannabis. Ningún humano comercializa un plunkon. Un sonsel forma parte de los plunkons. Un humano sí vende un sonsel. ¿Verdad que un sonsel es vendido por un humano?		
+exceptions-003003-es	es	exceptions	Un trenme es un tipo de carretera. Algo no se mueve en un trenme. Un plirkel es un tipo de trenme. Algo se mueve en un plirkel. ¿Es cierto que algo se mueve en un plirkel?	Un trenme es una clase de carretera. No hay movimiento en un trenme. Un plirkel pertenece a la categoría de los trenmes. En un plirkel, algo tiene movimiento. ¿Verdaderamente algo se desplaza en un plirkel?		
+exceptions-003123-es	es	exceptions	Un clesva es un tipo de cocaína. Un clesva no es esnifado por un humano. Un lollon es un tipo de clesva. Un lollon es esnifado por un humano. ¿Es cierto que un clesva es esnifado por un humano?	Un clesva pertenece a la categoría de cocaínas. Ningún humano consume clesva mediante esnifado. Un lollon se clasifica como clesva. Los humanos sí esnifan lollon. ¿Se esnifa algún clesva por parte de humanos?		
+exceptions-003165-es	es	exceptions	Un frotlur es un tipo de producto. Un frotlur no es vendido a un cliente. Un tatlun es un tipo de frotlur. Un tatlun es vendido a un cliente. ¿Es cierto que un tatlun es vendido a un cliente?	Un frotlur pertenece a la categoría de productos. A ningún cliente se le ofrece un frotlur. Los tatlunes forman parte de los frotlures. Un tatlun sí se comercializa ante los clientes. ¿Verdad que un tatlun es puesto a la venta para los compradores?		
+novel-001972-en	en	novel	A plomkel is a kind of molester. Is it true that a plomkel helps a body?	A plomkel belongs to the category of molesters. Does a plomkel assist a body?		
+novel-002636-en	en	novel	A nertor is a kind of terrorist. Is it true that a nertor attacks in a violent way?	A nertor belongs to the category of terrorists. Does a nertor engage in violent attacks?		
+novel-001968-en	en	novel	A plomkel is a kind of molester. Is it true that a plomkel attacks a child?	A molester is one type of plomkel. Does a plomkel ever attack a child?		
+novel-002736-en	en	novel	A brilmur is a kind of bootlegger. Is it true that a brilmur sells in an illegal way?	A brilmur operates as a bootlegger. Does a brilmur engage in illegal sales?		
+novel-002136-en	en	novel	A mallo is a kind of provocateur. Is it true that a mallo deals with a secret?	A mallo serves as a type of provocateur. Does a mallo handle a secret?		
+novel-002560-en	en	novel	A tesmin is a kind of question. Is it true that a tesmin is said to a human?	A tesmin belongs to the category of questions. Does someone claim that a tesmin is directed at a human?		
+novel-002836-en	en	novel	A drussin is a kind of hacker. Is it true that a drussin alters in a computer?	A drussin belongs to the category of hackers. Does a drussin modify a computer?		
+novel-002733-es	es	novel	Un brilmur es un tipo de contrabandista. ¿Es cierto que un brilmur vende a un humano?	Un brilmur pertenece al grupo de los contrabandistas. ¿Vende un brilmur a algún humano?		
+novel-002563-es	es	novel	Un tesmin es un tipo de pregunta. ¿Es cierto que un tesmin es dicho por un humano?	¿Acaso un tesmin resulta ser una clase de pregunta? ¿Es verdad que un humano formula un tesmin?		
+novel-002383-es	es	novel	Un blinlir es un tipo de costa. ¿Es cierto que un blinlir está en un mar?	Algunos blinlires son costas. ¿Acaso un blinlir se encuentra en un mar?		
+novel-002617-es	es	novel	Un zanlur es un tipo de ciberterrorista. ¿Es cierto que un zanlur usa un internet?	Un zanlur pertenece a la categoría de ciberterroristas. ¿Acaso un zanlur emplea internet?		
+novel-002825-es	es	novel	Un drussin es un tipo de pirata informático. ¿Es cierto que un drussin altera de forma secreta?	Un drussin pertenece a la categoría de piratas informáticos. ¿Resulta veraz que un drussin modifica en secreto?		
+novel-002595-es	es	novel	Un drurka es un tipo de granada. ¿Es cierto que un drurka es cultivado por un humano?	Un drurka corresponde a la categoría de granadas. ¿Acaso un drurka es cultivado por humanos?		
+novel-002427-es	es	novel	Un sasmur es un tipo de cártel. ¿Es cierto que un sasmur controla?	Un cártel de la clase sasmur existe. ¿Acaso un sasmur ejerce control?		
+undet_control-001301-en	en	undet_control	Is it true that a judge chooses in a trial?	Does a judge make selections during a trial?		
+undet_control-001265-en	en	undet_control	Is it true that a molotov cocktail has petrol?	Does a molotov cocktail contain petrol?		
+undet_control-001227-en	en	undet_control	Is it true that a cyberterrorist uses for a terrorist act?	Does a cyberterrorist employ a terrorist act?		
+undet_control-001747-en	en	undet_control	Is it true that a captor confiscates a human?	Does a captor take away a person?		
+undet_control-001159-en	en	undet_control	Is it true that a child pornography shows sex?	Does a child pornography display sex?		
+undet_control-001627-en	en	undet_control	Is it true that a declaration is declared?	Does a declaration get declared?		
+undet_control-001555-en	en	undet_control	Is it true that a cartel controls?	Does a cartel have control?		
+undet_control-001651-es	es	undet_control	¿Es cierto que un ántrax es usado por un terrorista?	¿Resulta verídico que algún terrorista emplea un ántrax?		
+undet_control-001407-es	es	undet_control	¿Es cierto que la cocaína es fumada por un humano?	¿Resulta verídico que algún ser humano consume cocaína mediante fumación?		
+undet_control-001585-es	es	undet_control	¿Es cierto que una granada es disparada?	¿Resulta verídico que una granada sea lanzada?		
+undet_control-001329-es	es	undet_control	¿Es cierto que una bomba molotov tiene una botella?	¿Resulta verídico que una bomba molotov incluye una botella?		
+undet_control-001771-es	es	undet_control	¿Es cierto que un estado tiene muchos pueblos?	¿Resulta verdadero que existen numerosos pueblos en un estado?		
+undet_control-001149-es	es	undet_control	¿Es cierto que la ketamina es usada para un humano o un animal?	¿Resulta verídico que la ketamina se emplee en humanos o en animales?		
+undet_control-001181-es	es	undet_control	¿Es cierto que la gasolina arde de forma fácil?	¿Arde la gasolina con facilidad?		
+undetermined-001696-en	en	undetermined	Is it true that a constabulary says in a trial?	Does a constabulary ever speak during a trial?		
+undetermined-001572-en	en	undetermined	Is it true that a material witness watches a coast?	Does a material witness observe a coast?		
+undetermined-001350-en	en	undetermined	Is it true that a counterfeiter engages in computer crime?	Does a counterfeiter commit computer crime?		
+undetermined-001514-en	en	undetermined	Is it true that a judge blames to an investigator?	Does a judge assign blame to an investigator?		
+undetermined-001324-en	en	undetermined	Is it true that a computer deals with many damages?	Does a computer handle numerous damages?		
+undetermined-001678-en	en	undetermined	Is it true that a pimp uses in a computer?	Does a pimp employ none in a computer?		
+undetermined-001170-en	en	undetermined	Is it true that an abuser defends a group or some thoughts?	Does an abuser protect a group or certain ideas?		
+undetermined-001216-es	es	undetermined	¿Es cierto que una tentativa es pensada por muchos humanos?	¿Resulta verídico que numerosos seres humanos conciben una tentativa?		
+undetermined-001799-es	es	undetermined	¿Es cierto que el estimulante es ingerido por un humano?	¿Resulta verídico que un ser humano consume el estimulante?		
+undetermined-001811-es	es	undetermined	¿Es cierto que un evasor escapa?	¿Resulta verídico que un evasor se fuga?		
+undetermined-001550-es	es	undetermined	¿Es cierto que un prestamista ilegal escapa un condenado?	¿Resulta verídico que un prestamista ilegal deja en libertad a un condenado?		
+undetermined-001584-es	es	undetermined	¿Es cierto que una mina es disparada?	¿Resulta verídico que una mina ha sido activada?		
+undetermined-001609-es	es	undetermined	¿Es cierto que un blanqueo de capitales usa la fuerza?	¿Resulta verídico que un blanqueo de capitales emplee la fuerza?		
+undetermined-001731-es	es	undetermined	¿Es cierto que un interrogatorio es declarado?	¿Resulta verídico que se declare un interrogatorio?		

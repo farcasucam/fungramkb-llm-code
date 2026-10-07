@@ -1,0 +1,723 @@
+concept	type	lang	n_items	current_lemmas	candidate	wordnet_sense	sense_rank	gloss	flags	suggested	approve (1/0)
++COMPRISE_00	event	en	46	comprise	consist	consist.v.04	0	be composed of		1	1
++COMPRISE_00	event	es	46	constar de	componerse	consist.v.04	0	be composed of		1	1
++COMPRISE_00	event	es	46	constar de	consistir	consist.v.04	0	be composed of		1	1
++COMPRISE_00	event	es	46	constar de	constar	consist.v.04	0	be composed of		1	1
++DO_00	event	en	44	do	make	make.v.01	0	engage in	general	1	1
++DO_00	event	es	44	hacer	actuar	act.v.02	0	behave in a certain manner; show a certain behavior; conduct or comport oneself		1	1
++DO_00	event	es	44	hacer	comportar	act.v.02	0	behave in a certain manner; show a certain behavior; conduct or comport oneself		1	1
++DO_00	event	es	44	hacer	comportarse	act.v.02	0	behave in a certain manner; show a certain behavior; conduct or comport oneself		1	1
++DO_00	event	es	44	hacer	comprtarse	act.v.02	0	behave in a certain manner; show a certain behavior; conduct or comport oneself		1	1
++CREATE_00	event	en	40	create	make	make.v.03	0	make or cause to be or to become	general	1	1
++CREATE_00	event	es	40	crear	causar	make.v.03	0	make or cause to be or to become	conflict:+CAUSE_00	1	1
++CREATE_00	event	es	40	crear	confeccionar	make.v.03	0	make or cause to be or to become		1	1
++CREATE_00	event	es	40	crear	construir	make.v.03	0	make or cause to be or to become	conflict:+BUILD_00	1	1
++CREATE_00	event	es	40	crear	criar	make.v.03	0	make or cause to be or to become		1	1
++SELL_00	event	es	32	vender	expender	sell.v.01	0	exchange or deliver for money or its equivalent		1	1
++USE_00	event	en	28	use	utilize	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	en	28	use	utilise	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	en	28	use	apply	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	en	28	use	employ	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	es	28	usar	aplicar	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	es	28	usar	aprovechar	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	es	28	usar	emplear	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++USE_00	event	es	28	usar	esgrimir	use.v.01	0	put into service; make work or employ for a particular purpose or for its inherent or natural purpose		1	1
++GIVE_00	event	es	24	dar	causar	give.v.01	0	cause to have, in the abstract sense or physical sense	conflict:+CAUSE_00	1	1
++GIVE_00	event	es	24	dar	dispensar	give.v.01	0	cause to have, in the abstract sense or physical sense		1	1
++GIVE_00	event	es	24	dar	entregar	give.v.01	0	cause to have, in the abstract sense or physical sense		1	1
++GIVE_00	event	es	24	dar	propinar	give.v.01	0	cause to have, in the abstract sense or physical sense		1	1
++SAY_00	event	en	24	say	state	state.v.01	0	express in words	conflict:+COUNTRY_00	1	1
++SAY_00	event	en	24	say	tell	state.v.01	0	express in words		1	1
++SAY_00	event	es	24	decir	afirmar	state.v.01	0	express in words	question-frame word	1	1
++SAY_00	event	es	24	decir	contar	state.v.01	0	express in words		1	1
++SAY_00	event	es	24	decir	declarar	state.v.01	0	express in words	conflict:$DECLARE_00	1	1
++SAY_00	event	es	24	decir	manifestar	state.v.01	0	express in words		1	1
++INGEST_00	event	en	22	ingest	consume	consume.v.02	0	serve oneself to, or consume regularly		1	1
++INGEST_00	event	en	22	ingest	take in	consume.v.02	0	serve oneself to, or consume regularly	general	1	1
++INGEST_00	event	en	22	ingest	take	consume.v.02	0	serve oneself to, or consume regularly	conflict:+TAKE_01 general	1	1
++INGEST_00	event	en	22	ingest	have	consume.v.02	0	serve oneself to, or consume regularly	conflict:+HAVE_00 general	1	1
++INGEST_00	event	es	22	ingerir	comer	consume.v.02	0	serve oneself to, or consume regularly	conflict:+EAT_00	1	1
++INGEST_00	event	es	22	ingerir	consumir	consume.v.02	0	serve oneself to, or consume regularly		1	1
++INGEST_00	event	es	22	ingerir	tomar	consume.v.02	0	serve oneself to, or consume regularly	conflict:+TAKE_01 general	1	1
++FIND_00	event	en	18	find	happen	find.v.01	0	come upon, as if by accident; meet with	conflict:+HAPPEN_00	1	1
++FIND_00	event	en	18	find	chance	find.v.01	0	come upon, as if by accident; meet with		1	1
++FIND_00	event	en	18	find	bump	find.v.01	0	come upon, as if by accident; meet with		1	1
++FIND_00	event	en	18	find	encounter	find.v.01	0	come upon, as if by accident; meet with		1	1
++FIND_00	event	es	18	encontrar	dar	find.v.01	0	come upon, as if by accident; meet with	conflict:+GIVE_00 general	1	1
++FIND_00	event	es	18	encontrar	encontrarse	find.v.01	0	come upon, as if by accident; meet with		1	1
++FIND_00	event	es	18	encontrar	hallar	find.v.01	0	come upon, as if by accident; meet with		1	1
++FIND_00	event	es	18	encontrar	tropezar	find.v.01	0	come upon, as if by accident; meet with		1	1
++CAUSE_00	event	en	16	cause	make	cause.v.01	0	give rise to; cause to happen or occur, not always intentionally	general	1	1
++CAUSE_00	event	es	16	causar	hacer	cause.v.01	0	give rise to; cause to happen or occur, not always intentionally	conflict:+DO_00 general	1	1
++CAUSE_00	event	es	16	causar	ocasionar	cause.v.01	0	give rise to; cause to happen or occur, not always intentionally		1	1
++CAUSE_00	event	es	16	causar	producir	cause.v.01	0	give rise to; cause to happen or occur, not always intentionally		1	1
++CAUSE_00	event	es	16	causar	provocar	cause.v.01	0	give rise to; cause to happen or occur, not always intentionally		1	1
++ATTACK_00	event	en	14	attack	assail	attack.v.01	0	launch an attack or assault on; begin hostilities or start warfare with		1	1
++ATTACK_00	event	es	14	atacar	agredir	attack.v.01	0	launch an attack or assault on; begin hostilities or start warfare with		1	1
++ATTACK_00	event	es	14	atacar	asaltar	attack.v.01	0	launch an attack or assault on; begin hostilities or start warfare with		1	1
++HAVE_00	event	en	14	have	have got	have.v.01	0	have or possess, either in a concrete or an abstract sense	general	1	1
++HAVE_00	event	en	14	have	hold	have.v.01	0	have or possess, either in a concrete or an abstract sense	conflict:+HOLD_00 general	1	1
++HAVE_00	event	es	14	tener	detentar	have.v.01	0	have or possess, either in a concrete or an abstract sense		1	1
++HAVE_00	event	es	14	tener	ostentar	have.v.01	0	have or possess, either in a concrete or an abstract sense		1	1
++HAVE_00	event	es	14	tener	poseer	have.v.01	0	have or possess, either in a concrete or an abstract sense		1	1
++HAVE_00	event	es	14	tener	sustentar	have.v.01	0	have or possess, either in a concrete or an abstract sense		1	1
++TAKE_01	event	es	14	tomar	apartar	remove.v.01	0	remove something concrete, as by lifting, pushing, or taking off, or remove something abstract		1	1
++TAKE_01	event	es	14	tomar	copar	remove.v.01	0	remove something concrete, as by lifting, pushing, or taking off, or remove something abstract		1	1
++TAKE_01	event	es	14	tomar	eliminar	remove.v.01	0	remove something concrete, as by lifting, pushing, or taking off, or remove something abstract		1	1
++TAKE_01	event	es	14	tomar	extirpar	remove.v.01	0	remove something concrete, as by lifting, pushing, or taking off, or remove something abstract		1	1
++BURST_00	event	en	10	burst	split	burst.v.01	0	come open suddenly and violently, as if from internal pressure		1	1
++BURST_00	event	en	10	burst	break open	burst.v.01	0	come open suddenly and violently, as if from internal pressure		1	1
++BURST_00	event	es	10	estallar	desdoblar	burst.v.01	0	come open suddenly and violently, as if from internal pressure		1	1
++BURST_00	event	es	10	estallar	explotar	burst.v.01	0	come open suddenly and violently, as if from internal pressure		1	1
++BURST_00	event	es	10	estallar	rajarse	burst.v.01	0	come open suddenly and violently, as if from internal pressure		1	1
++BURST_00	event	es	10	estallar	reventar	burst.v.01	0	come open suddenly and violently, as if from internal pressure		1	1
++FEEL_00	event	en	10	feel	experience	feel.v.01	0	undergo an emotional sensation or be in a particular state of mind		1	1
++FEEL_00	event	es	10	sentir	experimentar	feel.v.01	0	undergo an emotional sensation or be in a particular state of mind		1	1
++FEEL_00	event	es	10	sentir	sentirse	feel.v.04	0	be conscious of a physical, mental, or emotional state		1	1
++THINK_00	event	en	10	think	believe	think.v.01	0	judge or regard; look upon; judge		1	1
++THINK_00	event	en	10	think	consider	think.v.01	0	judge or regard; look upon; judge		1	1
++THINK_00	event	en	10	think	conceive	think.v.01	0	judge or regard; look upon; judge		1	1
++THINK_00	event	es	10	pensar	considerar	think.v.01	0	judge or regard; look upon; judge		1	1
++THINK_00	event	es	10	pensar	creer	think.v.01	0	judge or regard; look upon; judge		1	1
++THINK_00	event	es	10	pensar	opinar	think.v.01	0	judge or regard; look upon; judge		1	1
++HURT_00	event	en	8	hurt	ache	ache.v.03	0	be the source of pain		1	1
++HURT_00	event	en	8	hurt	smart	ache.v.03	0	be the source of pain		1	1
++HURT_00	event	es	8	herir	doler	ache.v.03	0	be the source of pain		1	1
++HURT_00	event	es	8	herir	escocer	ache.v.03	0	be the source of pain		1	1
++HURT_00	event	es	8	herir	lastimar	injure.v.01	0	cause injuries or bodily harm to		1	1
++HURT_00	event	es	8	herir	lesionar	injure.v.01	0	cause injuries or bodily harm to		1	1
++LEAVE_00	event	en	8	leave	go forth	leave.v.01	0	go away from a place	general	1	1
++LEAVE_00	event	en	8	leave	go away	leave.v.01	0	go away from a place	general	1	1
++LEAVE_00	event	es	8	salir	dejar	leave.v.01	0	go away from a place		1	1
++LEAVE_00	event	es	8	salir	irse	leave.v.01	0	go away from a place		1	1
++LEAVE_00	event	es	8	salir	marchar	leave.v.01	0	go away from a place		1	1
++LEAVE_00	event	es	8	salir	partir	leave.v.01	0	go away from a place		1	1
++SHOW_00	event	en	8	show	demo	show.v.01	0	give an exhibition of to an interested audience		1	1
++SHOW_00	event	en	8	show	exhibit	show.v.01	0	give an exhibition of to an interested audience		1	1
++SHOW_00	event	en	8	show	present	show.v.01	0	give an exhibition of to an interested audience		1	1
++SHOW_00	event	en	8	show	demonstrate	show.v.01	0	give an exhibition of to an interested audience	conflict:+DEMONSTRATE_00	1	1
++SHOW_00	event	es	8	mostrar	demostrar	show.v.01	0	give an exhibition of to an interested audience		1	1
++SHOW_00	event	es	8	mostrar	evidenciar	show.v.01	0	give an exhibition of to an interested audience		1	1
++SHOW_00	event	es	8	mostrar	exhibir	show.v.01	0	give an exhibition of to an interested audience		1	1
++SHOW_00	event	es	8	mostrar	manifestar	show.v.01	0	give an exhibition of to an interested audience		1	1
++CONTAIN_00	event	en	6	contain	incorporate	incorporate.v.02	0	include or contain; have as a component		1	1
++CONTAIN_00	event	en	6	contain	comprise	incorporate.v.02	0	include or contain; have as a component	conflict:+COMPRISE_00	1	1
++CONTAIN_00	event	es	6	contener	incluir	incorporate.v.02	0	include or contain; have as a component		1	1
++CONTAIN_00	event	es	6	contener	integrar	incorporate.v.02	0	include or contain; have as a component		1	1
++CONTAIN_00	event	es	6	contener	retener	hold.v.36	0	keep from exhaling or expelling		1	1
++ESCAPE_00	event	en	6	escape	get away	escape.v.01	0	run away from confinement	general	1	1
++ESCAPE_00	event	en	6	escape	break loose	escape.v.01	0	run away from confinement		1	1
++ESCAPE_00	event	es	6	escapar	desatarse	escape.v.01	0	run away from confinement		1	1
++ESCAPE_00	event	es	6	escapar	escaparse	escape.v.01	0	run away from confinement		1	1
++ESCAPE_00	event	es	6	escapar	evadir	escape.v.01	0	run away from confinement		1	1
++ESCAPE_00	event	es	6	escapar	evadirse	escape.v.01	0	run away from confinement		1	1
++HIDE_00	event	en	6	hide	conceal	hide.v.01	0	prevent from being seen or discovered		1	1
++HIDE_00	event	es	6	esconder	encubrir	hide.v.01	0	prevent from being seen or discovered		1	1
++HIDE_00	event	es	6	esconder	ocultar	hide.v.01	0	prevent from being seen or discovered		1	1
++HIDE_00	event	es	6	esconder	tapar	hide.v.01	0	prevent from being seen or discovered		1	1
++HIDE_00	event	es	6	esconder	condenar al olvido	obscure.v.05	0	make undecipherable or imperceptible by obscuring or concealing		1	1
++KNOW_00	event	en	6	know	cognize	know.v.01	0	be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about		1	1
++KNOW_00	event	en	6	know	cognise	know.v.01	0	be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about		1	1
++KNOW_00	event	es	6	saber	comprender	know.v.01	0	be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about		1	1
++KNOW_00	event	es	6	saber	conocer	know.v.01	0	be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about		1	1
++KNOW_00	event	es	6	saber	entender	know.v.01	0	be cognizant or aware of a fact or a specific piece of information; possess knowledge or information about		1	1
++KNOW_00	event	es	6	saber	admitir	acknowledge.v.06	0	accept (someone) to be what is claimed or accept his power and authority		1	1
++MOVE_00	event	en	6	move	travel	travel.v.01	0	change location; move, travel, or proceed, also metaphorically	conflict:+TRAVEL_01	1	1
++MOVE_00	event	en	6	move	locomote	travel.v.01	0	change location; move, travel, or proceed, also metaphorically		1	1
++MOVE_00	event	es	6	moverse	acudir	travel.v.01	0	change location; move, travel, or proceed, also metaphorically		1	1
++MOVE_00	event	es	6	moverse	desplazarse	travel.v.01	0	change location; move, travel, or proceed, also metaphorically		1	1
++MOVE_00	event	es	6	moverse	mover	travel.v.01	0	change location; move, travel, or proceed, also metaphorically		1	1
++MOVE_00	event	es	6	moverse	viajar	travel.v.01	0	change location; move, travel, or proceed, also metaphorically	conflict:+TRAVEL_01	1	1
++OBTAIN_00	event	es	6	obtener	adquirir	obtain.v.01	0	come into possession of		1	1
++OBTAIN_00	event	es	6	obtener	conseguir	obtain.v.01	0	come into possession of		1	1
++OBTAIN_00	event	es	6	obtener	lograr	obtain.v.01	0	come into possession of	conflict:+SUCCEED_00	1	1
++OBTAIN_00	event	es	6	obtener	encontrar	receive.v.02	0	receive a specified treatment (abstract)	conflict:+FIND_00	1	1
++PAY_00	event	es	6	pagar	abonar	pay.v.01	0	give money, usually in exchange for goods or services		1	1
++PAY_00	event	es	6	pagar	cancelar	pay.v.01	0	give money, usually in exchange for goods or services		1	1
++PAY_00	event	es	6	pagar	retribuir	pay.v.01	0	give money, usually in exchange for goods or services		1	1
++PAY_00	event	es	6	pagar	avalar	underwrite.v.01	0	guarantee financial support of		1	1
++PROTECT_00	event	es	6	proteger	amparar	protect.v.01	0	shield from danger, injury, destruction, or damage		1	1
++PROTECT_00	event	es	6	proteger	defender	protect.v.01	0	shield from danger, injury, destruction, or damage	conflict:+DEFEND_00	1	1
++PROTECT_00	event	es	6	proteger	guarecer	protect.v.01	0	shield from danger, injury, destruction, or damage		1	1
++PROTECT_00	event	es	6	proteger	preservar	protect.v.01	0	shield from danger, injury, destruction, or damage		1	1
++BUILD_00	event	en	4	build	construct	construct.v.01	0	make by combining materials and parts		1	1
++BUILD_00	event	en	4	build	make	construct.v.01	0	make by combining materials and parts	general	1	1
++BUILD_00	event	es	4	construir	articular	construct.v.01	0	make by combining materials and parts		1	1
++BUILD_00	event	es	4	construir	confeccionar	construct.v.01	0	make by combining materials and parts		1	1
++BUILD_00	event	es	4	construir	crear	construct.v.01	0	make by combining materials and parts	conflict:+CREATE_00	1	1
++BUILD_00	event	es	4	construir	edificar	construct.v.01	0	make by combining materials and parts		1	1
++CHANGE_00	event	en	4	alter | change | convert | modify | vary	change over	convert.v.01	0	change from one system to another or to a new plan or policy		1	1
++CHANGE_00	event	es	4	alterar | cambiar | convertir | modificar | variar	mudar	change.v.01	0	cause to change; make different; cause a transformation		1	1
++CHANGE_00	event	es	4	alterar | cambiar | convertir | modificar | variar	retocar	change.v.01	0	cause to change; make different; cause a transformation		1	1
++CHANGE_00	event	es	4	alterar | cambiar | convertir | modificar | variar	transformar	change.v.01	0	cause to change; make different; cause a transformation		1	1
++CHANGE_00	event	es	4	alterar | cambiar | convertir | modificar | variar	sufrir un cambio	change.v.02	0	undergo a change; become different in essence; losing one's or its original nature		1	1
++COMMAND_00	event	en	4	order	tell	order.v.01	0	give instructions to or direct somebody to do something with authority		1	1
++COMMAND_00	event	en	4	order	enjoin	order.v.01	0	give instructions to or direct somebody to do something with authority		1	1
++COMMAND_00	event	en	4	order	say	order.v.01	0	give instructions to or direct somebody to do something with authority	conflict:+SAY_00 question-frame word	1	1
++COMMAND_00	event	es	4	ordenar	decir	order.v.01	0	give instructions to or direct somebody to do something with authority	conflict:+SAY_00	1	1
++COMMAND_00	event	es	4	ordenar	declarar	order.v.01	0	give instructions to or direct somebody to do something with authority	conflict:$DECLARE_00	1	1
++COMMAND_00	event	es	4	ordenar	encargar	order.v.01	0	give instructions to or direct somebody to do something with authority		1	1
++COMMAND_00	event	es	4	ordenar	imponer	order.v.01	0	give instructions to or direct somebody to do something with authority		1	1
++CONTROL_00	event	en	4	control	command	control.v.01	0	exercise authoritative control or power over	conflict:+COMMAND_01	1	1
++CONTROL_00	event	es	4	controlar	comandar	control.v.01	0	exercise authoritative control or power over		1	1
++CONTROL_00	event	es	4	controlar	dominar	control.v.01	0	exercise authoritative control or power over		1	1
++CONTROL_00	event	es	4	controlar	mandar	control.v.01	0	exercise authoritative control or power over		1	1
++CONTROL_00	event	es	4	controlar	domar	break_in.v.06	0	make submissive, obedient, or useful		1	1
++CULTIVATE_00	event	es	4	cultivar	adquirir	grow.v.08	0	come to have or undergo a change of (physical features and attributes)		1	1
++CULTIVATE_00	event	es	4	cultivar	crecer	grow.v.08	0	come to have or undergo a change of (physical features and attributes)	conflict:+GROW_00	1	1
++CULTIVATE_00	event	es	4	cultivar	desarrollar	grow.v.08	0	come to have or undergo a change of (physical features and attributes)		1	1
++CULTIVATE_00	event	es	4	cultivar	elaborar	grow.v.08	0	come to have or undergo a change of (physical features and attributes)		1	1
++DEFEND_00	event	en	4	defend	support	defend.v.01	0	argue or speak in defense of		1	1
++DEFEND_00	event	en	4	defend	fend for	defend.v.01	0	argue or speak in defense of		1	1
++DEFEND_00	event	es	4	defender	apoyar	defend.v.01	0	argue or speak in defense of		1	1
++DEFEND_00	event	es	4	defender	respaldar	defend.v.01	0	argue or speak in defense of		1	1
++DEMONSTRATE_00	event	en	4	demonstrate	show	show.v.01	0	give an exhibition of to an interested audience	conflict:+SHOW_00	1	1
++DEMONSTRATE_00	event	en	4	demonstrate	demo	show.v.01	0	give an exhibition of to an interested audience		1	1
++DEMONSTRATE_00	event	en	4	demonstrate	exhibit	show.v.01	0	give an exhibition of to an interested audience		1	1
++DEMONSTRATE_00	event	en	4	demonstrate	present	show.v.01	0	give an exhibition of to an interested audience		1	1
++DEMONSTRATE_00	event	es	4	manifestarse	demostrar	show.v.01	0	give an exhibition of to an interested audience		1	1
++DEMONSTRATE_00	event	es	4	manifestarse	evidenciar	show.v.01	0	give an exhibition of to an interested audience		1	1
++DEMONSTRATE_00	event	es	4	manifestarse	exhibir	show.v.01	0	give an exhibition of to an interested audience		1	1
++DEMONSTRATE_00	event	es	4	manifestarse	manifestar	show.v.01	0	give an exhibition of to an interested audience		1	1
++DESCRIBE_00	event	en	4	describe	depict	describe.v.01	0	give a description of		1	1
++DESCRIBE_00	event	en	4	describe	draw	describe.v.01	0	give a description of		1	1
++DESCRIBE_00	event	es	4	describir	bosquejar	describe.v.01	0	give a description of		1	1
++DESCRIBE_00	event	es	4	describir	retratar	describe.v.01	0	give a description of		1	1
++DESCRIBE_00	event	es	4	describir	denominar	identify.v.05	0	identify as in botany or biology, for example		1	1
++DESCRIBE_00	event	es	4	describir	descubrir	identify.v.05	0	identify as in botany or biology, for example		1	1
++EAT_00	event	es	4	comer	comerse	eat.v.01	0	take in solid food		1	1
++EAT_00	event	es	4	comer	consumir	eat.v.01	0	take in solid food		1	1
++EAT_00	event	es	4	comer	jamar	eat.v.01	0	take in solid food		1	1
++EAT_00	event	es	4	comer	jamarse	eat.v.01	0	take in solid food		1	1
++EMBEZZLE_00	event	en	4	embezzle	defalcate	embezzle.v.01	0	appropriate (as property entrusted to one's care) fraudulently to one's own use		1	1
++EMBEZZLE_00	event	en	4	embezzle	peculate	embezzle.v.01	0	appropriate (as property entrusted to one's care) fraudulently to one's own use		1	1
++EMBEZZLE_00	event	en	4	embezzle	misappropriate	embezzle.v.01	0	appropriate (as property entrusted to one's care) fraudulently to one's own use		1	1
++EMBEZZLE_00	event	en	4	embezzle	malversate	embezzle.v.01	0	appropriate (as property entrusted to one's care) fraudulently to one's own use		1	1
++FLOW_00	event	en	4	flow	flux	flow.v.01	0	move or progress freely as if in a stream		1	1
++FLOW_00	event	es	4	fluir	correr	flow.v.01	0	move or progress freely as if in a stream		1	1
++FLOW_00	event	es	4	fluir	fluctuar	flow.v.01	0	move or progress freely as if in a stream		1	1
++FLOW_00	event	es	4	fluir	manar	flow.v.01	0	move or progress freely as if in a stream		1	1
++HELP_00	event	en	4	help	assist	help.v.01	0	give help or assistance; be of service		1	1
++HELP_00	event	en	4	help	aid	help.v.01	0	give help or assistance; be of service		1	1
++HELP_00	event	es	4	ayudar	asistir	help.v.01	0	give help or assistance; be of service		1	1
++HELP_00	event	es	4	ayudar	auxiliar	help.v.01	0	give help or assistance; be of service		1	1
++HELP_00	event	es	4	ayudar	auxilio	help.v.02	0	improve the condition of		1	1
++HELP_00	event	es	4	ayudar	ayuda	help.v.02	0	improve the condition of		1	1
++INCREASE_00	event	es	4	aumentar	crecer	increase.v.01	0	become bigger or greater in amount	conflict:+GROW_00	1	1
++INCREASE_00	event	es	4	aumentar	elevar	increase.v.01	0	become bigger or greater in amount		1	1
++INCREASE_00	event	es	4	aumentar	incrementar	increase.v.01	0	become bigger or greater in amount		1	1
++INCREASE_00	event	es	4	aumentar	subir	increase.v.01	0	become bigger or greater in amount		1	1
++LIVE_00	event	en	4	live	populate	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++LIVE_00	event	en	4	live	dwell	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++LIVE_00	event	en	4	live	inhabit	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++LIVE_00	event	es	4	vivir	habitar	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++LIVE_00	event	es	4	vivir	morar	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++LIVE_00	event	es	4	vivir	ocupar	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++LIVE_00	event	es	4	vivir	poblar	populate.v.01	0	inhabit or live in; be an inhabitant of		1	1
++MOLEST_00	event	es	4	abusar sexualmente | molestar	interrumpir	interrupt.v.02	0	destroy the peace or tranquility of		1	1
++PUT_00	event	en	4	put	set	put.v.01	0	put into a certain place or abstract location	general	1	1
++PUT_00	event	en	4	put	place	put.v.01	0	put into a certain place or abstract location	conflict:+PLACE_00	1	1
++PUT_00	event	en	4	put	pose	put.v.01	0	put into a certain place or abstract location		1	1
++PUT_00	event	en	4	put	position	put.v.01	0	put into a certain place or abstract location		1	1
++PUT_00	event	es	4	poner	colocar	put.v.01	0	put into a certain place or abstract location		1	1
++PUT_00	event	es	4	poner	dejar	put.v.01	0	put into a certain place or abstract location		1	1
++PUT_00	event	es	4	poner	depositar	put.v.01	0	put into a certain place or abstract location		1	1
++PUT_00	event	es	4	poner	posar	put.v.01	0	put into a certain place or abstract location		1	1
++SEARCH_00	event	en	4	search	seek	search.v.01	0	try to locate or discover, or try to establish the existence of		1	1
++SEARCH_00	event	en	4	search	look for	search.v.01	0	try to locate or discover, or try to establish the existence of		1	1
++SEARCH_00	event	es	4	buscar	explorar	search.v.01	0	try to locate or discover, or try to establish the existence of		1	1
++SEARCH_00	event	es	4	buscar	procurar	search.v.01	0	try to locate or discover, or try to establish the existence of		1	1
++SEARCH_00	event	es	4	buscar	registrar	search.v.01	0	try to locate or discover, or try to establish the existence of		1	1
++SEARCH_00	event	es	4	buscar	averiguar	research.v.02	0	inquire into		1	1
++SHOOT_00	event	en	4	shoot	hit	shoot.v.01	0	hit with a missile from a weapon		1	1
++SHOOT_00	event	en	4	shoot	pip	shoot.v.01	0	hit with a missile from a weapon		1	1
++SHOOT_00	event	es	4	disparar	acertar	shoot.v.01	0	hit with a missile from a weapon		1	1
++SHOOT_00	event	es	4	disparar	derribar	shoot.v.01	0	hit with a missile from a weapon		1	1
++SHOOT_00	event	es	4	disparar	pegar	shoot.v.01	0	hit with a missile from a weapon		1	1
++SNIFF_00	event	en	4	sniff | snort	whiff	sniff.v.01	0	perceive by inhaling through the nose		1	1
++SNIFF_00	event	es	4	esnifar	oliscar	sniff.v.01	0	perceive by inhaling through the nose		1	1
++SNIFF_00	event	es	4	esnifar	olisquear	sniff.v.01	0	perceive by inhaling through the nose		1	1
++SNIFF_00	event	es	4	esnifar	bufar	snort.v.01	0	indicate contempt by breathing noisily and forcefully through the nose		1	1
++SNIFF_00	event	es	4	esnifar	olfatear	sniff.v.02	0	inhale audibly through the nose		1	1
++THROW_00	event	es	4	lanzar	arrojar	throw.v.01	0	propel through the air		1	1
++THROW_00	event	es	4	lanzar	tirar	throw.v.01	0	propel through the air		1	1
++THROW_00	event	es	4	lanzar	expeler	spew.v.02	0	eject or send out in large quantities, also metaphorical		1	1
++THROW_00	event	es	4	lanzar	expulsar	spew.v.02	0	eject or send out in large quantities, also metaphorical		1	1
++TRANSFER_00	event	en	4	transfer	reassign	transfer.v.01	0	transfer somebody to a different position or location of work		1	1
++TRANSFER_00	event	es	4	transferir	cambiar	switch.v.04	0	make a shift in or exchange of	conflict:+CHANGE_00	1	1
++TRANSFER_00	event	es	4	transferir	intercambiar	switch.v.04	0	make a shift in or exchange of		1	1
++TRANSFER_00	event	es	4	transferir	relevar	switch.v.04	0	make a shift in or exchange of		1	1
++WRITE_00	event	en	4	write	compose	write.v.01	0	produce a literary work		1	1
++WRITE_00	event	en	4	write	pen	write.v.01	0	produce a literary work		1	1
++WRITE_00	event	en	4	write	indite	write.v.01	0	produce a literary work		1	1
++WRITE_00	event	es	4	escribir	componer	write.v.01	0	produce a literary work		1	1
++WRITE_00	event	es	4	escribir	integrar	write.v.01	0	produce a literary work		1	1
++WRITE_00	event	es	4	escribir	redactar	write.v.01	0	produce a literary work		1	1
+$DECLARE_00	event	es	2	declarar	manifestar	declare.v.01	0	state emphatically and authoritatively		1	1
+$DECLARE_00	event	es	2	declarar	revelar	declare.v.01	0	state emphatically and authoritatively		1	1
+$DECLARE_00	event	es	2	declarar	decir	order.v.01	0	give instructions to or direct somebody to do something with authority	conflict:+SAY_00	1	1
+$DECLARE_00	event	es	2	declarar	encargar	order.v.01	0	give instructions to or direct somebody to do something with authority		1	1
++AFFECT_00	event	en	2	affect	impact	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	en	2	affect	bear upon	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	en	2	affect	bear on	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	en	2	affect	touch on	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	es	2	afectar	conmover	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	es	2	afectar	impactar	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	es	2	afectar	repercutir	affect.v.01	0	have an effect upon		1	1
++AFFECT_00	event	es	2	afectar	tocar	affect.v.01	0	have an effect upon		1	1
++BURN_00	event	en	2	burn	fire	burn.v.01	0	destroy by fire	conflict:+FIRE_01	1	1
++BURN_00	event	en	2	burn	burn down	burn.v.01	0	destroy by fire		1	1
++BURN_00	event	es	2	arder	incendiar	burn.v.01	0	destroy by fire		1	1
++BURN_00	event	es	2	arder	quemar	burn.v.01	0	destroy by fire		1	1
++BURN_00	event	es	2	arder	quemarse	burn.v.01	0	destroy by fire		1	1
++BURN_00	event	es	2	arder	consumirse	burn.v.03	0	undergo combustion		1	1
++BUY_00	event	en	2	buy	purchase	buy.v.01	0	obtain by purchase; acquire by means of a financial transaction		1	1
++BUY_00	event	es	2	comprar	adquirir	buy.v.01	0	obtain by purchase; acquire by means of a financial transaction		1	1
++BUY_00	event	es	2	comprar	mercar	buy.v.01	0	obtain by purchase; acquire by means of a financial transaction		1	1
++CHOOSE_00	event	en	2	choose	take	choose.v.01	0	pick out, select, or choose from a number of alternatives	conflict:+TAKE_01 general	1	1
++CHOOSE_00	event	en	2	choose	select	choose.v.01	0	pick out, select, or choose from a number of alternatives		1	1
++CHOOSE_00	event	en	2	choose	pick out	choose.v.01	0	pick out, select, or choose from a number of alternatives		1	1
++CHOOSE_00	event	es	2	elegir	coger	choose.v.01	0	pick out, select, or choose from a number of alternatives	general	1	1
++CHOOSE_00	event	es	2	elegir	decantar	choose.v.01	0	pick out, select, or choose from a number of alternatives		1	1
++CHOOSE_00	event	es	2	elegir	escoger	choose.v.01	0	pick out, select, or choose from a number of alternatives		1	1
++CHOOSE_00	event	es	2	elegir	optar	choose.v.01	0	pick out, select, or choose from a number of alternatives		1	1
++DAMAGE_00	event	es	2	dañar | estropear	romper	damage.v.01	0	inflict damage upon		1	1
++DAMAGE_00	event	es	2	dañar | estropear	lastimar	harm.v.01	0	cause or do harm to		1	1
++DAMAGE_00	event	es	2	dañar | estropear	perjudicar	harm.v.01	0	cause or do harm to		1	1
++DAMAGE_00	event	es	2	dañar | estropear	hacer daño	hurt.v.02	0	give trouble or pain to	general	1	1
++ENTER_00	event	en	2	enter	come in	enter.v.01	0	to come or go into	general	1	1
++ENTER_00	event	en	2	enter	get into	enter.v.01	0	to come or go into	general	1	1
++ENTER_00	event	en	2	enter	get in	enter.v.01	0	to come or go into	general	1	1
++ENTER_00	event	en	2	enter	go into	enter.v.01	0	to come or go into	general	1	1
++ENTER_00	event	es	2	entrar	ingresar	enter.v.01	0	to come or go into		1	1
++ENTER_00	event	es	2	entrar	moverse adentro	enter.v.01	0	to come or go into		1	1
++ENTER_00	event	es	2	entrar	consignar	record.v.01	0	make a record of; set down in permanent form		1	1
++ENTER_00	event	es	2	entrar	hacer constar	record.v.01	0	make a record of; set down in permanent form	general	1	1
++GROW_00	event	en	2	grow	turn	turn.v.07	0	pass into a condition gradually, take on a specific property or attribute; become	general	1	1
++GROW_00	event	es	2	crecer	tornar	turn.v.07	0	pass into a condition gradually, take on a specific property or attribute; become		1	1
++GROW_00	event	es	2	crecer	volverse	turn.v.07	0	pass into a condition gradually, take on a specific property or attribute; become		1	1
++GROW_00	event	es	2	crecer	adquirir	grow.v.08	0	come to have or undergo a change of (physical features and attributes)		1	1
++GROW_00	event	es	2	crecer	cultivar	grow.v.08	0	come to have or undergo a change of (physical features and attributes)	conflict:+CULTIVATE_00	1	1
++INVESTIGATE_00	event	en	2	investigate	look into	investigate.v.01	0	investigate scientifically		1	1
++INVESTIGATE_00	event	es	2	investigar	analizar	investigate.v.01	0	investigate scientifically		1	1
++INVESTIGATE_00	event	es	2	investigar	examinar	investigate.v.01	0	investigate scientifically	conflict:+EXAMINE_00	1	1
++INVESTIGATE_00	event	es	2	investigar	explorar	investigate.v.01	0	investigate scientifically		1	1
++INVESTIGATE_00	event	es	2	investigar	indagar	investigate.v.01	0	investigate scientifically		1	1
++JOIN_00	event	en	2	join	fall in	join.v.01	0	become part of; become a member of a group or organization		1	1
++JOIN_00	event	en	2	join	get together	join.v.01	0	become part of; become a member of a group or organization	general	1	1
++JOIN_00	event	es	2	unirse	incorporarse	join.v.01	0	become part of; become a member of a group or organization		1	1
++JOIN_00	event	es	2	unirse	ingresar	join.v.01	0	become part of; become a member of a group or organization		1	1
++JOIN_00	event	es	2	unirse	adherirse	unify.v.01	0	become one		1	1
++JOIN_00	event	es	2	unirse	asociarse	unify.v.01	0	become one		1	1
++KILL_00	event	es	2	matar	abatir	kill.v.01	0	cause to die; put to death, usually intentionally or knowingly		1	1
++KILL_00	event	es	2	matar	acabar	kill.v.01	0	cause to die; put to death, usually intentionally or knowingly		1	1
++KILL_00	event	es	2	matar	asesinar	kill.v.01	0	cause to die; put to death, usually intentionally or knowingly	conflict:+ASSASSINATE_00,+MURDER_00	1	1
++LEND_00	event	en	2	lend	impart	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	en	2	lend	bestow	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	en	2	lend	contribute	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	en	2	lend	add	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	es	2	prestar	aportar	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	es	2	prestar	conceder	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	es	2	prestar	contribuir	lend.v.01	0	bestow a quality on		1	1
++LEND_00	event	es	2	prestar	otorgar	lend.v.01	0	bestow a quality on		1	1
++LISTEN_00	event	es	2	escuchar	atender	listen.v.01	0	hear with intention		1	1
++MURDER_00	event	en	2	assassinate | murder | slayer	slay	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	en	2	assassinate | murder | slayer	hit	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	en	2	assassinate | murder | slayer	dispatch	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	en	2	assassinate | murder | slayer	bump off	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	es	2	asesinar	borrar	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	es	2	asesinar	cargarse	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	es	2	asesinar	despachar	murder.v.01	0	kill intentionally and with premeditation		1	1
++MURDER_00	event	es	2	asesinar	echarse	murder.v.01	0	kill intentionally and with premeditation		1	1
++PERCEIVE_00	event	en	2	perceive	comprehend	perceive.v.01	0	to become aware of through the senses		1	1
++PERCEIVE_00	event	es	2	percibir	apreciar	perceive.v.01	0	to become aware of through the senses		1	1
++PERCEIVE_00	event	es	2	percibir	comprender	perceive.v.01	0	to become aware of through the senses		1	1
++PERCEIVE_00	event	es	2	percibir	entender	perceive.v.01	0	to become aware of through the senses		1	1
++PERCEIVE_00	event	es	2	percibir	sentir	perceive.v.01	0	to become aware of through the senses	conflict:+FEEL_00	1	1
++PROSECUTE_00	event	es	2	procesar	enjuiciar	prosecute.v.01	0	conduct a prosecution in a court of law		1	1
++PROSECUTE_00	event	es	2	procesar	alisar	process.v.01	0	subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition		1	1
++PROSECUTE_00	event	es	2	procesar	tratar	process.v.01	0	subject to a process or treatment, with the aim of readying for some purpose, improving, or remedying a condition		1	1
++PUNISH_00	event	en	2	punish	penalize	punish.v.01	0	impose a penalty on; inflict punishment on		1	1
++PUNISH_00	event	en	2	punish	penalise	punish.v.01	0	impose a penalty on; inflict punishment on		1	1
++PUNISH_00	event	es	2	castigar	penalizar	punish.v.01	0	impose a penalty on; inflict punishment on		1	1
++PUNISH_00	event	es	2	castigar	punir	punish.v.01	0	impose a penalty on; inflict punishment on		1	1
++PUNISH_00	event	es	2	castigar	atemperar	chasten.v.02	0	restrain		1	1
++PUNISH_00	event	es	2	castigar	corregir	chasten.v.02	0	restrain		1	1
++REST_00	event	es	2	descansar	reposar	rest.v.01	0	not move; be in a resting position		1	1
++REST_00	event	es	2	descansar	dormir	rest.v.05	0	be at rest	conflict:+SLEEP_00	1	1
++SEE_00	event	es	2	ver	contemplar	see.v.01	0	perceive by sight or have the power to perceive by sight		1	1
++SEE_00	event	es	2	ver	mirar	see.v.01	0	perceive by sight or have the power to perceive by sight		1	1
++SEE_00	event	es	2	ver	observar	see.v.01	0	perceive by sight or have the power to perceive by sight		1	1
++SEE_00	event	es	2	ver	percibir	see.v.01	0	perceive by sight or have the power to perceive by sight	conflict:+PERCEIVE_00	1	1
++SEIZE_00	event	en	2	confiscate | forfeit	impound	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SEIZE_00	event	en	2	confiscate | forfeit	attach	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SEIZE_00	event	en	2	confiscate | forfeit	sequester	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SEIZE_00	event	en	2	confiscate | forfeit	seize	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SEIZE_00	event	es	2	aprehender | confiscar | decomisar	apoderar	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SEIZE_00	event	es	2	aprehender | confiscar | decomisar	capturar	impound.v.01	0	take temporary possession of as a security, by legal authority	conflict:+CAPTURE_00	1	1
++SEIZE_00	event	es	2	aprehender | confiscar | decomisar	embargar	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SEIZE_00	event	es	2	aprehender | confiscar | decomisar	incautar	impound.v.01	0	take temporary possession of as a security, by legal authority		1	1
++SLEEP_00	event	en	2	sleep	kip	sleep.v.01	0	be asleep		1	1
++SLEEP_00	event	en	2	sleep	slumber	sleep.v.01	0	be asleep		1	1
++SLEEP_00	event	en	2	sleep	log z's	sleep.v.01	0	be asleep		1	1
++SLEEP_00	event	en	2	sleep	catch some z's	sleep.v.01	0	be asleep		1	1
++SLEEP_00	event	es	2	dormir	dormitar	sleep.v.01	0	be asleep		1	1
++SLEEP_00	event	es	2	dormir	descansar	rest.v.05	0	be at rest	conflict:+REST_00	1	1
++SLEEP_00	event	es	2	dormir	reposar	rest.v.05	0	be at rest		1	1
++STORE_00	event	en	2	store	hive away	store.v.01	0	keep or lay aside for future use		1	1
++STORE_00	event	en	2	store	lay in	store.v.01	0	keep or lay aside for future use		1	1
++STORE_00	event	en	2	store	put in	store.v.01	0	keep or lay aside for future use	general	1	1
++STORE_00	event	en	2	store	salt away	store.v.01	0	keep or lay aside for future use		1	1
++STORE_00	event	es	2	almacenar	acumular	store.v.01	0	keep or lay aside for future use		1	1
++STORE_00	event	es	2	almacenar	atesorar	store.v.01	0	keep or lay aside for future use		1	1
++TRANSPORT_00	event	es	2	transportar	transponer	transpose.v.07	0	change key		1	1
++ALIVE_00	quality	en	126	alive	live	alive.a.01	0	possessing life	conflict:+LIVE_00	1	1
++ALIVE_00	quality	en	126	alive	liveborn	liveborn.s.01	1	(of newborn infant) showing signs of life after birth; not stillborn		1	1
++ALIVE_00	quality	en	126	alive	viable	viable.s.02	1	capable of life or normal growth and development		1	1
++ALIVE_00	quality	en	126	alive	vital	vital.s.04	1	manifesting or characteristic of life		1	1
++ALIVE_00	quality	es	126	vivo	viable	viable.s.02	1	capable of life or normal growth and development		1	1
++ALIVE_00	quality	es	126	vivo	vital	vital.s.04	1	manifesting or characteristic of life		1	1
++VIOLENT_00	quality	en	68	violent	convulsive	convulsive.s.02	1	resembling a convulsion in being sudden and violent		1	1
++VIOLENT_00	quality	en	68	violent	ruffianly	ruffianly.s.01	1	violent and lawless		1	1
++VIOLENT_00	quality	en	68	violent	tough	ruffianly.s.01	1	violent and lawless		1	1
++VIOLENT_00	quality	en	68	violent	ferocious	ferocious.s.01	1	marked by extreme and violent energy		1	1
++VIOLENT_00	quality	es	68	violento	convulsivo	convulsive.s.02	1	resembling a convulsion in being sudden and violent		1	1
++VIOLENT_00	quality	es	68	violento	alborotador	ruffianly.s.01	1	violent and lawless		1	1
++VIOLENT_00	quality	es	68	violento	bravo	ferocious.s.01	1	marked by extreme and violent energy		1	1
++VIOLENT_00	quality	es	68	violento	brutal	ferocious.s.01	1	marked by extreme and violent energy		1	1
++SMALL_00	quality	en	48	small	little	small.a.01	0	limited or below average in number or quantity or magnitude or extent	conflict:+LITTLE_00	1	1
++SMALL_00	quality	en	48	small	smaller	smaller.s.01	1	small or little relative to something else		1	1
++SMALL_00	quality	en	48	small	littler	smaller.s.01	1	small or little relative to something else		1	1
++SMALL_00	quality	en	48	small	gnomish	gnomish.s.01	1	used of small deformed creatures		1	1
++SMALL_00	quality	es	48	pequeño	menudo	small.a.01	0	limited or below average in number or quantity or magnitude or extent		1	1
++SMALL_00	quality	es	48	pequeño	menor	smaller.s.01	1	small or little relative to something else		1	1
++SMALL_00	quality	es	48	pequeño	micro	micro.s.01	1	extremely small in scale or scope or capability		1	1
++BIG_00	quality	en	8	big	large	large.a.01	0	above average in size or number or quantity or magnitude or extent		1	1
++BIG_00	quality	en	8	big	cosmic	cosmic.s.01	1	inconceivably extended in space or time		1	1
++BIG_00	quality	es	8	grande	gran	large.a.01	0	above average in size or number or quantity or magnitude or extent		1	1
++BIG_00	quality	es	8	grande	a gran escala	large-scale.s.01	1	unusually large in scope		1	1
++BIG_00	quality	es	8	grande	extensísimo	large-scale.s.01	1	unusually large in scope		1	1
++BIG_00	quality	es	8	grande	extenso	large-scale.s.01	1	unusually large in scope		1	1
++LEGAL_00	quality	en	7	legal	ratified	ratified.s.01	1	formally approved and invested with legal authority		1	1
++LEGAL_00	quality	en	7	legal	sanctioned	ratified.s.01	1	formally approved and invested with legal authority		1	1
++LEGAL_00	quality	en	7	legal	statutory	statutory.s.01	1	prescribed or authorized by or punishable under a statute		1	1
++LEGAL_00	quality	en	7	legal	sub judice	sub_judice.s.01	1	before a judge or court of law; awaiting judicial determination		1	1
++LEGAL_00	quality	es	7	legal	ratificado	ratified.s.01	1	formally approved and invested with legal authority		1	1
++LEGAL_00	quality	es	7	legal	sancionado	ratified.s.01	1	formally approved and invested with legal authority		1	1
++LEGAL_00	quality	es	7	legal	estatutario	statutory.s.01	1	prescribed or authorized by or punishable under a statute		1	1
++LEGAL_00	quality	es	7	legal	sub iúdice	sub_judice.s.01	1	before a judge or court of law; awaiting judicial determination		1	1
++EASY_00	quality	en	6	easy	elementary	elementary.s.01	1	easy and not involved or complicated		1	1
++EASY_00	quality	en	6	easy	simple	elementary.s.01	1	easy and not involved or complicated		1	1
++EASY_00	quality	en	6	easy	uncomplicated	elementary.s.01	1	easy and not involved or complicated		1	1
++EASY_00	quality	en	6	easy	unproblematic	elementary.s.01	1	easy and not involved or complicated		1	1
++EASY_00	quality	es	6	fácil	elemental	elementary.s.01	1	easy and not involved or complicated		1	1
++EASY_00	quality	es	6	fácil	simple	elementary.s.01	1	easy and not involved or complicated		1	1
++EASY_00	quality	es	6	fácil	llano	smooth.s.03	1	lacking obstructions or difficulties		1	1
++EASY_00	quality	es	6	fácil	casual	casual.s.09	1	not showing effort or strain		1	1
++SECRET_00	quality	en	6	secret	concealed	concealed.a.02	1	hidden on any grounds for any motive		1	1
++SECRET_00	quality	es	6	secreto	confidencial	classified.a.02	0	official classification of information or documents; withheld from general circulation		1	1
++SECRET_00	quality	es	6	secreto	oculto	concealed.a.02	1	hidden on any grounds for any motive		1	1
++ENERGETIC_00	quality	en	4	energetic	physical	physical.s.03	1	characterized by energetic bodily activity		1	1
++ENERGETIC_00	quality	en	4	energetic	vigorous	vigorous.s.01	1	characterized by forceful and energetic action or activity		1	1
++ENERGETIC_00	quality	en	4	energetic	alert	alert.s.01	1	quick and energetic		1	1
++ENERGETIC_00	quality	en	4	energetic	brisk	alert.s.01	1	quick and energetic		1	1
++ENERGETIC_00	quality	es	4	activo | energético | vigoroso	enérgico	energetic.a.01	0	possessing or exerting or displaying energy		1	1
++ENERGETIC_00	quality	es	4	activo | energético | vigoroso	físico	physical.s.03	1	characterized by energetic bodily activity		1	1
++ENERGETIC_00	quality	es	4	activo | energético | vigoroso	vehemente	vigorous.s.01	1	characterized by forceful and energetic action or activity		1	1
++ENERGETIC_00	quality	es	4	activo | energético | vigoroso	vivaz	alert.s.01	1	quick and energetic		1	1
++CALM_00	quality	en	2	calm	unagitated	calm.s.01	0	not agitated; without losing self-possession		1	1
++CALM_00	quality	en	2	calm	serene	calm.s.01	0	not agitated; without losing self-possession		1	1
++CALM_00	quality	en	2	calm	tranquil	calm.s.01	0	not agitated; without losing self-possession		1	1
++CALM_00	quality	en	2	calm	composed	composed.a.01	1	serenely self-possessed and free from agitation especially in times of stress		1	1
++CALM_00	quality	es	2	tranquilo	calmado	calm.s.01	0	not agitated; without losing self-possession		1	1
++CALM_00	quality	es	2	tranquilo	sereno	calm.s.01	0	not agitated; without losing self-possession		1	1
++CALM_00	quality	es	2	tranquilo	sosegado	calm.s.01	0	not agitated; without losing self-possession		1	1
++CALM_00	quality	es	2	tranquilo	serena	composed.a.01	1	serenely self-possessed and free from agitation especially in times of stress		1	1
++DRUNK_00	quality	en	2	drunk	intoxicated	intoxicated.a.01	0	stupefied or excited by a chemical substance (especially alcohol)		1	1
++DRUNK_00	quality	en	2	drunk	inebriated	intoxicated.a.01	0	stupefied or excited by a chemical substance (especially alcohol)		1	1
++DRUNK_00	quality	en	2	drunk	besotted	besotted.s.01	1	very drunk		1	1
++DRUNK_00	quality	en	2	drunk	blind drunk	besotted.s.01	1	very drunk		1	1
++DRUNK_00	quality	es	2	borracho	bebido	intoxicated.a.01	0	stupefied or excited by a chemical substance (especially alcohol)		1	1
++DRUNK_00	quality	es	2	borracho	ebrio	intoxicated.a.01	0	stupefied or excited by a chemical substance (especially alcohol)		1	1
++DRUNK_00	quality	es	2	borracho	achispado	besotted.s.01	1	very drunk		1	1
++DRUNK_00	quality	es	2	borracho	ajumado	besotted.s.01	1	very drunk		1	1
++LONG_00	quality	en	2	long	longstanding	longstanding.s.01	1	having existed for a long time		1	1
++LONG_00	quality	en	2	long	nightlong	nightlong.s.01	1	lasting, open, or operating through the whole night		1	1
++LONG_00	quality	en	2	long	overnight	nightlong.s.01	1	lasting, open, or operating through the whole night		1	1
++LONG_00	quality	en	2	long	yearlong	yearlong.s.01	1	lasting through a year		1	1
++LONG_00	quality	es	2	largo	extenso	long.a.01	0	primarily temporal sense; being or indicating a relatively great or greater than average duration or passage of time or a duration as specified		1	1
++LONG_00	quality	es	2	largo	anual	yearlong.s.01	1	lasting through a year		1	1
++MALE_00	quality	en	2	male	priapic	priapic.s.01	1	overly concerned with masculinity and male sexuality		1	1
++MALE_00	quality	en	2	male	antheral	antheral.s.01	1	capable of fertilizing female organs		1	1
++MALE_00	quality	en	2	male	staminate	antheral.s.01	1	capable of fertilizing female organs		1	1
++MALE_00	quality	es	2	varón	macho	male.a.01	0	being the sex (of plant or animal) that produces gametes (spermatozoa) that perform the fertilizing function in generation		1	1
++MALE_00	quality	es	2	varón	masculino	male.a.01	0	being the sex (of plant or animal) that produces gametes (spermatozoa) that perform the fertilizing function in generation		1	1
++STRONG_00	quality	en	2	strong	beardown	beardown.s.01	1	with full strength		1	1
++STRONG_00	quality	en	2	strong	virile	virile.s.01	1	characterized by energy and vigor		1	1
++STRONG_00	quality	en	2	strong	bullnecked	bullnecked.s.01	1	having a thick short powerful neck		1	1
++STRONG_00	quality	es	2	fuerte	duro	hard.a.08	0	(of speech sounds); produced with the back of the tongue raised toward or touching the velum	conflict:+HARD_00	1	1
++HUMAN_00	entity	en	114	human | human being | individual | mortal | person | soul	homo	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage		1	1
++HUMAN_00	entity	en	114	human | human being | individual | mortal | person | soul	man	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage	conflict:+MAN_00	1	1
++HUMAN_00	entity	en	114	human | human being | individual | mortal | person | soul	someone	person.n.01	0	a human being		1	1
++HUMAN_00	entity	en	114	human | human being | individual | mortal | person | soul	somebody	person.n.01	0	a human being		1	1
++HUMAN_00	entity	es	114	humano | persona	hombre	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage	conflict:+MAN_00	1	1
++HUMAN_00	entity	es	114	humano | persona	homo	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage		1	1
++HUMAN_00	entity	es	114	humano | persona	humana	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage		1	1
++HUMAN_00	entity	es	114	humano | persona	humanidad	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage		1	1
++JUDGE_00	entity	en	38	judge | jurist | magistrate	justice	judge.n.01	0	a public official authorized to decide questions brought before a court of justice		1	1
++JUDGE_00	entity	en	38	judge | jurist | magistrate	legal expert	jurist.n.01	0	a legal scholar versed in civil law or the law of nations		1	1
++JUDGE_00	entity	es	38	juez | magistrado	árbitro	judge.n.01	0	a public official authorized to decide questions brought before a court of justice		1	1
++JUDGE_00	entity	es	38	juez | magistrado	jueza	judge.n.01	0	a public official authorized to decide questions brought before a court of justice		1	1
++JUDGE_00	entity	es	38	juez | magistrado	togado	judge.n.01	0	a public official authorized to decide questions brought before a court of justice		1	1
++JUDGE_00	entity	es	38	juez | magistrado	experto legal	jurist.n.01	0	a legal scholar versed in civil law or the law of nations		1	1
++CRIME_00	entity	en	24	crime | criminal wrong | delinquency | offence	offense	crime.n.01	0	(criminal law) an act punishable by law; usually considered an evil act		1	1
++CRIME_00	entity	en	24	crime | criminal wrong | delinquency | offence	criminal offense	crime.n.01	0	(criminal law) an act punishable by law; usually considered an evil act		1	1
++CRIME_00	entity	en	24	crime | criminal wrong | delinquency | offence	criminal offence	crime.n.01	0	(criminal law) an act punishable by law; usually considered an evil act		1	1
++CRIME_00	entity	en	24	crime | criminal wrong | delinquency | offence	offensive	offense.n.05	0	the action of attacking an enemy		1	1
++CRIME_00	entity	es	24	delito | ilegalidad | infracción | ofensa	crimen	crime.n.01	0	(criminal law) an act punishable by law; usually considered an evil act	conflict:+FELONY_00,+MURDER_01	1	1
++CRIME_00	entity	es	24	delito | ilegalidad | infracción | ofensa	delitos	crime.n.01	0	(criminal law) an act punishable by law; usually considered an evil act		1	1
++CRIME_00	entity	es	24	delito | ilegalidad | infracción | ofensa	impago	delinquency.n.01	0	nonpayment of a debt when due		1	1
++CRIME_00	entity	es	24	delito | ilegalidad | infracción | ofensa	morosidad	delinquency.n.01	0	nonpayment of a debt when due		1	1
++COUNTRY_00	entity	en	19	country | homeland | nation | state	land	state.n.04	0	a politically organized body of people under a single government		1	1
++COUNTRY_00	entity	en	19	country | homeland | nation | state	commonwealth	state.n.04	0	a politically organized body of people under a single government		1	1
++COUNTRY_00	entity	en	19	country | homeland | nation | state	res publica	state.n.04	0	a politically organized body of people under a single government		1	1
++COUNTRY_00	entity	en	19	country | homeland | nation | state	body politic	state.n.04	0	a politically organized body of people under a single government		1	1
++COUNTRY_00	entity	es	19	estado | nación | país | patria	república	state.n.04	0	a politically organized body of people under a single government		1	1
++COUNTRY_00	entity	es	19	estado | nación | país | patria	res publica	state.n.04	0	a politically organized body of people under a single government		1	1
++COUNTRY_00	entity	es	19	estado | nación | país | patria	madre patria	fatherland.n.01	0	the country where you were born		1	1
++COUNTRY_00	entity	es	19	estado | nación | país | patria	país de origen	fatherland.n.01	0	the country where you were born		1	1
++CRIMINAL_00	entity	en	18	convict | criminal | culprit | delinquent | guilty | lawbreaker | offender | perpetrator	con	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++CRIMINAL_00	entity	en	18	convict | criminal | culprit | delinquent | guilty | lawbreaker | offender | perpetrator	inmate	convict.n.01	0	a person serving a sentence in a jail or prison	conflict:+PRISONER_00	1	1
++CRIMINAL_00	entity	en	18	convict | criminal | culprit | delinquent | guilty | lawbreaker | offender | perpetrator	yard bird	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++CRIMINAL_00	entity	en	18	convict | criminal | culprit | delinquent | guilty | lawbreaker | offender | perpetrator	yardbird	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++CRIMINAL_00	entity	es	18	condenado | convicto | criminal | culpable | delincuente | infractor | maleante | malhechor | ofensor | perpetrador | presidiario | preso | reo | transgresor	condenada	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++CRIMINAL_00	entity	es	18	condenado | convicto | criminal | culpable | delincuente | infractor | maleante | malhechor | ofensor | perpetrador | presidiario | preso | reo | transgresor	convicta	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++CRIMINAL_00	entity	es	18	condenado | convicto | criminal | culpable | delincuente | infractor | maleante | malhechor | ofensor | perpetrador | presidiario | preso | reo | transgresor	presidario	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++CRIMINAL_00	entity	es	18	condenado | convicto | criminal | culpable | delincuente | infractor | maleante | malhechor | ofensor | perpetrador | presidiario | preso | reo | transgresor	presidiaria	convict.n.01	0	a person serving a sentence in a jail or prison		1	1
++INFORMATION_00	entity	en	17	data | information	info	information.n.01	0	a message received and understood		1	1
++INFORMATION_00	entity	es	17	dato | información	data	data.n.01	0	a collection of facts from which conclusions may be drawn		1	1
++INFORMATION_00	entity	es	17	dato | información	datos	data.n.01	0	a collection of facts from which conclusions may be drawn		1	1
++INFORMATION_00	entity	es	17	dato | información	info	information.n.01	0	a message received and understood		1	1
++ILLNESS_00	entity	en	16	illness	unwellness	illness.n.01	0	impairment of normal physiological function affecting part or all of an organism		1	1
++ILLNESS_00	entity	en	16	illness	malady	illness.n.01	0	impairment of normal physiological function affecting part or all of an organism		1	1
++ILLNESS_00	entity	en	16	illness	sickness	illness.n.01	0	impairment of normal physiological function affecting part or all of an organism		1	1
++ILLNESS_00	entity	es	16	enfermedad	afección	illness.n.01	0	impairment of normal physiological function affecting part or all of an organism		1	1
++ILLNESS_00	entity	es	16	enfermedad	mal	illness.n.01	0	impairment of normal physiological function affecting part or all of an organism		1	1
++ILLNESS_00	entity	es	16	enfermedad	patología	illness.n.01	0	impairment of normal physiological function affecting part or all of an organism		1	1
++ILLNESS_00	entity	es	16	enfermedad	achaque	ailment.n.01	0	an often persistent bodily disorder or disease; a cause for complaining		1	1
++CUSTOMER_00	entity	en	15	customer	client	customer.n.01	0	someone who pays for goods or services		1	1
++BUILDING_00	entity	en	14	building	edifice	building.n.01	0	a structure that has a roof and walls and stands more or less permanently in one place		1	1
++BUILDING_00	entity	es	14	edificio	casa	building.n.01	0	a structure that has a roof and walls and stands more or less permanently in one place		1	1
++BUILDING_00	entity	es	14	edificio	construcción	building.n.01	0	a structure that has a roof and walls and stands more or less permanently in one place		1	1
++BUILDING_00	entity	es	14	edificio	edificación	building.n.01	0	a structure that has a roof and walls and stands more or less permanently in one place		1	1
++BUILDING_00	entity	es	14	edificio	edificios	building.n.01	0	a structure that has a roof and walls and stands more or less permanently in one place		1	1
++ALCOHOL_00	entity	en	12	alcohol	alcoholic drink	alcohol.n.01	0	a liquor or brew containing alcohol as the active agent		1	1
++ALCOHOL_00	entity	en	12	alcohol	alcoholic beverage	alcohol.n.01	0	a liquor or brew containing alcohol as the active agent		1	1
++ALCOHOL_00	entity	en	12	alcohol	intoxicant	alcohol.n.01	0	a liquor or brew containing alcohol as the active agent		1	1
++ALCOHOL_00	entity	en	12	alcohol	inebriant	alcohol.n.01	0	a liquor or brew containing alcohol as the active agent		1	1
++ALCOHOL_00	entity	es	12	alcohol	bebida alcohólica	alcohol.n.01	0	a liquor or brew containing alcohol as the active agent		1	1
++BOMB_00	entity	es	12	bomba	explosivo	bomb.n.01	0	an explosive device fused to explode under specific conditions	conflict:+EXPLOSIVE_00	1	1
++TRIAL_00	entity	en	12	trial	test	test.n.05	0	the act of testing something		1	1
++TRIAL_00	entity	en	12	trial	run	test.n.05	0	the act of testing something	general	1	1
++TRIAL_00	entity	es	12	juicio | proceso	ensayo	test.n.05	0	the act of testing something		1	1
++TRIAL_00	entity	es	12	juicio | proceso	prueba	test.n.05	0	the act of testing something	conflict:+EVIDENCE_00	1	1
++TRIAL_00	entity	es	12	juicio | proceso	test	test.n.05	0	the act of testing something		1	1
++TRIAL_00	entity	es	12	juicio | proceso	evaluación	judgment.n.02	0	the act of judging or assessing a person or situation or event		1	1
++VEHICLE_00	entity	es	12	vehículo	auto	car.n.01	0	a motor vehicle with four wheels; usually propelled by an internal combustion engine		1	1
++VEHICLE_00	entity	es	12	vehículo	automóvil	car.n.01	0	a motor vehicle with four wheels; usually propelled by an internal combustion engine		1	1
++VEHICLE_00	entity	es	12	vehículo	carro	car.n.01	0	a motor vehicle with four wheels; usually propelled by an internal combustion engine		1	1
++VEHICLE_00	entity	es	12	vehículo	coche	car.n.01	0	a motor vehicle with four wheels; usually propelled by an internal combustion engine		1	1
+$LONE_WOLF_00	entity	en	10	lone wolf | lone wolf fighter | solo terrorist	loner	loner.n.01	0	a person who avoids the company or assistance of others		1	1
+$LONE_WOLF_00	entity	en	10	lone wolf | lone wolf fighter | solo terrorist	lone hand	loner.n.01	0	a person who avoids the company or assistance of others		1	1
+$LONE_WOLF_00	entity	es	10	lobo solitario	solitario	loner.n.01	0	a person who avoids the company or assistance of others		1	1
++ASSASSIN_00	entity	en	10	assassin | gunman | homicide | killer | murderer | slayer | triggerman	assassinator	assassin.n.01	0	a murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed		1	1
++ASSASSIN_00	entity	en	10	assassin | gunman | homicide | killer | murderer | slayer | triggerman	bravo	assassin.n.01	0	a murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed		1	1
++ASSASSIN_00	entity	en	10	assassin | gunman | homicide | killer | murderer | slayer | triggerman	gunslinger	gunman.n.01	0	a professional killer who uses a gun		1	1
++ASSASSIN_00	entity	en	10	assassin | gunman | homicide | killer | murderer | slayer | triggerman	hired gun	gunman.n.01	0	a professional killer who uses a gun		1	1
++ASSASSIN_00	entity	es	10	asesino	asesina	assassin.n.01	0	a murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed		1	1
++ASSASSIN_00	entity	es	10	asesino	asesino a sueldo	assassin.n.01	0	a murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed	conflict:+CONTRACT_KILLER_00	1	1
++ASSASSIN_00	entity	es	10	asesino	assassinator	assassin.n.01	0	a murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed		1	1
++ASSASSIN_00	entity	es	10	asesino	bravo	assassin.n.01	0	a murderer (especially one who kills a prominent political figure) who kills by a surprise attack and often is hired to do the deed		1	1
++BODY_00	entity	en	10	body	organic structure	body.n.01	0	the entire structure of an organism (an animal, plant, or human being)		1	1
++BODY_00	entity	en	10	body	physical structure	body.n.01	0	the entire structure of an organism (an animal, plant, or human being)		1	1
++BODY_00	entity	es	10	cuerpo	estructura física	body.n.01	0	the entire structure of an organism (an animal, plant, or human being)		1	1
++BODY_00	entity	es	10	cuerpo	estructura orgánica	body.n.01	0	the entire structure of an organism (an animal, plant, or human being)		1	1
++BODY_00	entity	es	10	cuerpo	carrocería	bodywork.n.01	0	the exterior body of a motor vehicle		1	1
++BODY_00	entity	es	10	cuerpo	exterior	bodywork.n.01	0	the exterior body of a motor vehicle		1	1
++DAMAGE_01	entity	en	10	damage	harm	damage.n.01	0	the occurrence of a change for the worse	conflict:+DAMAGE_00	1	1
++DAMAGE_01	entity	en	10	damage	impairment	damage.n.01	0	the occurrence of a change for the worse		1	1
++DAMAGE_01	entity	es	10	daño	deterioro	damage.n.01	0	the occurrence of a change for the worse		1	1
++DAMAGE_01	entity	es	10	daño	perjuicio	damage.n.01	0	the occurrence of a change for the worse		1	1
++DAMAGE_01	entity	es	10	daño	destrozo	damage.n.03	0	the act of damaging something or someone		1	1
++DAMAGE_01	entity	es	10	daño	mal	damage.n.03	0	the act of damaging something or someone		1	1
++PRODUCT_00	entity	en	10	product	merchandise	merchandise.n.01	0	commodities offered for sale		1	1
++PRODUCT_00	entity	en	10	product	ware	merchandise.n.01	0	commodities offered for sale		1	1
++PRODUCT_00	entity	es	10	producto	artículo	merchandise.n.01	0	commodities offered for sale		1	1
++PRODUCT_00	entity	es	10	producto	género	merchandise.n.01	0	commodities offered for sale		1	1
++PRODUCT_00	entity	es	10	producto	mercadería	merchandise.n.01	0	commodities offered for sale		1	1
++PRODUCT_00	entity	es	10	producto	mercancía	merchandise.n.01	0	commodities offered for sale		1	1
++REFUGE_00	entity	es	10	refugio	asilado	refugee.n.01	0	an exile who flees for safety		1	1
++REFUGE_00	entity	es	10	refugio	refugiada	refugee.n.01	0	an exile who flees for safety		1	1
++REFUGE_00	entity	es	10	refugio	refugiado	refugee.n.01	0	an exile who flees for safety	conflict:+REFUGEE_00	1	1
++REFUGE_00	entity	es	10	refugio	refugiados	refugee.n.01	0	an exile who flees for safety		1	1
++ABUSER_00	entity	en	9	abuser | batterer	maltreater	abuser.n.01	0	someone who abuses		1	1
++ABUSER_00	entity	es	9	abusador | maltratador	abusón	abuser.n.01	0	someone who abuses		1	1
++ABUSER_00	entity	es	9	abusador | maltratador	violador	abuser.n.01	0	someone who abuses		1	1
++CHILD_00	entity	en	9	child	kid	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	en	9	child	youngster	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	en	9	child	minor	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	en	9	child	shaver	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	es	9	niño	alevín	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	es	9	niño	chango	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	es	9	niño	chaval	child.n.01	0	a young person of either sex		1	1
++CHILD_00	entity	es	9	niño	chico	child.n.01	0	a young person of either sex		1	1
++MAN_00	entity	en	9	man	adult male	man.n.01	0	an adult person who is male (as opposed to a woman)		1	1
++MAN_00	entity	es	9	hombre	hombre adulto	man.n.01	0	an adult person who is male (as opposed to a woman)		1	1
++MAN_00	entity	es	9	hombre	varón	man.n.01	0	an adult person who is male (as opposed to a woman)	conflict:+MALE_00	1	1
++MAN_00	entity	es	9	hombre	homo	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage		1	1
++MAN_00	entity	es	9	hombre	humana	homo.n.02	0	any living or extinct member of the family Hominidae characterized by superior intelligence, articulate speech, and erect carriage		1	1
++MINE_01	entity	es	9	mina	minah	myna.n.01	0	tropical Asian starlings		1	1
++MINE_01	entity	es	9	mina	myna	myna.n.01	0	tropical Asian starlings		1	1
++WEAPON_00	entity	en	9	arm | weapon	weapon system	weapon.n.01	0	any instrument or instrumentality used in fighting or hunting		1	1
++WEAPON_00	entity	es	9	arma	brazo	arm.n.01	0	a human limb; technically the part of the superior limb between the shoulder and the elbow but commonly used to refer to the whole superior limb		1	1
++WEAPON_00	entity	es	9	arma	armamento	armament.n.01	0	weaponry used by military or naval force		1	1
+$CANNABIS_00	entity	en	8	cannabis | dope | hashish | marijuana	hemp	cannabis.n.01	0	any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and narcotic drugs		1	1
+$CANNABIS_00	entity	en	8	cannabis | dope | hashish | marijuana	pot	pot.n.09	0	street names for marijuana		1	1
+$CANNABIS_00	entity	en	8	cannabis | dope | hashish | marijuana	grass	pot.n.09	0	street names for marijuana		1	1
+$CANNABIS_00	entity	en	8	cannabis | dope | hashish | marijuana	green goddess	pot.n.09	0	street names for marijuana		1	1
+$CANNABIS_00	entity	es	8	cannabis | hachís | maria | marihuana	cáñamo	cannabis.n.01	0	any plant of the genus Cannabis; a coarse bushy annual with palmate leaves and clusters of small green flowers; yields tough fibers and narcotic drugs		1	1
+$CANNABIS_00	entity	es	8	cannabis | hachís | maria | marihuana	chaquetón	pot.n.09	0	street names for marijuana		1	1
+$CANNABIS_00	entity	es	8	cannabis | hachís | maria | marihuana	chocolate	pot.n.09	0	street names for marijuana		1	1
+$CANNABIS_00	entity	es	8	cannabis | hachís | maria | marihuana	costo	pot.n.09	0	street names for marijuana		1	1
++BOTTLE_00	entity	es	8	botella	frasco	bottle.n.01	0	a glass or plastic vessel used for storing drinks or other liquids; typically cylindrical without handles and with a narrow neck that can be plugged or capped		1	1
++COMPUTER_00	entity	en	8	computer	computing machine	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	en	8	computer	computing device	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	en	8	computer	data processor	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	en	8	computer	electronic computer	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	es	8	ordenador	calculador	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	es	8	ordenador	calculadora	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	es	8	ordenador	computador	computer.n.01	0	a machine for performing calculations automatically		1	1
++COMPUTER_00	entity	es	8	ordenador	computadora	computer.n.01	0	a machine for performing calculations automatically		1	1
++COUNTRYSIDE_00	entity	es	8	campo	arena	arena.n.04	0	a playing field where sports events take place		1	1
++COUNTRYSIDE_00	entity	es	8	campo	palestra	arena.n.04	0	a playing field where sports events take place		1	1
++ORGANISM_00	entity	en	8	organism	being	organism.n.01	0	a living thing that has (or can develop) the ability to act or function independently		1	1
++ORGANISM_00	entity	es	8	organismo	criatura	organism.n.01	0	a living thing that has (or can develop) the ability to act or function independently		1	1
++ORGANISM_00	entity	es	8	organismo	organismos	organism.n.01	0	a living thing that has (or can develop) the ability to act or function independently		1	1
++ORGANISM_00	entity	es	8	organismo	ser	organism.n.01	0	a living thing that has (or can develop) the ability to act or function independently	conflict:+BE_01 general	1	1
++ORGANISM_00	entity	es	8	organismo	ser vivo	organism.n.01	0	a living thing that has (or can develop) the ability to act or function independently	general	1	1
++ORGANIZATION_00	entity	en	8	organization | society | team	organisation	organization.n.01	0	a group of people who work together		1	1
++ORGANIZATION_00	entity	en	8	organization | society | team	squad	team.n.01	0	a cooperative unit (especially in sports)		1	1
++ORGANIZATION_00	entity	es	8	equipo | organización | sociedad	cuadrilla	team.n.01	0	a cooperative unit (especially in sports)		1	1
++ORGANIZATION_00	entity	es	8	equipo | organización | sociedad	escuadrón	team.n.01	0	a cooperative unit (especially in sports)		1	1
++ORGANIZATION_00	entity	es	8	equipo | organización | sociedad	aparato	apparatus.n.01	0	equipment designed to serve a specific function		1	1
++ORGANIZATION_00	entity	es	8	equipo | organización | sociedad	dispositivo	apparatus.n.01	0	equipment designed to serve a specific function		1	1
++PROSTITUTE_00	entity	en	8	hooker | prostitute | whore	joseph hooker	hooker.n.01	0	United States general in the Union Army who was defeated at Chancellorsville by Robert E. Lee (1814-1879)		1	1
++PROSTITUTE_00	entity	en	8	hooker | prostitute | whore	fighting joe hooker	hooker.n.01	0	United States general in the Union Army who was defeated at Chancellorsville by Robert E. Lee (1814-1879)		1	1
++PROSTITUTE_00	entity	en	8	hooker | prostitute | whore	cocotte	prostitute.n.01	0	a woman who engages in sexual intercourse for money		1	1
++PROSTITUTE_00	entity	en	8	hooker | prostitute | whore	harlot	prostitute.n.01	0	a woman who engages in sexual intercourse for money		1	1
++PROSTITUTE_00	entity	es	8	buscona | cortesana | fulana | furcia | pelandusca | prostituta | puta | zorra	joseph hooker	hooker.n.01	0	United States general in the Union Army who was defeated at Chancellorsville by Robert E. Lee (1814-1879)		1	1
++PROSTITUTE_00	entity	es	8	buscona | cortesana | fulana | furcia | pelandusca | prostituta | puta | zorra	alcahueta	prostitute.n.01	0	a woman who engages in sexual intercourse for money		1	1
++PROSTITUTE_00	entity	es	8	buscona | cortesana | fulana | furcia | pelandusca | prostituta | puta | zorra	golfa	prostitute.n.01	0	a woman who engages in sexual intercourse for money		1	1
++PROSTITUTE_00	entity	es	8	buscona | cortesana | fulana | furcia | pelandusca | prostituta | puta | zorra	meretriz	prostitute.n.01	0	a woman who engages in sexual intercourse for money		1	1
++QUESTIONING_00	entity	en	8	interrogatory | questioning	interrogation	interrogation.n.03	0	formal systematic questioning		1	1
++QUESTIONING_00	entity	en	8	interrogatory | questioning	examination	interrogation.n.03	0	formal systematic questioning		1	1
++QUESTIONING_00	entity	en	8	interrogatory | questioning	inquiring	questioning.n.01	0	a request for information		1	1
++QUESTIONING_00	entity	es	8	interrogatorio	preguntas	questioning.n.01	0	a request for information		1	1
++TOWN_00	entity	es	8	pueblo	ciudad	town.n.01	0	an urban area with a fixed boundary that is smaller than a city		1	1
++TOWN_00	entity	es	8	pueblo	población	town.n.01	0	an urban area with a fixed boundary that is smaller than a city		1	1
++TOWN_00	entity	es	8	pueblo	villa	town.n.01	0	an urban area with a fixed boundary that is smaller than a city		1	1
++TOWN_00	entity	es	8	pueblo	gente	people.n.01	0	(plural) any group of human beings (men or women or children) collectively	conflict:+PEOPLE_00	1	1
++GUN_00	entity	es	7	arma	arma de fuego	gun.n.01	0	a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)		1	1
++GUN_00	entity	es	7	arma	cañón	gun.n.01	0	a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)		1	1
++GUN_00	entity	es	7	arma	escopeta	gun.n.01	0	a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)		1	1
++GUN_00	entity	es	7	arma	obús	gun.n.01	0	a weapon that discharges a missile at high velocity (especially from a metal tube or barrel)		1	1
++MOLOTOV_COCKTAIL_00	entity	en	7	molotov cocktail | petrol bomb	gasoline bomb	molotov_cocktail.n.01	0	a crude incendiary bomb made of a bottle filled with flammable liquid and fitted with a rag wick		1	1
++TOBACCO_00	entity	en	7	tobacco	baccy	tobacco.n.01	0	leaves of the tobacco plant dried and prepared for smoking or ingestion		1	1
++WEAPON_OF_MASS_DESTRUCTION_00	entity	en	7	weapon of mass destruction	wmd	weapon_of_mass_destruction.n.01	0	a weapon that kills or injures civilian as well as military personnel (nuclear and chemical and biological weapons)		1	1
++WEAPON_OF_MASS_DESTRUCTION_00	entity	en	7	weapon of mass destruction	w.m.d.	weapon_of_mass_destruction.n.01	0	a weapon that kills or injures civilian as well as military personnel (nuclear and chemical and biological weapons)		1	1
++ANTHRAX_00	entity	en	6	anthrax	splenic fever	anthrax.n.01	0	a highly infectious animal disease (especially cattle and sheep); it can be transmitted to people		1	1
++ANTHRAX_00	entity	es	6	ántrax	carbunco	anthrax.n.01	0	a highly infectious animal disease (especially cattle and sheep); it can be transmitted to people		1	1
++CLOTH_00	entity	en	6	cloth	fabric	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++CLOTH_00	entity	en	6	cloth	material	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++CLOTH_00	entity	en	6	cloth	textile	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++CLOTH_00	entity	es	6	tela	género	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++CLOTH_00	entity	es	6	tela	material	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++CLOTH_00	entity	es	6	tela	paño	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++CLOTH_00	entity	es	6	tela	tejido	fabric.n.01	0	artifact made by weaving or felting or knitting or crocheting natural or synthetic fibers		1	1
++COURT_00	entity	en	6	court | courtroom	tribunal	court.n.01	0	an assembly (including one or more judges) to conduct judicial business		1	1
++COURT_00	entity	en	6	court | courtroom	judicature	court.n.01	0	an assembly (including one or more judges) to conduct judicial business		1	1
++COURT_00	entity	es	6	audiencia | juzgado | tribunal	corte	court.n.01	0	an assembly (including one or more judges) to conduct judicial business		1	1
++COURT_00	entity	es	6	audiencia | juzgado | tribunal	sala	court.n.02	0	a room in which a lawcourt sits		1	1
++COURT_00	entity	es	6	audiencia | juzgado | tribunal	sala de justicia	court.n.02	0	a room in which a lawcourt sits		1	1
++COURT_00	entity	es	6	audiencia | juzgado | tribunal	consulta	consultation.n.01	0	a conference (usually with someone important)		1	1
++METAL_00	entity	en	6	metal	metallic element	metallic_element.n.01	0	any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc.		1	1
++METAL_00	entity	es	6	metal	elemento metálico	metallic_element.n.01	0	any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc.		1	1
++METAL_00	entity	es	6	metal	metales	metallic_element.n.01	0	any of several chemical elements that are usually shiny solids that conduct heat or electricity and can be formed into sheets etc.		1	1
++METAL_00	entity	es	6	metal	instrumentos de metal	brass.n.02	0	a wind instrument that consists of a brass tube (usually of variable length) that is blown by means of a cup-shaped or funnel-shaped mouthpiece		1	1
++METAL_00	entity	es	6	metal	metal viento	brass.n.02	0	a wind instrument that consists of a brass tube (usually of variable length) that is blown by means of a cup-shaped or funnel-shaped mouthpiece		1	1
++RIFLE_00	entity	es	6	rifle	fusil	rifle.n.01	0	a shoulder firearm with a long barrel and a rifled bore		1	1
++SEX_00	entity	en	6	sex	sexual activity	sexual_activity.n.01	0	activities associated with sexual intercourse		1	1
++SEX_00	entity	en	6	sex	sexual practice	sexual_activity.n.01	0	activities associated with sexual intercourse		1	1
++SEX_00	entity	en	6	sex	sex activity	sexual_activity.n.01	0	activities associated with sexual intercourse		1	1
++SEX_00	entity	es	6	sexo	relación	sexual_activity.n.01	0	activities associated with sexual intercourse		1	1
++SEX_00	entity	es	6	sexo	relaciones sexuales	sexual_activity.n.01	0	activities associated with sexual intercourse		1	1
++SOUND_00	entity	es	6	sonido	son	sound.n.01	0	the particular auditory effect produced by a given cause		1	1
++WITNESS_00	entity	en	6	witness	witnesser	witness.n.01	0	someone who sees an event and reports what happened		1	1
++WITNESS_00	entity	en	6	witness	informant	witness.n.01	0	someone who sees an event and reports what happened		1	1
++WITNESS_00	entity	es	6	testigo	informante	witness.n.01	0	someone who sees an event and reports what happened		1	1
++WITNESS_00	entity	es	6	testigo	posta	baton.n.05	0	a hollow cylinder passed from runner to runner in a relay race		1	1
+$AMPHETAMINE_00	entity	en	5	amphetamine | crank | metamphetamine	pep pill	amphetamine.n.01	0	a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression		1	1
+$AMPHETAMINE_00	entity	en	5	amphetamine | crank | metamphetamine	upper	amphetamine.n.01	0	a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression		1	1
+$AMPHETAMINE_00	entity	en	5	amphetamine | crank | metamphetamine	speed	amphetamine.n.01	0	a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression		1	1
+$AMPHETAMINE_00	entity	en	5	amphetamine | crank | metamphetamine	grouch	grouch.n.01	0	a bad-tempered person		1	1
+$AMPHETAMINE_00	entity	es	5	anfetamina | metanfetamina	anfeta	amphetamine.n.01	0	a central nervous system stimulant that increases energy and decreases appetite; used to treat narcolepsy and some forms of depression		1	1
+$AMPHETAMINE_00	entity	es	5	anfetamina | metanfetamina	cascarrabias	grouch.n.01	0	a bad-tempered person		1	1
+$AMPHETAMINE_00	entity	es	5	anfetamina | metanfetamina	gruñón	grouch.n.01	0	a bad-tempered person		1	1
+$AMPHETAMINE_00	entity	es	5	anfetamina | metanfetamina	polvorilla	grouch.n.01	0	a bad-tempered person		1	1
+$DECLARE_D_00	entity	es	5	declaración	afirmación	declaration.n.01	0	a statement that is emphatic and explicit (spoken or written)		1	1
+$DECLARE_D_00	entity	es	5	declaración	manifestación	declaration.n.01	0	a statement that is emphatic and explicit (spoken or written)		1	1
+$DECLARE_D_00	entity	es	5	declaración	resolución	resolution.n.01	0	a formal expression by a meeting; agreed to by a vote		1	1
++AMMUNITION_00	entity	en	5	ammunition	ammo	ammunition.n.01	0	projectiles to be fired from a gun		1	1
++AMMUNITION_00	entity	es	5	munición	municiones	ammunition.n.01	0	projectiles to be fired from a gun		1	1
++BANDIT_00	entity	en	5	bandit | gangster	brigand	bandit.n.01	0	an armed thief who is (usually) a member of a band		1	1
++BANDIT_00	entity	en	5	bandit | gangster	mobster	gangster.n.01	0	a criminal who is a member of gang		1	1
++BANDIT_00	entity	es	5	bandido | gánster	atracador	bandit.n.01	0	an armed thief who is (usually) a member of a band	conflict:+THIEF_00	1	1
++BANDIT_00	entity	es	5	bandido | gánster	bandolera	bandit.n.01	0	an armed thief who is (usually) a member of a band		1	1
++BANDIT_00	entity	es	5	bandido | gánster	bandolero	bandit.n.01	0	an armed thief who is (usually) a member of a band		1	1
++BANDIT_00	entity	es	5	bandido | gánster	forajido	bandit.n.01	0	an armed thief who is (usually) a member of a band		1	1
++BOMBER_00	entity	es	5	bombardero | suicida	suicidio	suicide.n.02	0	a person who kills himself intentionally		1	1
++BORDER_CROSSING_POINT_00	entity	en	5	border checkpoint | border crossing point | customs	customs duty	customs.n.01	0	money collected under a tariff		1	1
++BORDER_CROSSING_POINT_00	entity	en	5	border checkpoint | border crossing point | customs	custom	customs.n.01	0	money collected under a tariff	conflict:+CUSTOM_00	1	1
++BORDER_CROSSING_POINT_00	entity	en	5	border checkpoint | border crossing point | customs	impost	customs.n.01	0	money collected under a tariff		1	1
++BORDER_CROSSING_POINT_00	entity	es	5	aduana | paso fronterizo	derecho de aduana	customs.n.01	0	money collected under a tariff		1	1
++CAPTOR_00	entity	en	5	captor	capturer	captor.n.01	0	a person who captures and holds people or animals		1	1
++CAPTOR_00	entity	es	5	captor	captora	captor.n.01	0	a person who captures and holds people or animals		1	1
++LAWYER_00	entity	es	5	abogado	abogada	lawyer.n.01	0	a professional person authorized to practice law; conducts lawsuits or gives legal advice		1	1
++LAWYER_00	entity	es	5	abogado	defensor	lawyer.n.01	0	a professional person authorized to practice law; conducts lawsuits or gives legal advice		1	1
++LAWYER_00	entity	es	5	abogado	jurista	lawyer.n.01	0	a professional person authorized to practice law; conducts lawsuits or gives legal advice		1	1
++LAWYER_00	entity	es	5	abogado	letrada	lawyer.n.01	0	a professional person authorized to practice law; conducts lawsuits or gives legal advice		1	1
++ORAL_EVIDENCE_00	entity	es	5	prueba testimonial | prueba verbal	atestación	testimony.n.01	0	a solemn statement made under oath		1	1
++ORAL_EVIDENCE_00	entity	es	5	prueba testimonial | prueba verbal	atestiguamiento	testimony.n.01	0	a solemn statement made under oath		1	1
++ORAL_EVIDENCE_00	entity	es	5	prueba testimonial | prueba verbal	testificación	testimony.n.01	0	a solemn statement made under oath		1	1
++ORAL_EVIDENCE_00	entity	es	5	prueba testimonial | prueba verbal	testimonio	testimony.n.01	0	a solemn statement made under oath	conflict:+EVIDENCE_00	1	1
++ORGANIZED_CRIME_GROUP_00	entity	en	5	criminal organization | gang | mafia | mob | organized crime group | organized criminal group | ring	pack	gang.n.01	0	an association of criminals		1	1
++ORGANIZED_CRIME_GROUP_00	entity	en	5	criminal organization | gang | mafia | mob | organized crime group | organized criminal group | ring	maffia	mafia.n.01	0	a crime syndicate in the United States; organized in families; believed to have important relations to the Sicilian Mafia		1	1
++ORGANIZED_CRIME_GROUP_00	entity	en	5	criminal organization | gang | mafia | mob | organized crime group | organized criminal group | ring	cosa nostra	mafia.n.01	0	a crime syndicate in the United States; organized in families; believed to have important relations to the Sicilian Mafia		1	1
++ORGANIZED_CRIME_GROUP_00	entity	en	5	criminal organization | gang | mafia | mob | organized crime group | organized criminal group | ring	rabble	mob.n.01	0	a disorderly crowd of people		1	1
++ORGANIZED_CRIME_GROUP_00	entity	es	5	banda criminal | organización criminal	banda	gang.n.01	0	an association of criminals		1	1
++ORGANIZED_CRIME_GROUP_00	entity	es	5	banda criminal | organización criminal	pandilla	gang.n.01	0	an association of criminals		1	1
++ORGANIZED_CRIME_GROUP_00	entity	es	5	banda criminal | organización criminal	cosa nostra	mafia.n.01	0	a crime syndicate in the United States; organized in families; believed to have important relations to the Sicilian Mafia	general	1	1
++ORGANIZED_CRIME_GROUP_00	entity	es	5	banda criminal | organización criminal	mafia	mafia.n.01	0	a crime syndicate in the United States; organized in families; believed to have important relations to the Sicilian Mafia	conflict:+MAFIA_00	1	1
++POLICE_00	entity	en	5	constabulary | police | police force	law	police.n.01	0	the force of policemen and officers	conflict:+LAW_00	1	1
++POLICE_00	entity	es	5	cuerpo policial | policía	agentes	police.n.01	0	the force of policemen and officers		1	1
++POLICE_00	entity	es	5	cuerpo policial | policía	fuerzas del orden	police.n.01	0	the force of policemen and officers		1	1
++POLICE_00	entity	es	5	cuerpo policial | policía	fuerzas policiales	police.n.01	0	the force of policemen and officers		1	1
++POLICE_00	entity	es	5	cuerpo policial | policía	guardia	police.n.01	0	the force of policemen and officers		1	1
++SMUGGLER_00	entity	en	5	smuggler	runner	smuggler.n.01	0	someone who imports or exports without paying duties		1	1
++SMUGGLER_00	entity	en	5	smuggler	contrabandist	smuggler.n.01	0	someone who imports or exports without paying duties		1	1
++SMUGGLER_00	entity	en	5	smuggler	moon curser	smuggler.n.01	0	someone who imports or exports without paying duties		1	1
++SMUGGLER_00	entity	es	5	contrabandista	matutero	smuggler.n.01	0	someone who imports or exports without paying duties		1	1
++SMUGGLER_00	entity	es	5	contrabandista	metedor	smuggler.n.01	0	someone who imports or exports without paying duties		1	1
++SMUGGLER_00	entity	es	5	contrabandista	pasador	smuggler.n.01	0	someone who imports or exports without paying duties		1	1
++SMUGGLER_00	entity	es	5	contrabandista	traficante	smuggler.n.01	0	someone who imports or exports without paying duties	conflict:+TRAFFICKER_00	1	1
++SUICIDE_BOMBER_00	entity	es	5	kamikaze | terrorista suicida	avión kamikaze	kamikaze.n.01	0	a fighter plane used for suicide missions by Japanese pilots in World War II		1	1

@@ -1,0 +1,101 @@
+{
+  "seed": 2027,
+  "items": 22825,
+  "moved_to_dev_for_pilot_dev_overlap": 2040,
+  "deep_contrast_en": 879,
+  "deep_contrast_en_labels": {
+    "yes": 408,
+    "no": 140,
+    "undetermined": 331
+  },
+  "deep_contrast_en_splits": {
+    "test_seen": 552,
+    "test_unseen": 189,
+    "dev": 138
+  },
+  "deep_contrast_en_pilot_overlap_by_block": {
+    "ablation": {
+      "dev": 34,
+      "none": 10,
+      "test": 101
+    },
+    "counterfactual": {
+      "none": 26,
+      "test": 58,
+      "dev": 6
+    },
+    "deep_real": {
+      "test": 103,
+      "dev": 35,
+      "none": 9
+    },
+    "exceptions": {
+      "none": 124
+    },
+    "novel": {
+      "none": 134
+    },
+    "undet_control": {
+      "test": 82,
+      "none": 29,
+      "dev": 8
+    },
+    "undetermined": {
+      "dev": 2,
+      "test": 30,
+      "none": 88
+    }
+  },
+  "describe": {
+    "n": 22825,
+    "by_task": {
+      "grounding": 41,
+      "entailment": 7184,
+      "multihop": 4372,
+      "procedural": 730,
+      "consistency": 6504,
+      "deep": 3994
+    },
+    "by_lang": {
+      "en": 11405,
+      "es": 11420
+    },
+    "by_split": {
+      "test_unseen": 6546,
+      "dev": 3612,
+      "test_seen": 12667
+    },
+    "distractors": 890,
+    "gold": {
+      "multihop": {
+        "yes": 2714,
+        "no": 1658
+      },
+      "consistency": {
+        "consistent": 3280,
+        "inconsistent": 3224
+      },
+      "procedural": {
+        "D": 21,
+        "B": 349,
+        "C": 16,
+        "A": 344
+      },
+      "grounding": {
+        "B": 25,
+        "A": 15,
+        "C": 1
+      },
+      "deep": {
+        "no": 760,
+        "yes": 1760,
+        "undetermined": 1474
+      },
+      "entailment": {
+        "entailment": 2232,
+        "contradiction": 2232,
+        "neutral": 2720
+      }
+    }
+  }
+}

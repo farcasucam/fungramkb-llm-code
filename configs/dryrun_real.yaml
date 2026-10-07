@@ -1,0 +1,15 @@
+# Mock run over the deep contrast subset of the real KB: checks the full pipeline end to end.
+# The mock backend answers at random: the numbers are meaningless, only the plumbing is tested.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason.jsonl
+splits: [test_seen, test_unseen, dev]
+tasks: [deep]
+subset: contrast
+limit: 400
+sample_seed: 0
+budget_tokens: 1500
+conditions: [B1, G1, G2, G4, R1, N1]
+models:
+  - {name: mock, kind: mock}
+gen: {max_tokens: 64, temperature: 0.0, seed: 0}
+output: results/dryrun_real.jsonl

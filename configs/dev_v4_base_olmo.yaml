@@ -1,0 +1,14 @@
+# Dev check (pilot dev split, W1+W2+W3 in one file) of N1P vs N1P2 (broadened candidates) and G2,
+# with the base knowledge base.
+kb: data/processed/fungramkb.json
+benchmark: data/processed/fgkb_reason_pilot_wordings.jsonl   # contrast items, all wordings (make_wordings --include-w1)
+splits: [dev]
+tasks: [deep]
+budget_tokens: 1500
+conditions: [G2, N1P, N1P2]
+constrained_decoding: true
+batch_size: 128
+models:
+  - {name: olmo3-7b-instruct-bf16, kind: openai, model: "allenai/Olmo-3-7B-Instruct", base_url: "http://192.168.1.112:8002/v1", concurrency: 64, grammar_field: json_schema}
+gen: {max_tokens: 1024, temperature: 0.0, seed: 0}
+output: results/dev_v4_base.jsonl
