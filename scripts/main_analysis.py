@@ -283,6 +283,8 @@ def render(res) -> str:
 
 
 def main(argv=None):
+    if hasattr(sys.stdout, "reconfigure"):  # Windows consoles (cp1252) cannot print Δ or −
+        sys.stdout.reconfigure(errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("--results", nargs="+", required=True)
     ap.add_argument("--bench", default="data/processed/fgkb_reason_main.jsonl")

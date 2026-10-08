@@ -1,0 +1,118 @@
+## Pooled model: correct ~ condition * model + (1 | pair_id) + (1 | focus_concept)
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: correct ~ condition * model + (1 | pair_id) + (1 | focus_concept)
+   Data: d
+Control: ctrl
+
+     AIC      BIC   logLik deviance df.resid 
+ 44477.5  44698.0 -22212.8  44425.5    35590 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-4.9790 -0.8872  0.4273  0.8160  2.2458 
+
+Random effects:
+ Groups        Name        Variance Std.Dev.
+ pair_id       (Intercept) 0.382752 0.61867 
+ focus_concept (Intercept) 0.001308 0.03617 
+Number of obs: 35616, groups:  pair_id, 792; focus_concept, 380
+
+Fixed effects:
+                                            Estimate Std. Error z value
+(Intercept)                                  0.23201    0.05883   3.944
+conditionB1                                 -0.63956    0.07747  -8.255
+conditionG1                                 -0.38550    0.07686  -5.016
+conditionG3                                 -0.50712    0.07709  -6.578
+conditionG4                                 -0.40618    0.07691  -5.281
+conditionN1P2                                1.67435    0.09304  17.997
+conditionN1R                                 0.28953    0.07775   3.724
+conditionR1                                 -0.14445    0.07677  -1.882
+modelolmo3-7b-instruct-bf16                  0.60014    0.07937   7.562
+modelqwen2.5-7b-instruct-bf16                0.76508    0.08065   9.486
+conditionB1:modelolmo3-7b-instruct-bf16     -0.38450    0.11087  -3.468
+conditionG1:modelolmo3-7b-instruct-bf16     -0.42957    0.11032  -3.894
+conditionG3:modelolmo3-7b-instruct-bf16     -0.48147    0.11058  -4.354
+conditionG4:modelolmo3-7b-instruct-bf16     -0.53229    0.11039  -4.822
+conditionN1P2:modelolmo3-7b-instruct-bf16   -1.00548    0.12819  -7.843
+conditionN1R:modelolmo3-7b-instruct-bf16    -0.66457    0.11147  -5.962
+conditionR1:modelolmo3-7b-instruct-bf16     -0.07894    0.11120  -0.710
+conditionB1:modelqwen2.5-7b-instruct-bf16   -0.45796    0.11172  -4.099
+conditionG1:modelqwen2.5-7b-instruct-bf16   -0.57983    0.11126  -5.212
+conditionG3:modelqwen2.5-7b-instruct-bf16   -0.60218    0.11147  -5.402
+conditionG4:modelqwen2.5-7b-instruct-bf16   -0.41504    0.11136  -3.727
+conditionN1P2:modelqwen2.5-7b-instruct-bf16 -0.65304    0.13521  -4.830
+conditionN1R:modelqwen2.5-7b-instruct-bf16  -0.71231    0.11272  -6.319
+conditionR1:modelqwen2.5-7b-instruct-bf16   -0.22496    0.11221  -2.005
+                                            Pr(>|z|)    
+(Intercept)                                 8.01e-05 ***
+conditionB1                                  < 2e-16 ***
+conditionG1                                 5.29e-07 ***
+conditionG3                                 4.77e-11 ***
+conditionG4                                 1.28e-07 ***
+conditionN1P2                                < 2e-16 ***
+conditionN1R                                0.000196 ***
+conditionR1                                 0.059894 .  
+modelolmo3-7b-instruct-bf16                 3.98e-14 ***
+modelqwen2.5-7b-instruct-bf16                < 2e-16 ***
+conditionB1:modelolmo3-7b-instruct-bf16     0.000524 ***
+conditionG1:modelolmo3-7b-instruct-bf16     9.87e-05 ***
+conditionG3:modelolmo3-7b-instruct-bf16     1.34e-05 ***
+conditionG4:modelolmo3-7b-instruct-bf16     1.42e-06 ***
+conditionN1P2:modelolmo3-7b-instruct-bf16   4.38e-15 ***
+conditionN1R:modelolmo3-7b-instruct-bf16    2.49e-09 ***
+conditionR1:modelolmo3-7b-instruct-bf16     0.477773    
+conditionB1:modelqwen2.5-7b-instruct-bf16   4.14e-05 ***
+conditionG1:modelqwen2.5-7b-instruct-bf16   1.87e-07 ***
+conditionG3:modelqwen2.5-7b-instruct-bf16   6.58e-08 ***
+conditionG4:modelqwen2.5-7b-instruct-bf16   0.000194 ***
+conditionN1P2:modelqwen2.5-7b-instruct-bf16 1.37e-06 ***
+conditionN1R:modelqwen2.5-7b-instruct-bf16  2.63e-10 ***
+conditionR1:modelqwen2.5-7b-instruct-bf16   0.044972 *  
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+## Depth (section 7): G2 vs B1, correct ~ condition * depth + model + random intercepts
+Generalized linear mixed model fit by maximum likelihood (Laplace
+  Approximation) [glmerMod]
+ Family: binomial  ( logit )
+Formula: 
+correct ~ condition * depth + model + (1 | pair_id) + (1 | focus_concept)
+   Data: dd
+Control: ctrl
+
+     AIC      BIC   logLik deviance df.resid 
+  8553.6   8608.2  -4268.8   8537.6     6850 
+
+Scaled residuals: 
+    Min      1Q  Median      3Q     Max 
+-3.2439 -0.8448  0.4341  0.7286  2.5683 
+
+Random effects:
+ Groups        Name        Variance Std.Dev.
+ pair_id       (Intercept) 0.6097   0.7808  
+ focus_concept (Intercept) 0.0000   0.0000  
+Number of obs: 6858, groups:  pair_id, 608; focus_concept, 323
+
+Fixed effects:
+                               Estimate Std. Error z value Pr(>|z|)    
+(Intercept)                    0.006191   0.124303   0.050   0.9603    
+conditionG2                    1.297852   0.134015   9.684  < 2e-16 ***
+depth                         -0.205281   0.043600  -4.708  2.5e-06 ***
+modelolmo3-7b-instruct-bf16    0.199540   0.065448   3.049   0.0023 ** 
+modelqwen2.5-7b-instruct-bf16  0.610778   0.066704   9.157  < 2e-16 ***
+conditionG2:depth             -0.053811   0.048250  -1.115   0.2647    
+---
+Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+
+Correlation of Fixed Effects:
+            (Intr) cndtG2 depth  m3-7-- m2.5-7
+conditionG2 -0.486                            
+depth       -0.865  0.458                     
+mdll3-7--16 -0.262  0.010 -0.005              
+md2.5-7--16 -0.258  0.029 -0.015  0.491       
+cndtnG2:dpt  0.451 -0.911 -0.521 -0.001 -0.002
+optimizer (bobyqa) convergence code: 0 (OK)
+boundary (singular) fit: see help('isSingular')
+

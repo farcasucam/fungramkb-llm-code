@@ -15,6 +15,7 @@ import argparse
 import collections
 import json
 import random
+import sys
 
 WORDINGS = ("w1", "w2", "w3")
 CONTRASTS = [("G2", "B1"), ("N1P", "G2"), ("N1P2", "G2"), ("N1P2", "N1P"), ("G2", "G3")]
@@ -54,6 +55,8 @@ def boot_diff(a: dict, b: dict, n=2000, seed=0):
 
 
 def main(argv=None):
+    if hasattr(sys.stdout, "reconfigure"):  # Windows consoles (cp1252) cannot print Δ or −
+        sys.stdout.reconfigure(errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("results", nargs="+")
     ap.add_argument("--report", default=None)
