@@ -15,7 +15,7 @@ from dataclasses import dataclass
 import networkx as nx
 
 from ..corel.nlg import sentence as _nlg_sentence
-from ..corel.verbalize import _HEDGE, verbalise_fact, verbalise_isa
+from ..corel.verbalize import _HEDGE, verbalise_fact, verbalise_isa, verbalise_prop
 from ..reasoner.asp import Reasoner
 
 
@@ -66,11 +66,15 @@ def linearise_subgraph(
     style: str = "nl",  # "nl" verbalised | "corel" compact formal lines
     lang: str = "en",
     filler_hops: int = 1,
+    hedges: bool = True,
+    expand_fillers: bool = True,
 ) -> Linearised:
     """Collect IS-A chains and (optionally) postulates around the seed concepts.
 
     Ordering: IS-A chain of every seed first, then postulates of the seed itself,
     then of its ancestors from nearest to farthest. Stops at the token budget.
+    Ablations (S4): ``hedges=False`` verbalises strict and defeasible postulates alike (no always/typically);
+    ``expand_fillers=False`` keeps only the seeds' chains and their postulates (no expansion along role edges).
     """
     kb = reasoner.kb
     lines: list[str] = []
@@ -124,11 +128,14 @@ def linearise_subgraph(
                     line = _corel_line(f)
                 elif f.prop.subj_role:
                     line = _nlg_sentence(kb, f.concept, f.prop, negated=f.negated, lang=lang,
-                                         hedge=_HEDGE[(lang, f.strict)])
+                                         hedge=_HEDGE[(lang, f.strict)] if hedges else None)
                     if line is None:  # not expressible in natural language: skip rather than garble
                         continue
-                else:
+                elif hedges:
                     line = verbalise_fact(kb, f, lang)
+                else:
+                    line = verbalise_prop(kb, f.concept, f.prop, strict=f.strict, negated=f.negated, lang=lang,
+                                          hedge=False)
                 if not add(line):
                     return False, fillers
                 n_facts += 1
@@ -144,7 +151,7 @@ def linearise_subgraph(
         ring = list(order)
         for _ in range(filler_hops + 1):
             ok, fillers = facts_of(ring)
-            if not ok or not fillers:
+            if not ok or not fillers or not expand_fillers:
                 break
             # next ring: concepts that fill the roles of facts already shown (GraphRAG expansion
             # along role edges), with their own IS-A chains and postulates

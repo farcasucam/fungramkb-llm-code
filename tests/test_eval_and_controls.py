@@ -100,3 +100,18 @@ def test_make_encoder_from_config():
     assert make_encoder({}) is None
     enc = make_encoder({"retriever": {"kind": "dense", "model": "intfloat/multilingual-e5-base"}})
     assert isinstance(enc, DenseEncoder) and enc.e5
+
+
+def test_g2_ablation_switches(kb):
+    """S4: -hedges drops always/typically; -fillers never adds concepts reached only through role edges."""
+    from fgkb_llm.conditions.prompts import ABLATIONS
+    from fgkb_llm.graph import linearise_subgraph
+
+    cb = ContextBuilder(kb)
+    seeds = [c for c in kb.concepts if not c.startswith("#")][:5]
+    full = linearise_subgraph(cb.reasoner, seeds, budget_tokens=4000, mode="full").text
+    no_hedge = linearise_subgraph(cb.reasoner, seeds, budget_tokens=4000, mode="full", hedges=False).text
+    no_fill = linearise_subgraph(cb.reasoner, seeds, budget_tokens=4000, mode="full", expand_fillers=False).text
+    assert not any(w in no_hedge.split() for w in ("always", "typically"))
+    assert set(no_fill.splitlines()) <= set(full.splitlines())
+    assert {"-hedges", "-fillers"} <= set(ABLATIONS)

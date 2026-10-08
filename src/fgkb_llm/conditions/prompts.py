@@ -61,6 +61,9 @@ ABLATIONS = {
     "+postulates": {"postulates": True, "frames": False, "cognicon": False},
     "+frames": {"postulates": True, "frames": True, "cognicon": False},
     "+cognicon": {"postulates": True, "frames": True, "cognicon": True},  # = full G2
+    # S4 (main study): full G2 minus one component
+    "-hedges": {"postulates": True, "frames": True, "cognicon": True, "hedges": False},
+    "-fillers": {"postulates": True, "frames": True, "cognicon": True, "fillers": False},
 }
 
 
@@ -158,7 +161,8 @@ class ContextBuilder:
             extra_text = cand
         main_budget = budget - approx_tokens(extra_text) if extra_text else budget
         main = linearise_subgraph(self.reasoner, seeds, budget_tokens=max(0, main_budget),
-                                  mode="full" if m.get("postulates", True) else "isa", lang=lang).text
+                                  mode="full" if m.get("postulates", True) else "isa", lang=lang,
+                                  hedges=m.get("hedges", True), expand_fillers=m.get("fillers", True)).text
         return (main + "\n" + extra_text).strip() if extra_text else main
 
     def for_item(self, item: Item) -> ContextBuilder:

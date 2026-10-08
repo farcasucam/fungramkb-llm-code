@@ -1,0 +1,33 @@
+# S3 (analysis plan, section 8): lexicon-expanded KB (fungramkb_lex.json, expert-approved units) with G2 and N1P2.
+# Compare with the same conditions on the base KB (results/main.jsonl, results/main_wordings.jsonl): scripts/ablation_analysis.py
+kb: data/processed/fungramkb_lex.json
+benchmark: data/processed/fgkb_reason_main_wordings.jsonl
+splits:
+- test_seen
+- test_unseen
+tasks:
+- deep
+budget_tokens: 1500
+conditions:
+- G2
+- N1P2
+constrained_decoding: true
+batch_size: 128
+models:
+- name: qwen2.5-7b-instruct-bf16
+  kind: openai
+  model: Qwen/Qwen2.5-7B-Instruct
+  base_url: http://192.168.1.112:8000/v1
+  concurrency: 64
+  grammar_field: json_schema
+- name: llama3.1-8b-instruct-bf16
+  kind: openai
+  model: meta-llama/Llama-3.1-8B-Instruct
+  base_url: http://192.168.1.112:8001/v1
+  concurrency: 64
+  grammar_field: json_schema
+gen:
+  max_tokens: 1024
+  temperature: 0.0
+  seed: 0
+output: results/main_s3_lex_wordings.jsonl

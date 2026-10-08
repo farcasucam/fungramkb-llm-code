@@ -20,25 +20,13 @@
   "+CLANDESTINE_00": [
    "+SECRET_00"
   ],
-  "+HARD_00": [
-   "+STRONG_00"
-  ],
   "+LITTLE_00": [
-   "+SMALL_00",
-   "+YOUNG_00"
+   "+SMALL_00"
   ],
   "+SECRET_00": [
    "+CLANDESTINE_00"
   ],
   "+SMALL_00": [
-   "+LITTLE_00",
-   "+YOUNG_00"
-  ],
-  "+STRONG_00": [
-   "+HARD_00"
-  ],
-  "+YOUNG_00": [
-   "+SMALL_00",
    "+LITTLE_00"
   ]
  }
