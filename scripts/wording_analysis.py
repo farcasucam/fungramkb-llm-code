@@ -18,7 +18,7 @@ import random
 import sys
 
 WORDINGS = ("w1", "w2", "w3")
-CONTRASTS = [("G2", "B1"), ("N1P", "G2"), ("N1P2", "G2"), ("N1P2", "N1P"), ("G2", "G3")]
+CONTRASTS = [("G2", "B1"), ("N1P", "G2"), ("N1P2", "G2"), ("N1P2", "N1P"), ("G2", "G3"), ("N1P3", "N1P2"), ("N1P3", "G2")]
 
 
 PAIR: dict[str, str] = {}  # base item id -> twin cluster (pair_id without the wording suffix)

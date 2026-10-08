@@ -89,3 +89,33 @@ def test_grammar_lists_candidates():
     line = next(ln for ln in g.splitlines() if ln.startswith("concept ::="))
     assert '"+BIRD_00"' in line and '"$OSTRICH_00"' in line and "+FLY_00" not in line
     assert g.startswith("root ::=")
+
+
+def test_n1p3_normalises_attribution_converse_and_subsumption(kb):
+    """N1P3 (exploratory): undecided queries are re-read as BE_01 attribution, as the converse predication,
+    or through the genus of the event; decidable queries are left untouched."""
+    from fgkb_llm.conditions import ContextBuilder
+    from fgkb_llm.corel.facts import Prop
+    from fgkb_llm.pipeline.neurosymbolic import NeuroSymbolic
+
+    ns = NeuroSymbolic(ContextBuilder(kb), None, verify_loop=False, normalise=True,
+                       equivalences={"noun->quality": {}, "quality->quality": {}})
+    closure = ns.r.closure
+    # pick a concept with a decidable BE_01 attribution and a decidable relation to an entity
+    attr = rel = None
+    for c in kb.concepts:
+        for q, a in closure(c).items():
+            if a.status == "true" and q.filler and ns._type(q.filler) == "quality" and q.event == "+BE_01":
+                attr = attr or (c, q)
+            if a.status == "true" and q.filler and ns._type(q.filler) == "entity" and q.event != "+BE_00":
+                rel = rel or (c, q)
+    if attr:
+        c, q = attr
+        found = ns.normalised(c, Prop("+HAVE_00", "Theme", "Referent", q.filler))
+        assert found and found[0].status == "true" and found[1].startswith("attribution")
+    if rel:
+        c, q = rel
+        found = ns.normalised(q.filler, Prop(q.event, "Theme", "Referent", c))
+        assert found is None or found[1].startswith(("converse", "query"))
+    ns._genus_map = {"+SPECIFIC_00": "+GENERAL_00"}
+    assert ns.event_ancestors("+SPECIFIC_00") == ["+GENERAL_00"] and ns.event_ancestors("+GENERAL_00") == []

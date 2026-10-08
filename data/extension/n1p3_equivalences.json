@@ -1,0 +1,45 @@
+{
+ "noun->quality": {
+  "$HEROIN_00": [
+   "+NARCOTIC_01"
+  ],
+  "+ENERGY_01": [
+   "+ENERGETIC_00"
+  ],
+  "+NARCOTIC_00": [
+   "+NARCOTIC_01"
+  ],
+  "+STRENGTH_00": [
+   "+STRONG_00"
+  ],
+  "+VIOLENCE_00": [
+   "+VIOLENT_00"
+  ]
+ },
+ "quality->quality": {
+  "+CLANDESTINE_00": [
+   "+SECRET_00"
+  ],
+  "+HARD_00": [
+   "+STRONG_00"
+  ],
+  "+LITTLE_00": [
+   "+SMALL_00",
+   "+YOUNG_00"
+  ],
+  "+SECRET_00": [
+   "+CLANDESTINE_00"
+  ],
+  "+SMALL_00": [
+   "+LITTLE_00",
+   "+YOUNG_00"
+  ],
+  "+STRONG_00": [
+   "+HARD_00"
+  ],
+  "+YOUNG_00": [
+   "+SMALL_00",
+   "+LITTLE_00"
+  ]
+ }
+}

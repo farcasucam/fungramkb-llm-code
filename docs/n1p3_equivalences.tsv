@@ -1,0 +1,16 @@
+kind	source	target	source_label	target_label	wordnet	approve (1/0)
+noun->quality	$HEROIN_00	+NARCOTIC_01	heroin	narcotic	derivation narcotic->narcotic	
+noun->quality	+ENERGY_01	+ENERGETIC_00	energy	energetic	derivation energy->energetic	
+noun->quality	+NARCOTIC_00	+NARCOTIC_01	narcotic	narcotic	derivation narcotic->narcotic	
+noun->quality	+STRENGTH_00	+STRONG_00	strength	strong	attribute strength.n.01	
+noun->quality	+VIOLENCE_00	+VIOLENT_00	violence	violent	derivation violence->violent	
+quality->quality	+CLANDESTINE_00	+SECRET_00	clandestine	secret	clandestine.s.01 ~ secret	
+quality->quality	+HARD_00	+STRONG_00	hard	strong	hard.s.01 ~ strong	
+quality->quality	+LITTLE_00	+SMALL_00	little	small	small.a.01 ~ small	
+quality->quality	+LITTLE_00	+YOUNG_00	little	young	little.s.01 ~ young	
+quality->quality	+SECRET_00	+CLANDESTINE_00	secret	clandestine	clandestine.s.01 ~ clandestine	
+quality->quality	+SMALL_00	+LITTLE_00	small	little	small.a.01 ~ little	
+quality->quality	+SMALL_00	+YOUNG_00	small	young	little.s.01 ~ young	
+quality->quality	+STRONG_00	+HARD_00	strong	hard	strong.a.01 ~ hard	
+quality->quality	+YOUNG_00	+SMALL_00	young	small	young.a.01 ~ small	
+quality->quality	+YOUNG_00	+LITTLE_00	young	little	young.a.01 ~ little	

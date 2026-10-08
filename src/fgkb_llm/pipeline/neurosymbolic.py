@@ -9,6 +9,11 @@ N1P "pinned" parser: the subject is restricted to the entities the shared linker
 N1P2 N1P with broadened candidates: a fixed set of relational events (copulas, comprise, do, create, use)
     and every quality concept are always offered, so a paraphrase whose verb or adjective is outside the
     lexicon can still be mapped (dev analysis of the W3 paraphrases, 7 Oct 2026).
+N1P3 (exploratory, after the confirmatory run) N1P2 with a deterministic normalisation of the parsed query
+    when the reasoner cannot decide it: (1) light-verb / nominalised attribution read as BE_01 with the
+    quality ("involve violence", "have a small size"), near-synonymous qualities, and the converse
+    predication (the question's subject as the filler); (2) event subsumption through the genus of the
+    events' meaning postulates (SNIFF_00 is +ABSORB_00 ...). Same parser and prompts as N1P2.
 N2  N1 plus a verification loop: if the query fails validation (syntax, unknown
     concept, wrong semantic type, role not licensed by the thematic frame), the
     error is fed back and the model regenerates (``max_retries``, default 2).
@@ -39,6 +44,9 @@ from ..llm.backends import Backend, GenConfig
 
 # N1P2: events always offered (copulas and frequent relational events of the deep items)
 RELATIONAL_EVENTS = ("+BE_01", "+BE_02", "+COMPRISE_00", "+DO_00", "+CREATE_00", "+USE_00")
+# N1P3: verbs that paraphrase an attribution ("X has a small size", "X involves violence", "X happens violently")
+ATTRIBUTIVE_EVENTS = ("+BE_01", "+BE_02", "+HAVE_00", "+COMPRISE_00", "+DO_00", "+EXIST_00", "+HAPPEN_00",
+                      "+INVOLVE_00", "+CONTAIN_00")
 SYMBOLIC_TASKS = {"entailment", "multihop", "consistency", "deep"}
 
 INSTR = {
@@ -136,7 +144,8 @@ class NSResult:
 
 class NeuroSymbolic:
     def __init__(self, ctx: ContextBuilder, backend: Backend, *, verify_loop: bool, max_retries: int = 2,
-                 constrained: bool = True, role_aware: bool = False, pinned: bool = False, broad: bool = False):
+                 constrained: bool = True, role_aware: bool = False, pinned: bool = False, broad: bool = False,
+                 normalise: bool = False, equivalences: dict | None = None):
         self.ctx = ctx
         self.kb = ctx.kb
         self.r = ctx.reasoner
@@ -146,8 +155,10 @@ class NeuroSymbolic:
         self.constrained = constrained
         # N1R: per-event role constraints in the schema + role-tolerant matching in the decision
         # N1P implies the role-tolerant decision: roles are not generated at all
-        self.pinned = pinned or broad
-        self.broad = broad  # N1P2
+        self.pinned = pinned or broad or normalise
+        self.broad = broad or normalise  # N1P2
+        self.normalise = normalise  # N1P3
+        self.equivalences = equivalences or {}
         self.role_aware = role_aware or self.pinned
 
     # ---- candidate vocabulary for the grammar ---------------------------------------
@@ -327,6 +338,74 @@ class NeuroSymbolic:
                 return any(self.r.is_a(subj.filler_concepts()[0], pref) for pref in fp.filler_concepts())
         return True
 
+    # ---- N1P3: normalisation of undecided queries ------------------------------------
+    def _genus(self) -> dict[str, str]:
+        """Event -> the event of the first predication of its meaning postulate (its genus in COREL),
+        e.g. +SNIFF_00 -> +ABSORB_00. Events without a postulate have no genus."""
+        if "_genus_map" not in self.__dict__:
+            g = {}
+            for cid, con in self.kb.concepts.items():
+                if con.semantic_type != "event" or not con.meaning_postulate:
+                    continue
+                mp, err = try_parse(con.meaning_postulate)
+                if err or not mp.items or not mp.items[0].predications:
+                    continue
+                ev = mp.items[0].predications[0].event
+                if ev != cid and ev in self.kb.concepts:
+                    g[cid] = ev
+            self._genus_map = g
+        return self._genus_map
+
+    def event_ancestors(self, event: str) -> list[str]:
+        out, e, g = [], event, self._genus()
+        while e in g and g[e] not in out and g[e] != event:
+            e = g[e]
+            out.append(e)
+        return out
+
+    def _match(self, subj: str, event: str, filler: str):
+        """Decide (subj, event, filler) in the subject's closure, role-tolerant, with event subsumption:
+        the same event decides either way; a more specific event (whose genus chain reaches ``event``)
+        entails the positive; a negated more general event entails the negative."""
+        if subj not in self.kb.concepts:
+            return None
+        closure = self.r.closure(subj)
+        cands = sorted((q for q in closure if q.filler == filler and closure[q].status in ("true", "false")),
+                       key=_role_key)
+        for q in cands:
+            if q.event == event:
+                return closure[q], "same event"
+        for q in cands:
+            if closure[q].status == "true" and event in self.event_ancestors(q.event):
+                return closure[q], f"subsumption {q.event} < {event}"
+        ups = set(self.event_ancestors(event))
+        for q in cands:
+            if closure[q].status == "false" and q.event in ups:
+                return closure[q], f"subsumption {event} < not {q.event}"
+        return None
+
+    def normalised(self, subj: str, prop):
+        """First decidable reading of an undecided query, in a fixed order, or None."""
+        ev, filler = prop.event, prop.filler
+        nq = self.equivalences.get("noun->quality", {})
+        qq = self.equivalences.get("quality->quality", {})
+        readings = [(subj, ev, filler, "query")]
+        if filler and self._type(filler) == "entity" and ev in ATTRIBUTIVE_EVENTS:
+            readings += [(subj, "+BE_01", q, f"attribution {filler}->{q}") for q in nq.get(filler, [])]
+        if filler and self._type(filler) == "quality":
+            if ev != "+BE_01" and ev in ATTRIBUTIVE_EVENTS:
+                readings.append((subj, "+BE_01", filler, f"attribution {ev}->+BE_01"))
+            readings += [(subj, "+BE_01", q, f"quality {filler}~{q}") for q in qq.get(filler, [])]
+        if filler and self._type(filler) == "entity":
+            readings.append((filler, ev, subj, "converse"))
+        for s_, e_, f_, how in readings:
+            if not f_:
+                continue
+            m = self._match(s_, e_, f_)
+            if m is not None:
+                return m[0], f"{how}; {m[1]}"
+        return None
+
     # ---- decision -------------------------------------------------------------------
     def decide(self, item: Item, pred) -> tuple[str | None, str, list]:
         subj = next(p for p in pred.participants if p.var == "x1").filler_concepts()[0]
@@ -350,6 +429,11 @@ class NeuroSymbolic:
                         ans = closure[q]
                         break
             status, trace = ans.status, [list(s) for s in ans.support]
+            if self.normalise and status == "unknown" and item.task == "deep":
+                found = self.normalised(subj, prop)
+                if found is not None:
+                    ans, how = found
+                    status, trace = ans.status, [list(s) for s in ans.support] + [["normalised", how, ""]]
             if item.task == "consistency":
                 if status == "unknown" and not neg and not self.selection_ok(pred):
                     return "inconsistent", "selpref_violation", trace
@@ -388,7 +472,7 @@ class NeuroSymbolic:
         # deep item with its own (patched) KB: reason over exactly that KB
         return NeuroSymbolic(sub, self.backend, verify_loop=self.verify_loop, max_retries=self.max_retries,
                              constrained=self.constrained, role_aware=self.role_aware, pinned=self.pinned,
-                             broad=self.broad)
+                             broad=self.broad, normalise=self.normalise, equivalences=self.equivalences)
 
     def _job(self, item: Item, cfg: GenConfig, feedback: str | None = None):
         """Prompt, generation config and parsing context for one query generation."""

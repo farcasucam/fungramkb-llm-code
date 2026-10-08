@@ -20,7 +20,7 @@ from .kb.loaders import load_json
 from .llm.backends import GenConfig, make_backend
 from .pipeline.neurosymbolic import NeuroSymbolic
 
-BASE_CONDITIONS = {"B0", "B1", "R1", "R2", "G1", "G2", "G3", "G4", "N1", "N2", "N1R", "N1P", "N1P2"}
+BASE_CONDITIONS = {"B0", "B1", "R1", "R2", "G1", "G2", "G3", "G4", "N1", "N2", "N1R", "N1P", "N1P2", "N1P3"}
 ADAPTER_CONDITIONS = {"F1", "F2"}
 
 
@@ -117,6 +117,12 @@ def write_manifest(cfg: dict, config_path: str, out_path: Path) -> Path:
     return path
 
 
+def _equivalences(cfg: dict) -> dict:
+    """WordNet concept equivalences for N1P3 (scripts/build_equivalences.py)."""
+    path = Path(cfg.get("equivalences", "data/extension/n1p3_equivalences.json"))
+    return json.loads(path.read_text(encoding="utf-8")) if path.exists() else {}
+
+
 def make_encoder(cfg: dict):
     """Dense retriever for R1/R2 when the config asks for one (``retriever: {kind: dense, model, device}``);
     None = TF-IDF. Shared by the runner and scripts/rerun_truncated.py so both build the same contexts."""
@@ -197,12 +203,13 @@ def run(config_path: str, redo: list[str] | None = None) -> Path:
                 print(f"[{mname}] {cond}: {n}/{len(todo)} ({100 * n / len(todo):.0f} %) "
                       f"elapsed {el / 60:.1f} min, remaining ~{eta / 60:.0f} min", flush=True)
 
-            if cond in ("N1", "N2", "N1R", "N1P", "N1P2"):
+            if cond in ("N1", "N2", "N1R", "N1P", "N1P2", "N1P3"):
                 ns = NeuroSymbolic(ctx, backend, verify_loop=(cond == "N2"),
                                    max_retries=int(cfg.get("n2_retries", 2)),
                                    constrained=bool(cfg.get("constrained_decoding", True)),
                                    role_aware=(cond == "N1R"), pinned=(cond == "N1P"),
-                                   broad=(cond == "N1P2"))
+                                   broad=(cond == "N1P2"), normalise=(cond == "N1P3"),
+                                   equivalences=_equivalences(cfg) if cond == "N1P3" else None)
                 workers = int(mspec.get("concurrency", 16))
                 for chunk in _chunks(todo, batch_size):
                     rows, fallback_items = [], []
