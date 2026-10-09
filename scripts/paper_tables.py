@@ -195,11 +195,62 @@ W3 difference & \cond{G2} $-$ \cond{B1} & \cond{N1P2} $-$ \cond{G2} & \cond{N1P3
 """)
 
 
+def ablations_table(ab: dict) -> str:
+    """S3 (lexicon-expanded KB) and S4 (G2 components, Qwen)."""
+    rows = []
+    for key, name in MODELS:
+        for c in ("G2", "N1P2"):
+            cells = []
+            for w in ("w1", "w2", "w3"):
+                t = ab["S3"].get(f"{key}/{c}/{w}")
+                cells.append("--" if t is None else f"{pts(t['diff'])} {ci(*t['ci'])}")
+            rows.append(f"{name} & \\cond{{{c}}} & " + " & ".join(cells) + r"\\")
+    s4 = []
+    labels = {"+postulates": "no frames, no Cognicon", "-hedges": "no always/typically", "-fillers": "no filler expansion"}
+    q = MODELS[0][0]
+    for abl, lab in labels.items():
+        cells = []
+        for blk in ("all", "exceptions", "deep_real", "novel"):
+            t = ab["S4"].get(f"{q}/{abl}/{blk}")
+            cells.append("--" if t is None else f"{pts(t['diff'])} {ci(*t['ci'])}")
+        s4.append(f"{lab} & " + " & ".join(cells) + r"\\")
+    return (HEADER.format(src="results/main_ablations.json") + r"""\begin{table}[t]
+\caption{Ablations (accuracy difference in points, 95\,\% cluster-bootstrap CI). Top (S3): knowledge base with the
+expert-approved lexicon expansion minus the base knowledge base, per wording. Bottom (S4, Qwen2.5-7B): \cond{G2}
+with one component removed minus full \cond{G2}, on all items and on the blocks where the component should matter
+(""" + str(ab["S4"][f"{q}/-hedges/exceptions"]["n"]) + r""" exception, """ + str(ab["S4"][f"{q}/-hedges/deep_real"]["n"]) +
+                r""" real-inheritance and """ + str(ab["S4"][f"{q}/-hedges/novel"]["n"]) + r""" novel-concept items).}
+\label{tab:main-ablations}
+\small
+\setlength{\tabcolsep}{3pt}
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{llccc}
+\toprule
+\multicolumn{2}{l}{S3: lexicon expansion} & W1 & W2 & W3\\
+\midrule
+""" + "\n".join(rows) + r"""
+\bottomrule
+\end{tabular}}
+
+\medskip
+\resizebox{\linewidth}{!}{%
+\begin{tabular}{lcccc}
+\toprule
+S4: \cond{G2} without & All & Exceptions & Real inheritance & Novel\\
+\midrule
+""" + "\n".join(s4) + r"""
+\bottomrule
+\end{tabular}}
+\end{table}
+""")
+
+
 def main(argv=None):
     ap = argparse.ArgumentParser()
     ap.add_argument("--analysis", default="results/main_analysis.json")
     ap.add_argument("--rerun", default="results/main_analysis_rerun2048.json")
     ap.add_argument("--wordings", default="results/n1p3_wording_analysis.json")
+    ap.add_argument("--ablations", default="results/main_ablations.json")
     ap.add_argument("--out", default="paper/tables")
     a = ap.parse_args(argv)
     res = json.loads(Path(a.analysis).read_text(encoding="utf-8"))
@@ -211,6 +262,10 @@ def main(argv=None):
                        ("main_diagnostics", diagnostics_table(res)), ("main_wordings", wordings_table(w))):
         (out / f"{name}.tex").write_text(text, encoding="utf-8")
         print("written", out / f"{name}.tex")
+    if Path(a.ablations).exists():
+        ab = json.loads(Path(a.ablations).read_text(encoding="utf-8"))
+        (out / "main_ablations.tex").write_text(ablations_table(ab), encoding="utf-8")
+        print("written", out / "main_ablations.tex")
 
 
 if __name__ == "__main__":
