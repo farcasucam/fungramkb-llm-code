@@ -1,14 +1,14 @@
 # fgkb-llm — deep conceptual semantics from FunGramKB for open LLMs
 
-[![Licence: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
+[![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
+[![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![Tests](https://img.shields.io/badge/tests-63%20passing-brightgreen.svg)
 ![Preregistered](https://img.shields.io/badge/analysis%20plan-preregistered%20(prereg--v1)-purple.svg)
 
 Can a linguistically grounded knowledge base make small open LLMs reason better about word meaning — and is the
 gain **reasoning with the knowledge** rather than recall? This repository holds the code, benchmark generator and
-analysis of paper 1 of the FunGramKB × LLM project (submitted to *ACM TIST*, special issue on Knowledge-Informed
-LLMs).
+analysis of paper 1 of the FunGramKB × LLM project (manuscript under review).
 
 **Headline results (main study, 1 484 test items, 3 model families):**
 
@@ -194,16 +194,12 @@ the FunGramKB project. Concepts authored for this study are in `data/extension/`
 
 ## Citation
 
-```bibtex
-@unpublished{arcas2027fgkbllm,
-  author = {Arcas-T{\'u}nez, Francisco and Peri{\~n}{\'a}n-Pascual, Carlos},
-  title  = {Reasoning with Meaning Postulates: {FunGramKB} Deep Semantics for Knowledge-Informed Open Language Models},
-  note   = {Submitted to ACM Transactions on Intelligent Systems and Technology},
-  year   = {2027}
-}
-```
+The paper is under review; this section will point to it once it is published. Until then, please cite the
+software archive (Zenodo DOI to be added with the first release) — GitHub's *Cite this repository* button gives
+the reference from `CITATION.cff`.
 
 ## Licence
 
-Code: [Apache-2.0](LICENSE). The FunGramKB knowledge base and data derived from it (benchmark items, verbalised
-postulates) are subject to the terms of the FunGramKB project.
+* **Code:** [Apache-2.0](LICENSE).
+* **Data** (`docs/`, `data/extension/`, released benchmark files): [CC BY 4.0](LICENSE-DATA).
+* The FunGramKB export itself is not included and is not covered by these licences.

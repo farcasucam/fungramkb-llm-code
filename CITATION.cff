@@ -1,0 +1,33 @@
+cff-version: 1.2.0
+message: "If you use this software or the FGKB-Reason benchmark, please cite it as below."
+type: software
+title: "fgkb-llm: FunGramKB deep conceptual semantics for open LLMs (code and FGKB-Reason benchmark)"
+abstract: >-
+  Code, benchmark generator and preregistered analysis for a controlled comparison of ways of supplying
+  FunGramKB meaning postulates to open LLMs (graph context, dense retrieval and a neuro-symbolic pipeline that
+  translates questions into COREL queries answered by an answer-set-programming reasoner), evaluated on
+  FGKB-Reason, a bilingual (English/Spanish) benchmark of deep lexical-conceptual reasoning.
+authors:
+  - family-names: "Arcas-Túnez"
+    given-names: "Francisco"
+    orcid: "https://orcid.org/0000-0003-4892-5902"
+    affiliation: "Universidad Católica de Murcia (UCAM)"
+    email: "farcas@ucam.edu"
+  - family-names: "Periñán-Pascual"
+    given-names: "Carlos"
+    orcid: "https://orcid.org/0000-0002-6483-4712"
+    affiliation: "Universitat Politècnica de València (UPV)"
+    email: "jopepas3@upv.es"
+repository-code: "https://github.com/farcasucam/fungramkb-llm-code"
+license: Apache-2.0
+version: "1.0-paper1"
+date-released: "2026-10-10"
+keywords:
+  - FunGramKB
+  - COREL
+  - meaning postulates
+  - knowledge-informed LLMs
+  - neuro-symbolic reasoning
+  - answer set programming
+  - GraphRAG
+  - benchmark
