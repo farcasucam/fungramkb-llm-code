@@ -2,6 +2,7 @@
 
 [![Code: Apache-2.0](https://img.shields.io/badge/code-Apache--2.0-blue.svg)](LICENSE)
 [![Data: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-lightgrey.svg)](LICENSE-DATA)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23271854.svg)](https://doi.org/10.5281/zenodo.23271854)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11%2B-blue.svg)
 ![Tests](https://img.shields.io/badge/tests-63%20passing-brightgreen.svg)
 ![Preregistered](https://img.shields.io/badge/analysis%20plan-preregistered%20(prereg--v1)-purple.svg)
@@ -189,14 +190,14 @@ plan was frozen at git tag `prereg-v1` (`docs/analysis_plan.md`); later changes 
 
 ## Data availability
 
-The FunGramKB export is **not** included (`data/raw/` and `data/processed/` are git-ignored); it is available from
-the FunGramKB project. Concepts authored for this study are in `data/extension/`.
+The FunGramKB export is **not** included (`data/raw/` and `data/processed/` are git-ignored); it can be requested
+from the FunGramKB project at <https://fungramkb.ucam.edu>. Concepts authored for this study are in `data/extension/`.
 
 ## Citation
 
 The paper is under review; this section will point to it once it is published. Until then, please cite the
-software archive (Zenodo DOI to be added with the first release) — GitHub's *Cite this repository* button gives
-the reference from `CITATION.cff`.
+software archive, [doi:10.5281/zenodo.23271854](https://doi.org/10.5281/zenodo.23271854) — GitHub's *Cite this
+repository* button gives the full reference from `CITATION.cff`.
 
 ## Licence
 
