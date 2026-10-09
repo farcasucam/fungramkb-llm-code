@@ -1,11 +1,11 @@
 [project]
 name = "fgkb-llm"
 version = "0.1.0"
-description = "Injecting FunGramKB deep conceptual semantics into open LLMs: RAG, GraphRAG, LoRA and neuro-symbolic reasoning."
+description = "FunGramKB deep conceptual semantics for open LLMs: graph context, retrieval and neuro-symbolic reasoning."
 readme = "README.md"
 requires-python = ">=3.11"
 license = { text = "Apache-2.0" }
-authors = [{ name = "Francisco J. Arcas Túnez" }]
+authors = [{ name = "Francisco J. Arcas Túnez" }, { name = "Carlos Periñán-Pascual" }]
 dependencies = [
   "lark>=1.1",
   "clingo>=5.6",
@@ -33,7 +33,7 @@ llm = [
 remote = ["openai>=1.40"]  # client only: models served by Ollama or `vllm serve` on another box
 dense = ["sentence-transformers>=3.0"]  # dense R1/R2 on CPU (retriever: {kind: dense} in the config)
 controls = ["nltk>=3.8", "requests>=2.31"]
-analysis = ["pandas>=2.2", "matplotlib>=3.8", "statsmodels>=0.14"]
+analysis = ["pandas>=2.2", "matplotlib>=3.8", "statsmodels>=0.14", "openpyxl>=3.1"]
 dev = ["pytest>=8", "ruff>=0.5", "pre-commit>=3.7"]
 
 [project.scripts]
