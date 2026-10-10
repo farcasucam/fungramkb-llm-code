@@ -96,12 +96,13 @@ def _en_np(kb: KnowledgeBase, cid: str, quant: str = "") -> str:
     if any(sep in cid for sep in ("|", "^", "&")):
         return _en_list(kb, cid)
     lab = kb.label(cid, "en")
-    if is_mass(kb, cid) and not quant:
+    if is_mass(kb, cid) and quant in ("", "i"):
         return lab
     if quant and quant.isdigit() and quant != "1":
         return f"{quant} {_en_plural(lab)}"
-    if quant in ("m", "i"):
-        return f"many {_en_plural(lab)}"
+    if quant == "m":
+        return f"much {lab}" if is_mass(kb, cid) or lab in EN_MASS else f"many {_en_plural(lab)}"
+    # 'i' is the indefinite singular ("a human"): handled like no quantifier below
     if quant in ("s", "p"):
         return f"some {_en_plural(lab)}"
     abstract = cid in kb.concepts and "#PHYSICAL" not in kb.ancestors(cid)
@@ -111,6 +112,9 @@ def _en_np(kb: KnowledgeBase, cid: str, quant: str = "") -> str:
 
 
 def _en_plural(lab: str) -> str:
+    if " of " in lab:  # "weapons of mass destruction"
+        noun, _, rest = lab.partition(" of ")
+        return f"{_en_plural(noun)} of {rest}"
     head, _, tail = lab.rpartition(" ")
     w = tail or lab
     if w.endswith(("s", "sh", "ch", "x")):
@@ -195,12 +199,15 @@ def _es_np(kb: KnowledgeBase, cid: str, quant: str = "", definite: bool = False)
         return _es_list(kb, cid), False
     lab = kb.label(cid, "es")
     fem = es_feminine(lab)
-    if is_mass(kb, cid) and not quant:
+    if is_mass(kb, cid) and quant in ("", "i"):
         definite = True
     if quant and quant.isdigit() and quant != "1":
         return f"{quant} {_es_plural(lab)}", fem
-    if quant in ("m", "i"):
+    if quant == "m":
+        if is_mass(kb, cid) or lab.split(" ")[0] in ES_MASS:
+            return f"{'mucha' if fem else 'mucho'} {lab}", fem
         return f"{'muchas' if fem else 'muchos'} {_es_plural(lab)}", fem
+    # 'i' is the indefinite singular ("un humano"): handled like no quantifier below
     if quant in ("s", "p"):
         return f"{'algunas' if fem else 'algunos'} {_es_plural(lab)}", fem
     stressed_a = fem and lab.split(" ")[0] in ("arma", "agua", "área", "hacha", "alma", "águila", "aula", "hambre")
@@ -209,19 +216,32 @@ def _es_np(kb: KnowledgeBase, cid: str, quant: str = "", definite: bool = False)
     return ("un " if (not fem or stressed_a) else "una ") + lab, fem
 
 
-def _es_plural(lab: str) -> str:
-    w, _, rest = lab.partition(" ")
+ES_PLURAL_STOP = {"de", "del", "a", "al", "con", "contra", "en", "para", "por", "sin", "sobre", "entre", "y", "o",
+                  "que", "el", "la", "los", "las"}
+
+
+def _es_plural_word(w: str) -> str:
     if w[-1:] in "aeiouáéó":
-        w += "s"
-    elif w.endswith("z"):
-        w = w[:-1] + "ces"
-    elif w.endswith("ión"):
-        w = w[:-3] + "iones"
-    elif w.endswith("ón"):
-        w = w[:-2] + "ones"
-    else:
-        w += "es"
-    return f"{w} {rest}".strip()
+        return w + "s"
+    if w.endswith("z"):
+        return w[:-1] + "ces"
+    if w.endswith("ión"):
+        return w[:-3] + "iones"
+    if w.endswith("ón"):
+        return w[:-2] + "ones"
+    return w + "es"
+
+
+def _es_plural(lab: str) -> str:
+    """Plural of a Spanish noun phrase: the head noun and the adjectives agreeing with it, up to the first
+    preposition ("apropiaciones indebidas", "salas de vistas", "delincuentes dedicados a negocios ilícitos")."""
+    words = lab.split(" ")
+    out, agreeing = [], True
+    for k, w in enumerate(words):
+        if k and w in ES_PLURAL_STOP:
+            agreeing = False
+        out.append(_es_plural_word(w) if agreeing and w else w)
+    return " ".join(out)
 
 
 def _es_3sg(v: str) -> str:
@@ -316,13 +336,32 @@ LIGHT_VERBS = {"+DO_00": {"en": ("engage in", "deal with"), "es": ("dedicarse a"
                "+COMPRISE_00": {"en": ("have",), "es": ("tener",)}}
 
 
+def light_verb_collocation(kb: KnowledgeBase, filler: str, lang: str) -> str | None:
+    """Verb that collocates with ``filler`` after the light verb +DO_00 ("commit a crime", "cause damage"), read
+    from ``meta.light_verb`` of the filler or its nearest ancestor (v1.1 lexicon fixes; None in v1.0)."""
+    for c in [filler, *kb.ancestors(filler)]:
+        con = kb.concepts.get(c)
+        verb = ((con.meta or {}).get("light_verb") or {}).get(lang) if con else None
+        if verb:
+            return verb
+    return None
+
+
+def light_verbs(kb: KnowledgeBase, ev: str, lang: str) -> set[str]:
+    """All verbs the NLG may use for a light event (fixed readings plus the KB's collocations)."""
+    out = set(LIGHT_VERBS.get(ev, {}).get(lang, ()))
+    if ev == "+DO_00":
+        out |= {v for con in kb.concepts.values() if (v := ((con.meta or {}).get("light_verb") or {}).get(lang))}
+    return out
+
+
 def _verb(kb: KnowledgeBase, ev: str, lang: str) -> str | None:
     lem = kb.lemmas(ev, lang)
     if not lem:
         return None
     if ev == "+COMPRISE_00":
         return "have" if lang == "en" else "tener"
-    return lem[0]
+    return kb.label(ev, lang)  # the preferred lemma when the KB names one (v1.1), else the first
 
 
 def describe(kb: KnowledgeBase, x: str, prop: Prop, *, negated: bool = False, lang: str = "en",
@@ -351,10 +390,12 @@ def describe(kb: KnowledgeBase, x: str, prop: Prop, *, negated: bool = False, la
     if ev == "+DO_00" and has_filler and not is_list and r0 == (prop.subj_role or r0):
         ftype = kb.concepts[f].semantic_type if f in kb.concepts else "entity"
         activity = ftype == "event" or "+CRIME_00" in kb.ancestors(f) or kb.label(f, "en").endswith("ing")
-        v = LIGHT_VERBS["+DO_00"][lang][0 if activity else 1]
+        gerund = kb.label(f, "en").endswith("ing")  # "engage in poaching", not "commit a poaching"
+        coll = None if gerund else light_verb_collocation(kb, f, lang)
+        v = coll or LIGHT_VERBS["+DO_00"][lang][0 if activity else 1]
         prop = Prop(ev, r0, "__plain__", f, prop.quant, prop.subj_role)
         r1 = "__plain__"
-    if ev == "+DO_00" and v not in LIGHT_VERBS["+DO_00"]["en"] + LIGHT_VERBS["+DO_00"]["es"]:
+    if ev == "+DO_00" and v not in light_verbs(kb, ev, "en") | light_verbs(kb, ev, "es"):
         return None  # 'is done by' / 'does' carry no content outside the deal/engage readings
     if v is None or (has_filler and not is_list and not kb.lemmas(f, lang)):
         return None
@@ -455,7 +496,7 @@ def describe(kb: KnowledgeBase, x: str, prop: Prop, *, negated: bool = False, la
     subj_np = f_np if (f and r1 == subj_role) else SUBJ_PLACEHOLDER[lang]
     p = PREP[lang].get(r0, "")
     xo = x_np
-    plural = bool(f) and r1 == subj_role and (prop.quant in ("m", "s", "p", "i") or (prop.quant.isdigit() and prop.quant != "1"))
+    plural = bool(f) and r1 == subj_role and (prop.quant in ("m", "s", "p") or (prop.quant.isdigit() and prop.quant != "1"))
     if en:
         s3, _ = _en_forms(v)
         if plural:  # "Many humans live in a town."

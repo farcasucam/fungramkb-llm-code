@@ -1,0 +1,152 @@
+{
+ "version": "1.1",
+ "status": "proposals reviewed in docs/review_lexicon_fixes_v1_1.xlsx (2026-10-10); the answers to the open questions are marked in the sheet as AI-assisted technical proposals, to be confirmed by the FunGramKB authors",
+ "source": "NLG faithfulness audit of the main study (docs/nlg_faithfulness_rater{1,2}.xlsx); v1.0 = benchmark as evaluated",
+ "lemmas_replace": {
+  "+REFUGE_00": {
+   "en": {
+    "refugee": "refuge"
+   }
+  },
+  "+MISAPPROPRIATION_00": {
+   "en": {
+    "missapropriation": "misappropriation"
+   }
+  },
+  "$LSD_00": {
+   "en": {
+    "lsd": "LSD"
+   },
+   "es": {
+    "lsd": "LSD"
+   }
+  }
+ },
+ "lemmas_add": {
+  "+COPYRIGHT_INFRINGEMENT_00": {
+   "es": [
+    "infracción de derechos de autor"
+   ]
+  },
+  "+DEMONSTRATE_00": {
+   "es": [
+    "demostrar"
+   ]
+  },
+  "+MISAPPROPRIATION_00": {
+   "es": [
+    "apropiación indebida"
+   ]
+  },
+  "+COURT_00": {
+   "es": [
+    "sala de vistas"
+   ]
+  },
+  "+RACKETEER_00": {
+   "es": [
+    "delincuente dedicado a negocios ilícitos"
+   ]
+  },
+  "+RACKETEERING_00": {
+   "es": [
+    "actividad delictiva organizada con fines de lucro"
+   ]
+  },
+  "+SEIZE_00": {
+   "en": [
+    "seize"
+   ]
+  },
+  "+TAKE_01": {
+   "es": [
+    "llevar",
+    "transportar"
+   ]
+  }
+ },
+ "preferred_lemma": {
+  "+THIEF_00": {
+   "en": "thief",
+   "es": "ladrón"
+  },
+  "+MONEY_00": {
+   "en": "money",
+   "es": "dinero"
+  },
+  "+ORGANIZATION_00": {
+   "es": "organización"
+  },
+  "+TRAFFICKER_00": {
+   "en": "trafficker",
+   "es": "traficante"
+  },
+  "+CRIMINAL_00": {
+   "en": "criminal",
+   "es": "delincuente"
+  },
+  "+MISAPPROPRIATION_00": {
+   "en": "misappropriation",
+   "es": "apropiación indebida"
+  },
+  "+IMPRISONMENT_00": {
+   "en": "imprisonment"
+  },
+  "+COPYRIGHT_INFRINGEMENT_00": {
+   "es": "infracción de derechos de autor"
+  },
+  "+DEMONSTRATE_00": {
+   "es": "demostrar"
+  },
+  "+WEAPON_00": {
+   "en": "weapon"
+  },
+  "+COURT_00": {
+   "es": "sala de vistas"
+  },
+  "+CONSPIRACY_00": {
+   "es": "conspiración"
+  },
+  "+RACKETEER_00": {
+   "es": "delincuente dedicado a negocios ilícitos"
+  },
+  "+FANATIC_00": {
+   "en": "fanatic",
+   "es": "fanático"
+  },
+  "$LSD_00": {
+   "en": "LSD",
+   "es": "LSD"
+  },
+  "+RACKETEERING_00": {
+   "es": "actividad delictiva organizada con fines de lucro"
+  },
+  "+SEIZE_00": {
+   "en": "seize"
+  },
+  "+TAKE_01": {
+   "es": "llevar"
+  }
+ },
+ "light_verb": {
+  "+CRIME_00": {
+   "en": "commit",
+   "es": "cometer"
+  },
+  "+DAMAGE_01": {
+   "en": "cause",
+   "es": "causar"
+  }
+ },
+ "open_questions": [
+  "+ILLNESS_00 after +DO_00: no automatic verb; 'cause' only once the postulate is confirmed to be causal (otherwise use the event actually meant)",
+  "+DO_00 with other fillers (secret, plan, punishment, alcohol, cocaine, custom): revise the postulates first, then lexicalise by predicate, roles and filler sense; no universal verb",
+  "+COURT_00 (en): 'court' / 'courtroom' for the ROOM sense to be reviewed",
+  "+RACKETEER_00 / +RACKETEERING_00 (es): descriptive phrases until the gloss is confirmed; 'extorsionista' / 'extorsión organizada' if the concept is restricted to extortion",
+  "+SEIZE_00 (en): check sense and role direction of 'forfeit' before keeping it as an alias"
+ ],
+ "notes": [
+  "The generator (src/fgkb_llm/corel/nlg.py, verbalize.py) now renders the COREL indefinite singular 'i' as 'a/an' / 'un/una' (v1.0 wrote 'many' / 'muchos'); this is a code fix, not part of this file.",
+  "v1.1 generator fixes: Spanish plural of multi-word noun phrases (head + agreeing adjectives), English 'X of Y' plurals, 'much' / 'mucho' for mass nouns with the quantifier m."
+ ]
+}
