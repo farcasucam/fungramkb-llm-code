@@ -1,6 +1,6 @@
 {
  "version": "1.1",
- "status": "proposals reviewed in docs/review_lexicon_fixes_v1_1.xlsx (2026-10-10); the answers to the open questions are marked in the sheet as AI-assisted technical proposals, to be confirmed by the FunGramKB authors",
+ "status": "approved by the FunGramKB authors (F. Arcas-Túnez; C. Periñán-Pascual), docs/review_lexicon_fixes_v1_1.xlsx, 2026-10-10",
  "source": "NLG faithfulness audit of the main study (docs/nlg_faithfulness_rater{1,2}.xlsx); v1.0 = benchmark as evaluated",
  "lemmas_replace": {
   "+REFUGE_00": {
